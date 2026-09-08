@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "sec-001",
+    "area": "security",
+    "revision": 2,
+    "topic": "보안 목표",
+    "prompt": "외부인이 학생 상담기록을 읽지 못하게 암호화했다. 직접 강화한 목표는?",
+    "options": [
+      "무결성",
+      "기밀성",
+      "가용성",
+      "부인방지"
+    ],
+    "answer": 1,
+    "explanation": "기밀성은 인가되지 않은 열람을 막는다. 무결성은 부적절한 변경 방지, 가용성은 서비스 이용 가능성, 부인방지는 행위 증거와 관련된다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-002",
+    "area": "security",
+    "revision": 2,
+    "topic": "보안 목표",
+    "prompt": "장학금 계좌번호가 승인 없이 바뀌었는지 검증하려 한다. 가장 관련 있는 목표는?",
+    "options": [
+      "기밀성",
+      "가용성",
+      "무결성",
+      "익명성"
+    ],
+    "answer": 2,
+    "explanation": "무결성은 데이터의 부적절한 변경을 방지·탐지한다. 기밀성은 열람 제한, 가용성은 이용 가능성, 익명성은 신원 노출 제한에 초점이 있다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-003",
+    "area": "security",
+    "revision": 2,
+    "topic": "보안 목표",
+    "prompt": "수강신청 서버가 공격으로 멈춰 학생들이 접속하지 못했다. 가장 직접 침해된 목표는?",
+    "options": [
+      "기밀성",
+      "무결성",
+      "부인방지",
+      "가용성"
+    ],
+    "answer": 3,
+    "explanation": "서비스를 필요한 때 사용할 수 없는 상황이므로 가용성 침해다. 열람·변조·행위 부정이 제시되지 않아 다른 성질의 침해를 직접 결론 내리지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-004",
+    "area": "security",
+    "revision": 2,
+    "topic": "보안 통제",
+    "prompt": "전산실 출입문에 카드 잠금장치를 설치하는 것은 어떤 통제인가?",
+    "options": [
+      "물리적 통제",
+      "관리적 보안 정책 수립",
+      "논리적 접근권한 통제",
+      "전송 데이터 암호화"
+    ],
+    "answer": 0,
+    "explanation": "시설 출입문을 잠그는 것은 물리적 통제다. 정책 수립은 관리적 통제이고 논리적 권한·암호화는 정보시스템의 기술적 통제다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-005",
+    "area": "security",
+    "revision": 2,
+    "topic": "보안 통제",
+    "prompt": "직원 대상 피싱 대응 교육과 보안 책임자 지정은 어떤 통제에 가장 가까운가?",
+    "options": [
+      "물리적 출입 통제",
+      "관리적 통제",
+      "전송 구간 암호화",
+      "시스템 계정 권한 검사"
+    ],
+    "answer": 1,
+    "explanation": "교육·조직·책임 지정은 관리적 통제다. 출입 통제는 물리적, 암호화·계정 검사 구현은 기술적 통제다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-006",
+    "area": "security",
+    "revision": 1,
+    "topic": "인증과 인가",
+    "prompt": "로그인은 성공했으나 성적 수정 기능은 거절됐다. 두 판단을 올바르게 구분한 것은?",
+    "options": [
+      "로그인은 가용성, 수정 판단은 압축",
+      "둘 다 사용자 식별자 입력만을 뜻한다",
+      "로그인은 인증, 수정 허용 판단은 인가",
+      "로그인은 암호화, 수정 판단은 복호화"
+    ],
+    "answer": 2,
+    "explanation": "인증은 주장한 신원 확인이고 인가는 자원별 허용 작업 결정이다. 식별자 입력만으로 인증이나 권한 검사를 마치지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 39~40 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-007",
+    "area": "security",
+    "revision": 2,
+    "topic": "부인방지",
+    "prompt": "계약 승인자가 나중에 승인 사실을 부정하는 상황에 대비하려 한다. 가장 관련 있는 보안 성질은?",
+    "options": [
+      "기밀성",
+      "가용성",
+      "익명성",
+      "부인방지"
+    ],
+    "answer": 3,
+    "explanation": "부인방지는 누가 행위를 했는지 증거를 제공하여 사후 부정을 어렵게 한다. 읽기 제한·이용 가능성·익명성은 승인 사실 입증과 다른 목표다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 14~15,35~36 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-008",
+    "area": "security",
+    "revision": 2,
+    "topic": "악성코드",
+    "prompt": "다른 실행 파일에 붙지 않고 스스로 복제해 네트워크로 확산하는 악성코드는?",
+    "options": [
+      "웜",
+      "숙주 파일에 삽입되는 바이러스",
+      "정상 프로그램으로 위장한 트로이 목마",
+      "파일 복구 대가를 요구하는 랜섬웨어"
+    ],
+    "answer": 0,
+    "explanation": "독립적인 자기 복제와 네트워크 전파가 웜의 핵심 특징이다. 나머지 보기는 숙주 의존, 정상 도구 위장, 복구 대가 요구라는 다른 분류 기준이다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 15 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-009",
+    "area": "security",
+    "revision": 2,
+    "topic": "악성코드",
+    "prompt": "정상 학습 도구처럼 보이지만 실행하면 정보를 빼내는 프로그램은 무엇에 가장 가까운가?",
+    "options": [
+      "독립적으로 자신을 복제하는 웜",
+      "트로이 목마",
+      "전송 패킷만 엿듣는 스니핑",
+      "복구 대가를 요구하는 랜섬웨어"
+    ],
+    "answer": 1,
+    "explanation": "정상 프로그램으로 위장한 악성 기능은 트로이 목마의 특징이다. 자기 복제·패킷 도청·복구 대가 요구는 이 상황에서 제시된 특징이 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 15 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-010",
+    "area": "security",
+    "revision": 2,
+    "topic": "악성코드",
+    "prompt": "다른 프로그램 코드에 삽입되어 그 프로그램 실행과 함께 동작·확산하는 악성코드는?",
+    "options": [
+      "숙주 없이 전파되는 웜",
+      "정상 도구로 위장하는 트로이 목마",
+      "바이러스",
+      "네트워크 패킷만 관찰하는 스니핑"
+    ],
+    "answer": 2,
+    "explanation": "바이러스는 다른 프로그램에 붙어 그 실행과 함께 동작·확산한다. 독립 전파의 웜이나 정상 도구 위장, 패킷 관찰과 구별한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 15 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-011",
+    "area": "security",
+    "revision": 1,
+    "topic": "대칭키 암호",
+    "prompt": "대용량 백업 파일의 암호화·복호화에 같은 비밀키를 쓰는 방식은?",
+    "options": [
+      "공개키 인증서",
+      "단방향 해시",
+      "전자서명 검증",
+      "대칭키 암호"
+    ],
+    "answer": 3,
+    "explanation": "대칭키 방식은 같은 키로 암호화와 복호화를 수행한다. 해시는 복호화하는 방식이 아니며 인증서는 키와 신원 연결을 제공한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 24 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-012",
+    "area": "security",
+    "revision": 1,
+    "topic": "대칭키 암호",
+    "prompt": "서로 다른 두 지점이 대칭키로 통신하려 한다. 사전에 해결할 핵심 과제는?",
+    "options": [
+      "공유 비밀키를 안전하게 전달·보관하기",
+      "암호화 키를 웹 게시판에 공개하기",
+      "모든 데이터를 해시로만 바꾸기",
+      "수신자의 복호화 권한 없애기"
+    ],
+    "answer": 0,
+    "explanation": "대칭키는 양측이 비밀키를 공유해야 하므로 안전한 분배가 중요하다. 공개 게시나 수신자 복호화 금지는 정상 통신 목적을 해친다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 24 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-013",
+    "area": "security",
+    "revision": 2,
+    "topic": "공개키 암호",
+    "prompt": "수신자만 읽을 수 있게 공개키 암호로 메시지를 보낸다. 암호화에 사용할 키는?",
+    "options": [
+      "송신자의 공개키",
+      "수신자의 공개키",
+      "송신자의 개인키",
+      "수신자의 개인키"
+    ],
+    "answer": 1,
+    "explanation": "수신자의 공개키로 암호화한 정보는 대응 개인키로 복호화한다. 송신자 키로는 수신자만의 복호화 권한이 정해지지 않으며 수신자의 개인키를 송신자에게 전달하지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 26~28 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-014",
+    "area": "security",
+    "revision": 1,
+    "topic": "공개키 암호",
+    "prompt": "공개키 암호를 사용하는 수신자가 외부에 공개하면 안 되는 것은?",
+    "options": [
+      "사용하는 공개 알고리즘 이름",
+      "인증서 발급기관 이름",
+      "자신의 개인키",
+      "자신의 공개키"
+    ],
+    "answer": 2,
+    "explanation": "개인키는 소유자만 안전하게 관리해야 한다. 공개키·알고리즘·발급기관 이름은 비밀키와 같은 비밀정보가 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 26~28 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-015",
+    "area": "security",
+    "revision": 1,
+    "topic": "암호 알고리즘",
+    "prompt": "다음 중 대칭키 블록 암호에 해당하는 것은?",
+    "options": [
+      "RSA",
+      "SHA-256",
+      "X.509",
+      "AES"
+    ],
+    "answer": 3,
+    "explanation": "AES는 대칭키 블록 암호다. RSA는 공개키 암호 방식이고 SHA-256은 해시 함수, X.509는 인증서 표준이다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 24~28 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-016",
+    "area": "security",
+    "revision": 2,
+    "topic": "암호 알고리즘",
+    "prompt": "평문을 일정한 크기의 묶음으로 나누어 처리하는 암호 분류는?",
+    "options": [
+      "블록 암호",
+      "비트나 바이트 흐름을 처리하는 스트림 암호",
+      "입력 전체를 고정 요약값으로 만드는 해시",
+      "인증서 신뢰 여부를 확인하는 서명 검증"
+    ],
+    "answer": 0,
+    "explanation": "블록 암호는 고정 크기 블록을 암호화한다. 스트림 암호는 흐름 단위 처리를 하고 해시는 복호화 목적의 암호화가 아니며 서명 검증은 다른 기능이다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 24~25 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-017",
+    "area": "security",
+    "revision": 2,
+    "topic": "해시 함수",
+    "prompt": "크기가 다른 파일을 같은 길이의 요약값으로 바꾸는 기본 도구는?",
+    "options": [
+      "대칭키 암호화",
+      "암호학적 해시 함수",
+      "공개키 암호화",
+      "파일 압축"
+    ],
+    "answer": 1,
+    "explanation": "해시 함수는 가변 길이 입력을 고정 길이 요약값으로 바꾼다. 암호화는 키를 이용한 복호화를 전제하고 압축은 일반적으로 입력 크기에 따라 출력 길이가 달라진다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 27~30 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-018",
+    "area": "security",
+    "revision": 2,
+    "topic": "해시 함수",
+    "prompt": "서로 다른 두 입력이 같은 해시값을 낸 경우를 무엇이라 하는가?",
+    "options": [
+      "암호문을 원래 평문으로 복호화",
+      "공개키와 개인키를 한 쌍으로 생성",
+      "해시 충돌",
+      "같은 입력을 같은 해시값으로 반복 계산"
+    ],
+    "answer": 2,
+    "explanation": "충돌은 서로 다른 입력의 해시값이 같은 경우다. 같은 입력에서 같은 값을 얻는 결정성과 구별하고 복호화·키 생성도 충돌이 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 27~30 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-019",
+    "area": "security",
+    "revision": 1,
+    "topic": "해시 검증",
+    "prompt": "배포자가 안전한 별도 경로로 제공한 파일 해시와 다운로드 파일의 해시가 다르다. 가장 적절한 판단은?",
+    "options": [
+      "반드시 특정 해커가 수정했다고 결론 낸다",
+      "해시가 다르면 파일 내용은 반드시 같다",
+      "해시만 다를 뿐 무결성에는 관련이 없다",
+      "파일이 동일하지 않으므로 사용을 중단하고 원인을 확인한다"
+    ],
+    "answer": 3,
+    "explanation": "해시 불일치는 원본과 동일하지 않음을 보여 주지만 전송 오류인지 공격인지는 별도 조사해야 한다. 공격 주체까지 확정할 수 없다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 15,29~30 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-020",
+    "area": "security",
+    "revision": 2,
+    "topic": "암호 설계",
+    "prompt": "암호 시스템의 보안을 알고리즘 비공개에만 의존하지 않으려 한다. 핵심 보호 대상은?",
+    "options": [
+      "암호키",
+      "알고리즘 이름의 비공개 유지",
+      "암호문 형식의 비공개 유지",
+      "프로그램 실행 경로의 비공개 유지"
+    ],
+    "answer": 0,
+    "explanation": "알고리즘이나 형식이 알려져도 키를 모르면 보호되도록 설계해야 한다. 명칭·형식·경로 은폐만으로 암호키의 보호를 대신할 수 없다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 23~24 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-021",
+    "area": "security",
+    "revision": 1,
+    "topic": "인증 요소",
+    "prompt": "비밀번호와 개인 PIN을 함께 입력하는 방식의 올바른 설명은?",
+    "options": [
+      "둘 다 물리적 소유 요소다",
+      "둘 다 지식 기반 요소다",
+      "서로 다른 두 종류의 인증 요소다",
+      "둘 다 생체 요소다"
+    ],
+    "answer": 1,
+    "explanation": "비밀번호와 PIN은 모두 알고 있는 정보다. 입력 항목이 두 개라고 지식·소유·생체의 서로 다른 요소가 되는 것은 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 32 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-022",
+    "area": "security",
+    "revision": 1,
+    "topic": "인증 요소",
+    "prompt": "비밀번호에 별도의 보안 토큰을 추가하는 목적은?",
+    "options": [
+      "인증을 없애고 인가만 수행한다",
+      "공개키를 비밀번호로 변환한다",
+      "지식 요소와 소유 요소를 결합한다",
+      "두 개의 생체 특징만 비교한다"
+    ],
+    "answer": 2,
+    "explanation": "비밀번호는 지식, 토큰은 소유 기반이다. 서로 다른 종류를 결합하는 것과 항목 수만 늘리는 것을 구별한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 32 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-023",
+    "area": "security",
+    "revision": 2,
+    "topic": "생체 인증",
+    "prompt": "지문을 로그인에 사용하는 것은 어느 분류인가?",
+    "options": [
+      "지식 기반 인증",
+      "소유 기반 인증",
+      "사용자 권한을 결정하는 인가",
+      "신체 특징 기반 인증"
+    ],
+    "answer": 3,
+    "explanation": "지문은 신체 특징 기반 인증이다. 기억한 비밀정보나 소지한 도구를 확인하는 것과 다르며 인가는 인증 후 허용할 작업을 결정한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 34 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-024",
+    "area": "security",
+    "revision": 1,
+    "topic": "OTP",
+    "prompt": "OTP가 고정 비밀번호와 구별되는 주요 특징은?",
+    "options": [
+      "매 인증 또는 제한된 시간에 사용할 값이 달라진다",
+      "사용자 신원 확인을 하지 않는다",
+      "모든 사용자에게 영구히 같은 값을 준다",
+      "암호화된 파일을 압축한다"
+    ],
+    "answer": 0,
+    "explanation": "일회용 비밀번호는 고정값의 반복 사용을 줄인다. 인증 자체를 없애거나 파일을 압축하는 기술이 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 33~34 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-025",
+    "area": "security",
+    "revision": 2,
+    "topic": "전자서명",
+    "prompt": "작성자의 디지털 서명을 만들 때 사용하는 키는?",
+    "options": [
+      "작성자의 공개키",
+      "작성자의 개인키",
+      "수신자의 개인키",
+      "수신자의 공개키"
+    ],
+    "answer": 1,
+    "explanation": "서명은 작성자의 개인키로 만들고 작성자의 공개키로 검증한다. 수신자 키는 작성자 본인의 서명 생성 키가 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 35~36 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-026",
+    "area": "security",
+    "revision": 1,
+    "topic": "전자서명",
+    "prompt": "서명자의 공개키로 전자서명을 검증하는 주된 목적은?",
+    "options": [
+      "서버 처리량을 자동으로 증가시키기",
+      "서명자의 개인키를 복원하기",
+      "서명자 확인과 문서 무결성 검증",
+      "문서 내용을 누구도 읽지 못하게 만들기"
+    ],
+    "answer": 2,
+    "explanation": "서명 검증은 출처와 변경 여부 확인에 쓰인다. 서명만으로 평문 기밀성을 제공하지 않으며 개인키 복원이 목적도 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 35~36 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-027",
+    "area": "security",
+    "revision": 1,
+    "topic": "전자서명",
+    "prompt": "전자서명된 평문 문서를 공개 게시했다. 맞는 설명은?",
+    "options": [
+      "서명만으로 문서는 자동 암호화된다",
+      "서명이 있으면 별도 접근통제는 불가능하다",
+      "서명은 해시와 전혀 관계가 없다",
+      "서명이 있어도 문서 내용은 읽을 수 있다"
+    ],
+    "answer": 3,
+    "explanation": "서명은 기밀성과 별개다. 읽기 제한이 필요하면 암호화·접근통제를 추가해야 하며 서명 생성에는 해시가 활용된다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 35~36 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-028",
+    "area": "security",
+    "revision": 1,
+    "topic": "PKI",
+    "prompt": "인증기관이 공개키 인증서를 발급하는 핵심 목적은?",
+    "options": [
+      "신원과 공개키의 연결을 신뢰할 수 있게 한다",
+      "개인키를 모든 사용자에게 배포한다",
+      "모든 네트워크 패킷을 압축한다",
+      "비밀번호를 평문으로 공시한다"
+    ],
+    "answer": 0,
+    "explanation": "인증서는 공개키가 누구에게 속하는지 확인하는 기반이다. 개인키나 비밀번호 공개를 위한 수단이 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 37~39 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-029",
+    "area": "security",
+    "revision": 1,
+    "topic": "인증서 폐기",
+    "prompt": "아직 만료 전인 인증서의 개인키가 유출되었다. 가장 적절한 대응은?",
+    "options": [
+      "인증서 파일명만 바꾼다",
+      "해당 인증서를 폐기하고 새 키·인증서로 교체한다",
+      "만료일까지 계속 신뢰한다",
+      "개인키를 더 널리 공개한다"
+    ],
+    "answer": 1,
+    "explanation": "키 유출 시 기존 인증서를 계속 신뢰해서는 안 된다. 만료일·파일명 변경만으로 유출된 키의 악용을 막을 수 없다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 39 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-030",
+    "area": "security",
+    "revision": 2,
+    "topic": "인증서 상태",
+    "prompt": "폐기된 인증서의 목록을 내려받아 상태를 확인하는 방법은?",
+    "options": [
+      "OCSP 실시간 상태 질의",
+      "인증서 유효기간만 검사",
+      "CRL",
+      "발급기관 서명만 검증"
+    ],
+    "answer": 2,
+    "explanation": "CRL은 폐기 목록을 받아 검사하는 방식이다. OCSP는 온라인 상태 질의이며 유효기간·서명만 확인해서는 만료 전 폐기 여부까지 알 수 없다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 39 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-031",
+    "area": "security",
+    "revision": 1,
+    "topic": "인증서 상태",
+    "prompt": "인증서의 유효 상태를 온라인으로 질의하는 프로토콜은?",
+    "options": [
+      "FTP",
+      "ARP",
+      "DHCP",
+      "OCSP"
+    ],
+    "answer": 3,
+    "explanation": "OCSP는 인증서 상태 확인 프로토콜이다. 나머지는 파일 전송, 주소 해석, 네트워크 설정에 사용된다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 39 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-032",
+    "area": "security",
+    "revision": 1,
+    "topic": "접근통제",
+    "prompt": "실습 조교에게 성적 조회만 필요하다. 가장 적절한 권한 부여는?",
+    "options": [
+      "조회에 필요한 최소 권한만 부여한다",
+      "모든 테이블 삭제 권한을 부여한다",
+      "전체 관리자 계정을 공동 사용한다",
+      "퇴직자 권한까지 상속시킨다"
+    ],
+    "answer": 0,
+    "explanation": "최소권한 원칙은 수행 업무에 필요한 권한만 부여한다. 관리 편의를 위해 과도한 권한을 주면 피해 범위가 커진다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 40 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-033",
+    "area": "security",
+    "revision": 2,
+    "topic": "RBAC",
+    "prompt": "교수·조교·학생 역할별로 권한 묶음을 관리하려 한다. 가장 알맞은 방식은?",
+    "options": [
+      "파일 소유자의 재량으로만 권한을 부여하는 DAC",
+      "역할 기반 접근통제",
+      "보안 등급만 비교하는 MAC",
+      "문서의 해시값으로 접근을 결정하는 방식"
+    ],
+    "answer": 1,
+    "explanation": "RBAC는 역할에 권한을 묶어 부여한다. DAC는 소유자 재량, MAC는 등급 정책 중심이며 해시는 조직의 역할별 권한을 나타내지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 41~42 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-034",
+    "area": "security",
+    "revision": 2,
+    "topic": "DAC",
+    "prompt": "파일 소유자가 다른 사용자에게 읽기 권한을 주거나 회수한다. 어떤 방식인가?",
+    "options": [
+      "강제적 접근통제",
+      "역할 기반 접근통제",
+      "임의적 접근통제",
+      "인증서 상태 검증"
+    ],
+    "answer": 2,
+    "explanation": "DAC는 객체 소유자가 접근 허용에 재량을 가진다. MAC는 등급 정책, RBAC는 역할 중심이며 인증서 검증은 객체 접근권한 부여와 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 41 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-035",
+    "area": "security",
+    "revision": 1,
+    "topic": "MAC",
+    "prompt": "문서의 보안등급과 사용자의 인가등급을 시스템이 강제 비교한다. 어떤 방식인가?",
+    "options": [
+      "파일 소유자의 무제한 재량 공유",
+      "대칭키 교환",
+      "가용성 모니터링",
+      "강제적 접근통제"
+    ],
+    "answer": 3,
+    "explanation": "MAC는 보안 레이블과 인가등급을 기반으로 중앙 정책을 적용한다. 소유자 재량에 맡기는 DAC와 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 41 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-036",
+    "area": "security",
+    "revision": 2,
+    "topic": "접근통제 목록",
+    "prompt": "하나의 파일을 기준으로 누가 읽기·쓰기를 할 수 있는지 기록한다. 가장 가까운 표현은?",
+    "options": [
+      "ACL",
+      "주체 중심 Capability List",
+      "인증서 폐기 목록",
+      "객체의 보안등급 레이블만"
+    ],
+    "answer": 0,
+    "explanation": "ACL은 객체를 기준으로 주체별 허용 작업을 기록한다. Capability List는 주체 중심이고 폐기 목록·보안등급만으로 객체별 사용자 권한 목록을 나타내지는 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 42 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-037",
+    "area": "security",
+    "revision": 2,
+    "topic": "접근통제 목록",
+    "prompt": "사용자 한 명을 기준으로 접근 가능한 파일과 작업 권한을 모았다. 무엇인가?",
+    "options": [
+      "객체 중심 ACL",
+      "Capability List",
+      "인증서 폐기 목록",
+      "객체의 보안등급 레이블"
+    ],
+    "answer": 1,
+    "explanation": "Capability List는 주체의 접근 가능한 객체·권한을 모은다. ACL은 객체 중심이며 폐기 목록이나 객체 등급은 사용자 한 명의 권한 목록과 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 42 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-038",
+    "area": "security",
+    "revision": 1,
+    "topic": "접근통제 모델",
+    "prompt": "높은 보안등급의 정보가 낮은 등급으로 흘러가는 것을 막는 기밀성 중심 모델은?",
+    "options": [
+      "정규화",
+      "라운드 로빈",
+      "Bell-LaPadula",
+      "Biba"
+    ],
+    "answer": 2,
+    "explanation": "Bell-LaPadula는 기밀성 중심 모델이다. Biba는 무결성을 강조하고 나머지는 데이터 설계·스케줄링 기법이다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 42 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-039",
+    "area": "security",
+    "revision": 1,
+    "topic": "접근통제 모델",
+    "prompt": "데이터의 부적절한 변조를 막는 무결성 중심 접근통제 모델은?",
+    "options": [
+      "Bell-LaPadula",
+      "RSA",
+      "DNS",
+      "Biba"
+    ],
+    "answer": 3,
+    "explanation": "Biba는 무결성에 초점을 둔다. Bell-LaPadula는 기밀성 모델이며 RSA·DNS는 접근통제 모델이 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 42 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-040",
+    "area": "security",
+    "revision": 1,
+    "topic": "권한 관리",
+    "prompt": "직원이 부서를 이동했다. 권한 누적을 줄이는 가장 적절한 조치는?",
+    "options": [
+      "기존 권한을 재검토·회수하고 새 업무 권한을 부여한다",
+      "기존 권한을 영구 유지하고 새 권한만 추가한다",
+      "이름만 바꾸고 권한은 그대로 둔다",
+      "계정 비밀번호를 전 직원에게 알린다"
+    ],
+    "answer": 0,
+    "explanation": "업무 변경에 따라 권한도 재검토해야 최소권한이 유지된다. 권한을 계속 누적하거나 공유하면 불필요한 접근이 가능하다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 39~42 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-041",
+    "area": "security",
+    "revision": 2,
+    "topic": "APT",
+    "prompt": "공격자가 특정 조직을 정해 오랫동안 잠복하고 여러 수단으로 정보를 수집한다. 가장 가까운 위협은?",
+    "options": [
+      "단일 연결의 SYN 폭주만",
+      "APT",
+      "무작위 주소 대상의 일회성 스캔만",
+      "정상적인 정기 취약점 점검"
+    ],
+    "answer": 1,
+    "explanation": "APT는 특정 조직을 향한 지속적·다단계 공격을 설명한다. 단일 연결 공격이나 일회성 스캔만으로 지속적 잠복 특징을 설명하기 어렵고 정상 점검은 공격 목적이 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 46 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-042",
+    "area": "security",
+    "revision": 2,
+    "topic": "파밍",
+    "prompt": "주소를 정확히 입력했지만 변조된 이름 해석 정보 때문에 가짜 사이트로 연결됐다. 무엇에 가장 가까운가?",
+    "options": [
+      "전송량을 폭증시키는 서비스 거부",
+      "메모리 버퍼 오버플로",
+      "파밍",
+      "저장 파일을 암호화하는 랜섬웨어"
+    ],
+    "answer": 2,
+    "explanation": "파밍은 이름 해석 정보 등의 변조로 가짜 사이트에 연결되게 한다. 서비스 중단·메모리 경계 침범·파일 암호화와 다른 공격 경로다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 47 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-043",
+    "area": "security",
+    "revision": 2,
+    "topic": "스미싱",
+    "prompt": "택배 주소 확인을 사칭한 문자 링크가 앱 설치와 결제정보 입력을 요구한다. 가장 가까운 공격은?",
+    "options": [
+      "QR 코드를 이용한 큐싱",
+      "이름 해석 정보를 변조하는 파밍",
+      "패킷을 수동 도청하는 스니핑",
+      "스미싱"
+    ],
+    "answer": 3,
+    "explanation": "문자 링크를 유인 경로로 사용하므로 스미싱이다. QR 코드, 이름 해석 조작, 수동 도청은 제시된 공격 경로와 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 48 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-044",
+    "area": "security",
+    "revision": 2,
+    "topic": "스피어 피싱",
+    "prompt": "담당자의 이름과 진행 중인 계약을 넣어 특정 회계직원에게 악성 첨부를 보냈다. 무엇인가?",
+    "options": [
+      "스피어 피싱",
+      "불특정 주소로 동일 내용을 보내는 무차별 피싱",
+      "패킷 위조로 주소 대응을 바꾸는 ARP 스푸핑",
+      "연산 자원을 채굴에 쓰는 크립토재킹"
+    ],
+    "answer": 0,
+    "explanation": "대상자의 이름과 업무 정보를 활용한 맞춤형 피싱은 스피어 피싱이다. 무차별 피싱과 달리 특정인을 겨냥하며 주소 위조·채굴과도 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 48 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-045",
+    "area": "security",
+    "revision": 2,
+    "topic": "큐싱",
+    "prompt": "게시물의 QR 코드를 스캔하자 위조 로그인 페이지로 연결됐다. 해당 유인 방식은?",
+    "options": [
+      "문자 메시지 링크를 사용하는 스미싱",
+      "큐싱",
+      "파일 암호화를 이용한 랜섬웨어",
+      "네트워크 자원을 소진시키는 서비스 거부"
+    ],
+    "answer": 1,
+    "explanation": "QR 코드를 피싱 연결 경로로 쓰는 방식은 큐싱이다. 문자 링크·파일 잠금·서비스 중단은 다른 유인 또는 공격 방식이다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 47~48 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-046",
+    "area": "security",
+    "revision": 2,
+    "topic": "랜섬웨어",
+    "prompt": "파일이 암호화되고 복구를 조건으로 금전을 요구하는 악성코드는?",
+    "options": [
+      "연산 자원을 채굴에 쓰는 크립토재킹",
+      "패킷 내용을 관찰하는 스니핑",
+      "랜섬웨어",
+      "거짓 주소 대응을 알리는 ARP 스푸핑"
+    ],
+    "answer": 2,
+    "explanation": "파일 사용을 제한하고 복구 대가를 요구하므로 랜섬웨어다. 채굴·패킷 관찰·주소 위조는 제시된 피해 방식과 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 49 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-047",
+    "area": "security",
+    "revision": 2,
+    "topic": "크립토재킹",
+    "prompt": "사용자 몰래 PC 자원을 암호화폐 채굴에 사용하는 행위는?",
+    "options": [
+      "파일을 잠그고 복구 대가를 요구하는 랜섬웨어",
+      "암호를 반복 추측하는 무차별 대입",
+      "패킷을 도청하는 스니핑",
+      "크립토재킹"
+    ],
+    "answer": 3,
+    "explanation": "크립토재킹은 승인 없이 연산 자원을 채굴에 쓴다. 복구 대가 요구·비밀번호 추측·패킷 도청과 구분한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 49 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-048",
+    "area": "security",
+    "revision": 2,
+    "topic": "드라이브 바이 다운로드",
+    "prompt": "취약한 브라우저로 페이지를 열었을 때 의도하지 않은 악성코드가 내려와 실행됐다. 가장 가까운 것은?",
+    "options": [
+      "드라이브 바이 다운로드",
+      "문자에 회신해 인증번호를 알려 주는 피싱",
+      "직원이 직접 수행한 정상 수동 업데이트",
+      "다량 패킷으로 연결을 막는 서비스 거부"
+    ],
+    "answer": 0,
+    "explanation": "취약한 브라우저로 페이지를 방문하는 과정에서 자동 감염되는 것이 드라이브 바이 다운로드다. 별도의 회신·정상 업데이트·과부하 공격과 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 50 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-049",
+    "area": "security",
+    "revision": 1,
+    "topic": "파일리스 공격",
+    "prompt": "디스크의 새 실행 파일보다 메모리와 기존 관리 도구를 악용한 흔적이 주로 발견됐다. 무엇을 고려해야 하는가?",
+    "options": [
+      "암호키가 길어서 생긴 오류",
+      "파일리스 공격",
+      "디스크에 새 파일이 없으므로 무조건 안전",
+      "모든 관리자 명령은 항상 정상"
+    ],
+    "answer": 1,
+    "explanation": "파일리스 공격은 메모리·정상 도구를 악용할 수 있다. 파일 유무만으로 침해 여부를 판단하면 놓칠 수 있다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 50 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-050",
+    "area": "security",
+    "revision": 2,
+    "topic": "멀버타이징",
+    "prompt": "정상 사이트에 실린 광고 경로가 악성코드 배포에 악용되었다. 무엇인가?",
+    "options": [
+      "SMS 링크를 활용한 스미싱",
+      "QR 코드를 활용한 큐싱",
+      "멀버타이징",
+      "가짜 주소 대응을 알리는 ARP 스푸핑"
+    ],
+    "answer": 2,
+    "explanation": "멀버타이징은 광고를 악성코드 배포 경로로 사용한다. 문자·QR 코드·주소 대응 메시지를 활용하는 방식과 전달 경로가 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 51 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-051",
+    "area": "security",
+    "revision": 1,
+    "topic": "사회공학 대응",
+    "prompt": "상사를 사칭한 메일이 급히 계정 비밀번호를 요구한다. 적절한 첫 대응은?",
+    "options": [
+      "메일에 적힌 새 전화번호만 믿는다",
+      "급하므로 비밀번호를 즉시 전달한다",
+      "다른 직원의 비밀번호로 대신 응답한다",
+      "기존에 알고 있던 연락 경로로 요청을 확인한다"
+    ],
+    "answer": 3,
+    "explanation": "별도로 신뢰한 경로로 확인하면 사칭 메시지에 제시된 연락처까지 함께 속는 위험을 줄인다. 비밀번호 공유는 해결책이 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 48 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-052",
+    "area": "security",
+    "revision": 1,
+    "topic": "IoT 보안",
+    "prompt": "출고 시 공통 관리자 비밀번호를 그대로 쓰는 네트워크 카메라가 있다. 우선 조치는?",
+    "options": [
+      "고유한 관리자 인증정보로 변경한다",
+      "장비 이름만 바꾼다",
+      "관리 포트를 전 세계에 공개한다",
+      "로그 수집을 중단한다"
+    ],
+    "answer": 0,
+    "explanation": "기본 인증정보는 외부에 알려져 있을 수 있으므로 변경해야 한다. 이름 변경은 인증 보호를 대신하지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 51~52 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-053",
+    "area": "security",
+    "revision": 2,
+    "topic": "클라우드 보안",
+    "prompt": "클라우드 저장소의 고객 파일을 공개 읽기로 설정했다. 우선 확인할 것은?",
+    "options": [
+      "파일 압축 방식만",
+      "저장소 접근 정책과 공개 범위",
+      "클라이언트의 DNS 캐시만",
+      "암호 알고리즘 이름만"
+    ],
+    "answer": 1,
+    "explanation": "공개 읽기 설정은 저장소 접근 정책의 문제이므로 허용 주체와 공개 범위를 확인해야 한다. 압축·DNS·알고리즘 이름 확인만으로 과도한 접근권한이 바뀌지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 53 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-054",
+    "area": "security",
+    "revision": 2,
+    "topic": "모바일 보안",
+    "prompt": "업무용 스마트폰을 분실했을 때 저장된 자료가 노출될 위험을 줄이는 사전 대책은?",
+    "options": [
+      "네트워크 트래픽 로그만 수집",
+      "잠금·저장 데이터 보호와 분실 대응 기능 설정",
+      "데이터를 서버에 백업만 하고 단말 잠금은 생략",
+      "모든 계정 자동 로그인 활성화"
+    ],
+    "answer": 1,
+    "explanation": "분실 단말의 정보 노출은 잠금·저장 보호·분실 대응 설정으로 줄인다. 로그나 백업만으로 단말의 기존 자료 접근을 막지 못하며 자동 로그인은 위험을 늘린다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 56 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-055",
+    "area": "security",
+    "revision": 2,
+    "topic": "재식별 위험",
+    "prompt": "이름을 삭제한 기록을 다른 공개자료와 결합하니 개인을 알아볼 수 있었다. 어떤 위험인가?",
+    "options": [
+      "해시 충돌",
+      "암호키 재사용",
+      "세션 재전송",
+      "재식별"
+    ],
+    "answer": 3,
+    "explanation": "재식별은 비식별 처리한 정보를 다른 자료와 결합해 개인을 다시 알아보는 것이다. 해시 출력 중복·키 반복 사용·세션 메시지 반복과 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 19,54~55 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-056",
+    "area": "security",
+    "revision": 2,
+    "topic": "위험 관리",
+    "prompt": "보안 위험 분석을 시작할 때 무엇을 먼저 파악해야 하는가?",
+    "options": [
+      "보호할 자산과 가치, 관련 위협·취약성",
+      "자산 조사 없이 보안 제품부터 구매",
+      "기존 장비 목록을 확인 없이 재사용",
+      "피해 가능성과 관계없이 모든 위험을 같게 분류"
+    ],
+    "answer": 0,
+    "explanation": "자산·가치·위협·취약성을 먼저 파악해야 대책의 우선순위를 정할 수 있다. 현황을 확인하지 않은 구매나 일괄 분류는 위험 분석을 대신하지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 59~60 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-057",
+    "area": "security",
+    "revision": 1,
+    "topic": "위협과 취약성",
+    "prompt": "패치하지 않은 결함을 공격자가 악용할 수 있다. 결함과 공격 행위의 관계를 바르게 표현한 것은?",
+    "options": [
+      "결함은 언제나 이미 발생한 피해액이다",
+      "결함은 취약성, 이를 악용하는 행위는 위협이다",
+      "결함은 가용성, 공격은 백업이다",
+      "결함과 공격 모두 암호키다"
+    ],
+    "answer": 1,
+    "explanation": "취약성은 악용 가능한 약점이고 위협은 피해를 유발할 요인·행위다. 약점이 있다는 사실과 실제 피해 발생은 구별한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 59~60 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-058",
+    "area": "security",
+    "revision": 2,
+    "topic": "위험 평가",
+    "prompt": "손실을 금액과 발생 가능성으로 추정하여 대책 비용과 비교한다. 어떤 접근인가?",
+    "options": [
+      "높음·보통·낮음 등급만 부여하는 정성 평가",
+      "모든 시스템에 기본 통제를 바로 적용하는 기준선 방식",
+      "정량적 위험 평가",
+      "취약점 식별번호만 수집하는 목록화"
+    ],
+    "answer": 2,
+    "explanation": "금액·확률 등의 수치로 평가해 비용과 비교하므로 정량 평가다. 정성 등급, 기본 통제 선택, 식별번호 목록은 그 자체로 금액 기반 평가가 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 60 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-059",
+    "area": "security",
+    "revision": 2,
+    "topic": "위험 평가",
+    "prompt": "정확한 금액 산정이 어려워 전문가가 위험을 높음·보통·낮음으로 분류했다. 어떤 접근인가?",
+    "options": [
+      "손실을 화폐 금액으로만 계산하는 정량 평가",
+      "평가 없이 동일한 보안 대책을 일괄 적용",
+      "공개 취약점 번호만 나열",
+      "정성적 위험 평가"
+    ],
+    "answer": 3,
+    "explanation": "전문가 판단과 범주를 활용하므로 정성 평가다. 금액 계산이나 평가 없는 통제 적용, 식별번호 목록화와 구별한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 60 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-060",
+    "area": "security",
+    "revision": 2,
+    "topic": "위험 평가",
+    "prompt": "모든 시스템에 공통의 기본 보안 대책을 적용하는 접근은?",
+    "options": [
+      "기준선 접근법",
+      "자산마다 가치·위협을 개별 상세 분석",
+      "비정형 전문가 경험에만 의존",
+      "중요 자산만 상세 분석하고 나머지는 기준선 적용"
+    ],
+    "answer": 0,
+    "explanation": "공통 기본 보호 수준을 적용하는 것은 기준선 접근이다. 상세 분석, 비정형 전문가 접근, 두 방식을 결합한 복합 접근과 구별한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 60 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-061",
+    "area": "security",
+    "revision": 2,
+    "topic": "위험 평가",
+    "prompt": "핵심 결제 시스템은 상세 분석하고 나머지는 기본 대책을 적용한다. 어떤 접근인가?",
+    "options": [
+      "모든 자산에 동일한 상세 분석만 수행",
+      "복합적 접근법",
+      "모든 자산에 기준선만 적용",
+      "전문가의 비정형 판단만 적용"
+    ],
+    "answer": 1,
+    "explanation": "중요 자산의 상세 분석과 나머지 자산의 기준선을 결합한 복합 접근이다. 어느 한 방식만 적용하는 경우와 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 60 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-062",
+    "area": "security",
+    "revision": 1,
+    "topic": "관리체계",
+    "prompt": "보안 규정을 한 번 만든 뒤 점검 없이 방치했다. 관리체계 관점의 개선은?",
+    "options": [
+      "모든 보안 책임을 없앤다",
+      "한 번 점검했으므로 변경을 추적하지 않는다",
+      "운영·점검·개선을 지속적으로 수행한다",
+      "인증서 파일만 보관하면 끝낸다"
+    ],
+    "answer": 2,
+    "explanation": "정보보호 관리체계는 정책 수립뿐 아니라 운영과 사후 관리가 필요하다. 일회성 문서나 인증 보유가 지속 관리를 대체하지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 58~61 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-063",
+    "area": "security",
+    "revision": 1,
+    "topic": "관리체계",
+    "prompt": "정보보호와 개인정보보호의 관리 요구를 함께 다루는 국내 관리체계는?",
+    "options": [
+      "AES",
+      "TCP",
+      "ARP",
+      "ISMS-P"
+    ],
+    "answer": 3,
+    "explanation": "ISMS-P는 정보보호와 개인정보보호 관리체계를 통합한 체계다. 암호나 통신 프로토콜과 구분한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 60~61 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-064",
+    "area": "security",
+    "revision": 2,
+    "topic": "보안 분류체계",
+    "prompt": "특정 제품에서 발견된 공개 취약점의 식별번호를 찾으려 한다. 가장 관련 있는 체계는?",
+    "options": [
+      "CVE",
+      "CWE",
+      "CVSS",
+      "CWSS"
+    ],
+    "answer": 0,
+    "explanation": "CVE는 개별 공개 취약점의 식별체계다. CWE는 약점 유형 분류이고 CVSS·CWSS는 각각 취약점·약점의 중요도를 평가하는 점수체계다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 64 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-065",
+    "area": "security",
+    "revision": 2,
+    "topic": "보안 분류체계",
+    "prompt": "SQL 삽입 같은 소프트웨어 약점 유형을 분류하려 한다. 가장 관련 있는 체계는?",
+    "options": [
+      "CVE",
+      "CWE",
+      "CVSS",
+      "CRL"
+    ],
+    "answer": 1,
+    "explanation": "CWE는 약점 유형을 분류한다. CVE는 개별 취약점 식별, CVSS는 심각도 점수, CRL은 인증서 폐기 목록이므로 분류 목적이 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 64 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-066",
+    "area": "security",
+    "revision": 2,
+    "topic": "보안 점수체계",
+    "prompt": "취약점의 심각도를 공통 기준의 점수로 표현할 때 사용하는 체계는?",
+    "options": [
+      "CVE",
+      "CWE",
+      "CVSS",
+      "CRL"
+    ],
+    "answer": 2,
+    "explanation": "CVSS는 취약점의 심각도를 점수화한다. CVE는 식별자, CWE는 약점 유형, CRL은 인증서 폐기 목록이다. 실제 우선순위에는 자산 중요도도 함께 고려한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 64 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-067",
+    "area": "security",
+    "revision": 1,
+    "topic": "시큐어 개발",
+    "prompt": "보안 요구사항은 개발 과정의 언제부터 다루는 것이 적절한가?",
+    "options": [
+      "서비스 폐기 직전에만",
+      "배포 후 문제가 생길 때만",
+      "코드가 전부 끝난 뒤 문서 제목에서만",
+      "요구사항·설계 단계부터 전체 생명주기에 걸쳐"
+    ],
+    "answer": 3,
+    "explanation": "시큐어 개발은 요구사항부터 유지보수까지 보안을 반영한다. 마지막 단계에만 점검하면 설계상 문제를 늦게 발견한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 68~69 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-068",
+    "area": "security",
+    "revision": 1,
+    "topic": "유지보수 보안",
+    "prompt": "운영 중 기능을 바꿨다. 시큐어 개발 관점에서 필요한 것은?",
+    "options": [
+      "변경의 보안 영향을 평가하고 관련 검증을 수행한다",
+      "기존 보안 검증 결과를 영구 적용한다",
+      "기능 테스트가 통과했으므로 권한 검사를 없앤다",
+      "변경 기록을 삭제한다"
+    ],
+    "answer": 0,
+    "explanation": "변경은 새로운 취약점을 만들 수 있으므로 영향 분석과 검증이 필요하다. 과거 테스트만으로 새 변경을 보장할 수 없다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 69 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-069",
+    "area": "security",
+    "revision": 2,
+    "topic": "SQL 삽입",
+    "prompt": "검색 입력값을 SQL 문자열에 직접 붙인다. 가장 적절한 개선은?",
+    "options": [
+      "사용자 입력을 SQL에 붙인 뒤 공백만 제거",
+      "고정 SQL과 바인딩 파라미터로 코드와 데이터를 분리한다",
+      "SQL 실행 오류 메시지만 숨김",
+      "쿼리를 만드는 동일 코드를 클라이언트로 이동"
+    ],
+    "answer": 1,
+    "explanation": "바인딩은 데이터가 SQL 구조를 바꾸지 못하게 한다. 공백 제거는 모든 구문 삽입을 막지 못하고 오류 숨김·실행 위치 변경도 코드와 데이터의 혼합을 해결하지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 69~70 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-070",
+    "area": "security",
+    "revision": 2,
+    "topic": "SQL 삽입",
+    "prompt": "입력한 내용이 조회 조건의 일부가 아니라 SQL 구문으로 해석됐다. 어떤 경계가 무너진 것인가?",
+    "options": [
+      "인증과 인가의 구분 자체",
+      "평문과 암호문 저장 영역만",
+      "데이터와 실행할 명령의 경계",
+      "전송 계층과 네트워크 계층의 경계"
+    ],
+    "answer": 2,
+    "explanation": "SQL 삽입은 입력 데이터가 실행 명령의 구조에 개입하는 문제다. 인증·암호화·프로토콜 계층만 구분한다고 쿼리 구성의 결함이 해결되지는 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 69~70 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-071",
+    "area": "security",
+    "revision": 2,
+    "topic": "XSS",
+    "prompt": "게시글을 본 다른 학생의 브라우저에서 공격자의 스크립트가 실행됐다. 무엇인가?",
+    "options": [
+      "데이터베이스에서 SQL 구문을 실행하는 SQL 삽입",
+      "서버 셸에서 명령을 실행하는 명령 삽입",
+      "대량 요청으로 서비스가 멈추는 DoS",
+      "XSS"
+    ],
+    "answer": 3,
+    "explanation": "XSS의 실행 위치는 피해자의 브라우저다. DB의 SQL 실행, 서버 셸 실행, 과부하로 인한 서비스 중단과 구별한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 70~71 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-072",
+    "area": "security",
+    "revision": 1,
+    "topic": "XSS 방어",
+    "prompt": "학생이 입력한 자기소개를 HTML 본문에 표시할 때 적절한 기본 처리는?",
+    "options": [
+      "HTML 문맥에 맞게 출력 인코딩하여 텍스트로 표시한다",
+      "입력 전체를 HTML로 해석한다",
+      "스크립트가 있으면 관리자 권한으로 실행한다",
+      "비밀번호만 암호화하면 표시 처리는 생략한다"
+    ],
+    "answer": 0,
+    "explanation": "출력 위치에 맞는 인코딩은 입력을 코드가 아닌 데이터로 처리하게 한다. 비밀번호 보호만으로 XSS가 해결되지는 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 70~71 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-073",
+    "area": "security",
+    "revision": 1,
+    "topic": "명령 삽입",
+    "prompt": "사용자 입력을 셸 명령에 이어 붙여 시스템 도구를 실행한다. 우선 개선할 방향은?",
+    "options": [
+      "입력값을 로그에만 남기고 그대로 실행한다",
+      "가능하면 전용 API를 사용하고 명령·인수를 엄격히 제한한다",
+      "사용자 입력 전체를 관리자 권한으로 실행한다",
+      "셸 오류를 숨기기만 한다"
+    ],
+    "answer": 1,
+    "explanation": "외부 입력이 명령으로 해석되지 않게 구조를 바꾸고 허용 범위를 제한해야 한다. 로그나 오류 숨김은 실행 위험을 없애지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 71~72 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-074",
+    "area": "security",
+    "revision": 1,
+    "topic": "파일 업로드",
+    "prompt": "프로필 사진 업로드 공간에서 서버 스크립트 실행이 가능하다. 가장 적절한 조합은?",
+    "options": [
+      "파일명 길이만 제한",
+      "파일 개수만 화면에 표시",
+      "허용 형식 검증과 업로드 파일 실행 권한 제거",
+      "모든 확장자를 허용하고 관리자 실행권한 부여"
+    ],
+    "answer": 2,
+    "explanation": "파일 형식을 제한하고 저장 영역에서 실행을 막아야 한다. 파일명·개수 제한만으로 서버 코드 실행을 막지 못한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 72~73 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-075",
+    "area": "security",
+    "revision": 2,
+    "topic": "버퍼 오버플로",
+    "prompt": "16바이트 버퍼에 길이 확인 없이 더 큰 데이터를 복사했다. 핵심 위험은?",
+    "options": [
+      "입력 길이가 자동으로 안전한 크기로 잘림",
+      "넘친 데이터가 별도 버퍼에 자동 저장됨",
+      "남은 바이트가 암호화되어 무해해짐",
+      "할당 경계를 넘어 메모리를 덮어쓴다"
+    ],
+    "answer": 3,
+    "explanation": "경계 검사 없는 복사는 인접 메모리를 덮어쓸 수 있다. 런타임이 자동으로 잘라 주거나 별도 버퍼에 보관한다고 가정해서는 안 된다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 73~74 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-076",
+    "area": "security",
+    "revision": 2,
+    "topic": "버퍼 오버플로",
+    "prompt": "C 문자열을 제한된 버퍼에 저장할 때 고려할 것은?",
+    "options": [
+      "버퍼 크기와 문자열 종료 문자 공간",
+      "문자 수만 확인하고 실제 바이트 수는 생략",
+      "복사할 포인터 변수의 크기만 확인",
+      "종료 문자는 버퍼 밖에 별도로 기록"
+    ],
+    "answer": 0,
+    "explanation": "데이터와 종료 문자가 모두 버퍼 안에 들어가야 한다. 문자 수와 바이트 수는 다를 수 있고 포인터 크기는 대상 버퍼 용량이 아니며 버퍼 밖 종료 문자 쓰기도 잘못이다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 74 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-077",
+    "area": "security",
+    "revision": 1,
+    "topic": "포맷 문자열",
+    "prompt": "C에서 외부 문자열을 출력 함수의 형식 문자열로 직접 사용한다. 적절한 개선은?",
+    "options": [
+      "출력 권한을 관리자에게만 주면 코드 수정은 생략한다",
+      "형식 문자열을 고정하고 입력을 데이터 인수로 전달한다",
+      "외부 문자열을 두 번 실행한다",
+      "모든 경고를 비활성화한다"
+    ],
+    "answer": 1,
+    "explanation": "포맷 문자열과 외부 데이터를 분리해야 형식 지정자가 의도치 않게 해석되는 것을 막을 수 있다. 권한 제한만으로 결함이 사라지지는 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 74~75 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-078",
+    "area": "security",
+    "revision": 1,
+    "topic": "데이터베이스 보안",
+    "prompt": "조교에게 학생 이름만 제공하고 민감한 열은 숨긴 가상 테이블을 제공하려 한다. 적절한 수단은?",
+    "options": [
+      "DB 비밀번호의 공지 게시",
+      "로그 삭제",
+      "뷰와 그에 맞는 접근권한",
+      "전체 원본 테이블의 공개 쓰기 권한"
+    ],
+    "answer": 2,
+    "explanation": "뷰는 필요한 행·열로 접근 범위를 제한하는 데 쓰며 원본 권한도 함께 통제해야 한다. 전체 공개는 목적과 반대다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 80~81 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-079",
+    "area": "security",
+    "revision": 1,
+    "topic": "데이터베이스 보안",
+    "prompt": "DB 파일을 암호화했으므로 모든 사용자의 조회를 허용해도 된다는 주장에 대한 판단은?",
+    "options": [
+      "암호화하면 모든 사용자가 자동으로 정당한 사용자다",
+      "암호화가 모든 SQL 권한을 제거한다",
+      "암호화하면 감사 기록은 금지된다",
+      "암호화와 별도로 사용자별 접근통제가 필요하다"
+    ],
+    "answer": 3,
+    "explanation": "저장 암호화와 논리적 접근권한은 서로 다른 통제다. 정상 조회 경로에서 복호화된 정보를 누가 볼 수 있는지도 제한해야 한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 80~81 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-080",
+    "area": "security",
+    "revision": 1,
+    "topic": "DB 접근통제",
+    "prompt": "DB 서버 안에 모듈을 설치하여 접근 통제와 로깅을 수행한다. 어떤 방식인가?",
+    "options": [
+      "에이전트 방식",
+      "별도 장비의 패킷 복사만 사용하는 방식",
+      "클라이언트 화면 캡처만 하는 방식",
+      "오프라인 문서 점검만 하는 방식"
+    ],
+    "answer": 0,
+    "explanation": "에이전트 방식은 서버에 통제·기록 모듈을 설치한다. 패킷 복사만 분석하는 스니핑 방식과 구조가 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 81 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-081",
+    "area": "security",
+    "revision": 2,
+    "topic": "DB 접근통제",
+    "prompt": "모든 DB 요청이 별도 통제 서버를 경유하도록 구성했다. 어떤 방식인가?",
+    "options": [
+      "DB 서버 내부 모듈만 설치하는 에이전트 방식",
+      "게이트웨이 방식",
+      "순수 네트워크 스니핑 방식",
+      "클라이언트 화면 기록만 수집하는 방식"
+    ],
+    "answer": 1,
+    "explanation": "게이트웨이는 모든 요청이 경유하는 별도 통제 경로다. 서버 내 에이전트나 복사 패킷·화면만 관찰하는 방식과 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 82 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-082",
+    "area": "security",
+    "revision": 1,
+    "topic": "DB 접근통제",
+    "prompt": "복사된 DB 통신 패킷만 분석하는 구성에서 특히 주의할 한계는?",
+    "options": [
+      "관찰만 해도 모든 쓰기가 자동 취소된다",
+      "모든 암호키가 자동 생성된다",
+      "분석·기록과 실제 요청의 사전 차단은 다르다",
+      "DB 서버 내부 코드를 반드시 바꿔야 한다"
+    ],
+    "answer": 2,
+    "explanation": "스니핑 방식은 탐지·기록에 유용하지만 원래 요청을 사전에 차단하는 기능을 동일시하면 안 된다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 82 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-083",
+    "area": "security",
+    "revision": 2,
+    "topic": "DB 암호화",
+    "prompt": "애플리케이션에서 암호화한 뒤 DB에 저장하도록 했다. 어느 방식인가?",
+    "options": [
+      "DB 커널의 TDE 방식",
+      "DB 내부 플러그인 방식",
+      "디스크 파일시스템 암호화 방식",
+      "API 방식"
+    ],
+    "answer": 3,
+    "explanation": "API 방식은 응용 프로그램에서 암호화 호출을 수행한다. DB 내부 또는 디스크 계층에서 수행하는 방식과 위치가 다르다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 83~84 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-084",
+    "area": "security",
+    "revision": 2,
+    "topic": "DB 암호화",
+    "prompt": "DBMS 내장 암호화 기능을 이용해 응용 코드 수정을 줄이려 한다. 가장 가까운 방식은?",
+    "options": [
+      "TDE",
+      "응용 코드에 암복호화 호출을 넣는 API 방식",
+      "접근 패킷을 복사하는 스니핑 방식",
+      "역할에 권한을 부여하는 RBAC"
+    ],
+    "answer": 0,
+    "explanation": "TDE는 DBMS가 제공하는 투명한 암호화 기능이다. API 방식은 응용 수정이 필요할 수 있으며 스니핑·RBAC는 저장 암호화 자체가 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 84 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-085",
+    "area": "security",
+    "revision": 2,
+    "topic": "DB 암호화",
+    "prompt": "운영 DB 암호화 도입 전에 꼭 검토할 항목은?",
+    "options": [
+      "암호 알고리즘 이름만 확인하면 충분",
+      "검색·인덱스·쿼리 성능과 응용 동작 영향",
+      "저장 성공만 확인하고 조회 테스트는 생략",
+      "백업 파일 크기만 확인하면 충분"
+    ],
+    "answer": 1,
+    "explanation": "암호화는 검색·인덱스·쿼리·응용 처리와 성능에 영향을 줄 수 있다. 알고리즘 이름·저장 성공·백업 크기만으로 정상 운영을 확인할 수 없다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 83~88 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-086",
+    "area": "security",
+    "revision": 1,
+    "topic": "키 관리",
+    "prompt": "암호화된 백업은 있지만 복호화 키를 모두 잃었다. 적절한 해석은?",
+    "options": [
+      "공개된 파일명으로 키를 자동 복원한다",
+      "압축 프로그램이면 모든 암호를 해제한다",
+      "데이터 복구가 불가능해질 수 있어 키 백업·복구 관리도 필요하다",
+      "파일이 있으므로 키 없이 언제나 복구된다"
+    ],
+    "answer": 2,
+    "explanation": "암호화 데이터 복구에는 필요한 키를 안전하게 관리하는 절차가 포함된다. 데이터 파일만 백업해서는 충분하지 않을 수 있다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 89~90 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-087",
+    "area": "security",
+    "revision": 1,
+    "topic": "키 관리",
+    "prompt": "암호화 키를 교체할 때 기존 암호문 처리를 무시하고 옛 키를 즉시 없앴다. 문제는?",
+    "options": [
+      "모든 기존 암호문이 자동으로 평문이 된다",
+      "기밀성이 항상 완벽해진다",
+      "기존 파일이 자동으로 새 키로 바뀐다",
+      "기존 암호문의 복호화 경로를 잃을 수 있다"
+    ],
+    "answer": 3,
+    "explanation": "교체 시 기존 데이터 재암호화나 필요한 키의 안전한 유지 등 이행 계획이 필요하다. 키 삭제가 데이터 변환을 자동 수행하지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 89~90 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-088",
+    "area": "security",
+    "revision": 1,
+    "topic": "계정 보안",
+    "prompt": "더 이상 사용하지 않는 계정이 남아 있다. 적절한 조치는?",
+    "options": [
+      "업무 필요성을 확인한 뒤 비활성화·삭제한다",
+      "공통 초기 비밀번호로 바꿔 유지한다",
+      "관리자 역할을 추가한다",
+      "계정 목록을 숨기기만 한다"
+    ],
+    "answer": 0,
+    "explanation": "불필요한 계정은 악용 가능한 진입점이므로 정리한다. 약한 비밀번호나 추가 권한은 오히려 위험을 키운다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 93,96 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-089",
+    "area": "security",
+    "revision": 1,
+    "topic": "인증 방어",
+    "prompt": "여러 비밀번호를 연속 대입하는 로그인 시도가 감지됐다. 적절한 통제는?",
+    "options": [
+      "로그를 끈다",
+      "로그인 시도 제한과 계정 잠금 정책 등을 적용한다",
+      "실패 횟수 제한을 없앤다",
+      "정답 비밀번호를 오류 메시지로 보여 준다"
+    ],
+    "answer": 1,
+    "explanation": "시도 제한·잠금은 반복 추측을 어렵게 한다. 운영 환경의 정상 사용자 차단 위험도 함께 고려한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 93 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-090",
+    "area": "security",
+    "revision": 1,
+    "topic": "공유폴더 보안",
+    "prompt": "업무에 쓰지 않는 공유폴더가 전체 사용자 쓰기를 허용한다. 가장 적절한 조치는?",
+    "options": [
+      "더 많은 사용자를 쓰기 그룹에 넣는다",
+      "파일 용량만 줄인다",
+      "공유를 중지하거나 필요한 사용자로 권한을 제한한다",
+      "폴더 이름만 변경한다"
+    ],
+    "answer": 2,
+    "explanation": "불필요한 공유는 제거하고 필요한 공유는 권한을 제한해야 한다. 이름이나 용량 변경은 접근권한을 바꾸지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 94 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-091",
+    "area": "security",
+    "revision": 1,
+    "topic": "시스템 하드닝",
+    "prompt": "서버에서 사용하지 않는 네트워크 서비스가 실행 중이다. 보안상 적절한 조치는?",
+    "options": [
+      "모든 포트를 추가 개방한다",
+      "프로세스 이름만 바꾼다",
+      "접속 기록을 지운다",
+      "의존성을 확인하고 불필요한 서비스를 중지한다"
+    ],
+    "answer": 3,
+    "explanation": "불필요한 서비스 제거는 공격 표면을 줄인다. 업무 의존성을 먼저 확인해 정상 기능 장애도 피해야 한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 95,97 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-092",
+    "area": "security",
+    "revision": 1,
+    "topic": "세션 관리",
+    "prompt": "공용 PC에서 관리자가 로그인한 채 자리를 비웠다. 위험을 줄이는 설정은?",
+    "options": [
+      "미사용 세션의 자동 종료·잠금",
+      "세션 유효기간 무제한",
+      "모든 계정의 자동 로그인",
+      "비밀번호 화면 표시"
+    ],
+    "answer": 0,
+    "explanation": "미사용 세션 제한은 방치된 인증 상태 악용을 줄인다. 자동 로그인이나 무제한 세션은 위험을 늘린다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 97 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-093",
+    "area": "security",
+    "revision": 1,
+    "topic": "파일 권한",
+    "prompt": "모든 사용자가 시스템 로그인 초기화 스크립트를 수정할 수 있다. 적절한 조치는?",
+    "options": [
+      "파일을 더 자주 실행한다",
+      "인가된 관리자만 수정할 수 있게 권한을 제한한다",
+      "파일 확장자만 바꾼다",
+      "일반 사용자 쓰기권한을 더 늘린다"
+    ],
+    "answer": 1,
+    "explanation": "공통 실행 환경 파일을 임의 수정하면 다른 사용자의 실행에 영향을 줄 수 있으므로 쓰기권한을 통제해야 한다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 97 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-094",
+    "area": "security",
+    "revision": 2,
+    "topic": "네트워크 보안",
+    "prompt": "대량 요청으로 서버 자원을 소진시켜 정상 이용을 방해하는 공격은?",
+    "options": [
+      "패킷 내용을 수동 도청하는 스니핑",
+      "파일에 악성 코드를 삽입하는 바이러스",
+      "서비스 거부 공격",
+      "사용자 신원을 사칭하는 피싱"
+    ],
+    "answer": 2,
+    "explanation": "자원을 소진시켜 이용을 방해하므로 서비스 거부다. 도청·파일 감염·신원 사칭은 각각 다른 공격 특성이다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 107~108 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-095",
+    "area": "security",
+    "revision": 2,
+    "topic": "네트워크 보안",
+    "prompt": "같은 LAN에서 거짓 IP·MAC 대응 정보를 보내 트래픽을 가로챈다. 가장 가까운 공격은?",
+    "options": [
+      "DNS 응답 위조",
+      "TCP SYN 폭주",
+      "전송 데이터 수동 스니핑만",
+      "ARP 스푸핑"
+    ],
+    "answer": 3,
+    "explanation": "거짓 IP·MAC 대응을 알리므로 ARP 스푸핑이다. DNS 응답은 도메인·IP 대응, SYN 폭주는 연결 자원 소진이며 단순 수동 도청에는 대응 정보 위조가 없다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 108~109 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-096",
+    "area": "security",
+    "revision": 1,
+    "topic": "보안 프로토콜",
+    "prompt": "웹 클라이언트와 서버 사이 전송 데이터의 기밀성·무결성을 보호하는 대표 프로토콜은?",
+    "options": [
+      "TLS",
+      "평문 HTTP만",
+      "ARP만",
+      "ICMP만"
+    ],
+    "answer": 0,
+    "explanation": "TLS는 응용 통신에 암호학적 보호를 제공한다. HTTP만이나 주소 해석·제어 메시지 프로토콜은 같은 보호를 제공하지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 106~113 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-097",
+    "area": "security",
+    "revision": 2,
+    "topic": "IPsec",
+    "prompt": "IPsec에서 원래 IP 패킷 전체를 새 IP 패킷 안에 넣어 보호하는 모드는?",
+    "options": [
+      "원래 IP 헤더를 유지하는 전송 모드",
+      "터널 모드",
+      "IP 헤더 없이 데이터만 보내는 방식",
+      "원래 IP 패킷을 캡슐화하지 않는 평문 전달"
+    ],
+    "answer": 1,
+    "explanation": "터널 모드는 원래 IP 패킷 전체를 새 패킷 안에 넣는다. 원래 헤더를 유지하는 전송 모드와 다르고 헤더 제거·평문 전달을 뜻하지 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 110~112 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-098",
+    "area": "security",
+    "revision": 1,
+    "topic": "IPsec",
+    "prompt": "IPsec의 AH와 ESP를 구분할 때 맞는 설명은?",
+    "options": [
+      "둘 다 인증서 발급기관이다",
+      "둘 다 오직 파일 압축만 한다",
+      "AH는 암호화 기밀성을 제공하지 않고 ESP는 암호화를 제공할 수 있다",
+      "AH만 암호화를 하고 ESP는 주소 조회만 한다"
+    ],
+    "answer": 2,
+    "explanation": "AH는 인증·무결성 계열 보호이고 ESP는 설정에 따라 암호화 기밀성을 제공한다. AH를 암호화로 오해하면 안 된다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 110~112 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-099",
+    "area": "security",
+    "revision": 1,
+    "topic": "무선랜 보안",
+    "prompt": "카페 이름과 같은 SSID가 표시된 무선랜을 발견했다. 적절한 판단은?",
+    "options": [
+      "SSID가 같으면 운영자도 반드시 같다",
+      "신호가 강하면 암호화가 보장된다",
+      "무료이면 인증서 경고를 무시한다",
+      "이름만으로 정당한 AP라고 믿지 않고 접속 대상을 확인한다"
+    ],
+    "answer": 3,
+    "explanation": "무선랜 이름은 사칭될 수 있어 연결 대상과 통신 보호를 확인해야 한다. 신호 세기·무료 여부는 신뢰 근거가 아니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 115~117 (PDF 쪽은 +2)"
+    }
+  },
+  {
+    "id": "sec-100",
+    "area": "security",
+    "revision": 1,
+    "topic": "방화벽",
+    "prompt": "방화벽이 IP 주소와 포트 규칙에 따라 통신 허용 여부를 결정한다. 올바른 설명은?",
+    "options": [
+      "정의한 통신 정책을 적용하지만 모든 애플리케이션 취약점을 없애지는 않는다",
+      "방화벽 설치만으로 SQL 삽입 코드는 자동 수정된다",
+      "방화벽이 모든 파일의 내용 무결성을 자동 보장한다",
+      "방화벽은 암호키를 대신 공개하는 장비다"
+    ],
+    "answer": 0,
+    "explanation": "방화벽은 네트워크 접근 정책을 적용한다. 애플리케이션 결함 수정·데이터 무결성 검증 등 별도 통제를 모두 대신하지는 않는다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "section": "04 정보보안 이해와 활용, 인쇄 쪽 15~16 (PDF 쪽은 +2)"
+    }
+  }
+]

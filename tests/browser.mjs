@@ -1,0 +1,66 @@
+import {chromium} from 'playwright';
+import {createServer} from 'node:http';
+import {readFile,mkdir} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const types={html:'text/html',mjs:'text/javascript',json:'application/json',css:'text/css'};
+const server=createServer(async(req,res)=>{try{const path=new URL(req.url,'http://localhost').pathname;const file=new URL('..'+(path==='/'?'/index.html':path),import.meta.url);if(!file.pathname.startsWith(new URL('..',import.meta.url).pathname))throw Error();res.setHeader('Content-Type',types[file.pathname.split('.').at(-1)]||'text/plain');res.end(await readFile(file));}catch{res.writeHead(404);res.end();}});
+await new Promise(r=>server.listen(0,'127.0.0.1',r));
+const base=`http://127.0.0.1:${server.address().port}/`;
+const browser=await chromium.launch({headless:true});
+try{
+  await mkdir('test-results',{recursive:true});
+  const ctx=await browser.newContext({viewport:{width:390,height:844}}),page=await ctx.newPage(),errors=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(base);await page.locator('[data-area="architecture"]').waitFor();
+  assert.equal(await page.locator('.area-card').count(),4);
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  await page.screenshot({path:'test-results/mobile-home.png',fullPage:true});
+  await page.locator('[data-area="architecture"]').click();
+  assert.equal(await page.locator('#submit').isDisabled(),true);
+  const current=await page.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')).active.architecture);
+  const bank=JSON.parse(await readFile(new URL('../data/architecture.json',import.meta.url),'utf8'));
+  const q=bank.find(q=>q.id===current.questionId);
+  await page.locator(`[name=answer][value="${q.answer}"]`).check({force:true});
+  await page.locator('#submit').click();await page.locator('.feedback').waitFor();
+  let state=await page.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')));
+  assert.equal(state.attempts.length,1);assert.equal(state.progress[q.id].streak,1);
+  await page.screenshot({path:'test-results/mobile-feedback.png',fullPage:true});
+  await page.reload();await page.locator('[data-area="architecture"]').click();await page.locator('.feedback').waitFor();
+  assert.equal(await page.locator('#submit').count(),0);
+  for(const mode of ['all','concept']){
+    await page.locator(`[data-mode=${mode}]`).click();
+    assert.equal(await page.locator('.reading-list article').count(),100);
+    assert.equal(await page.locator('.reading-explanation').count(),mode==='concept'?100:0);
+  }
+  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')).attempts.length),1);
+  await page.locator('[data-mode=quiz]').click();await page.locator('.feedback').waitFor();
+  await page.locator('#home').click();await page.locator('#share').click();
+  const link=await page.locator('#resume-url').inputValue();assert.ok(link.includes('#resume=v1.'));
+  await page.evaluate(()=>Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async()=>{throw Error('denied');}}}));
+  await page.locator('#copy-link').click();await page.getByText('자동 복사를 사용할 수 없습니다.',{exact:false}).waitFor();
+  await page.evaluate(()=>Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:async()=>{}}}));
+  await page.locator('#copy-link').click();await page.getByText('복사했습니다.',{exact:false}).waitFor();
+  const ctx2=await browser.newContext({viewport:{width:1280,height:900}}),pc=await ctx2.newPage();
+  await pc.goto(link);await pc.locator('#import-confirm').waitFor();assert.equal(await pc.evaluate(()=>location.hash),'');
+  assert.equal(await pc.evaluate(()=>localStorage.getItem('topcit-practice-v1')),null);
+  await pc.locator('#import-confirm').click();await pc.locator('dialog').waitFor({state:'detached'});
+  state=await pc.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')));assert.equal(state.progress[q.id].streak,1);assert.equal(state.attempts.length,0);
+  await pc.goto(link);await pc.locator('#import-confirm').waitFor();await pc.locator('#close-dialog').click();
+  assert.equal(await pc.evaluate(id=>JSON.parse(localStorage.getItem('topcit-practice-v1')).progress[id].streak,q.id),1);
+  await pc.locator('[data-area="architecture"]').click();await pc.locator('[data-mode=concept]').click();
+  await pc.screenshot({path:'test-results/desktop-concept.png'});
+  assert.equal(await pc.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  // Complete then update content with an added question and a revised current question.
+  await page.locator('#close-dialog').click();
+  await page.evaluate(qs=>{const s={version:1,progress:{},attempts:[],active:{},last:{}};for(const q of qs)s.progress[q.id]={revision:q.revision,streak:2};localStorage.setItem('topcit-practice-v1',JSON.stringify(s));},bank);
+  await page.reload();await page.locator('[data-area=architecture]').click();await page.locator('.complete').waitFor();
+  const added={...bank[0],id:'arch-new',revision:1};
+  await page.route('**/data/architecture.json',r=>r.fulfill({json:[...bank,added]}));
+  await page.reload();await page.locator('[data-area=architecture]').click();
+  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')).active.architecture.questionId),'arch-new');
+  await page.route('**/data/architecture.json',r=>r.fulfill({json:[{...bank[0],revision:2},...bank.slice(1)]}));
+  await page.reload();await page.locator('[data-area=architecture]').click();
+  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')).active.architecture.revision),2);
+  assert.equal(errors.length,0,errors.join('\n'));
+  console.log('Browser checks passed: mobile, submit/reload, 3 modes, clipboard fallback, cross-device import/cancel, additions/revisions.');
+}finally{await browser.close();server.close();}
