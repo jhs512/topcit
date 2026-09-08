@@ -4,7 +4,7 @@
 
 ## 직접 확인한 공식 자료
 
-- [공식 학습자료 목록](https://www.topcit.or.kr/board/study.do?language=ko)의 `openEssence('04')`가 연결하는 [한국어 04 정보보안 이해와 활용 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf)를 직접 내려받아 목차와 관련 본문을 읽었다. PDF는 124쪽이며 저장소 밖 임시 디렉터리에만 저장했다.
+- [공식 학습자료 목록](https://www.topcit.or.kr/board/study.do?language=ko)의 스크립트에 남아 있는 PDF 경로로 [한국어 04 정보보안 이해와 활용 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf)를 직접 내려받아 목차와 관련 본문을 읽었다. PDF는 124쪽이며 저장소 밖 임시 디렉터리에만 저장했다. 이 PDF 경로는 주석 처리된 함수에 있었으며, 실제 현재 버튼이 여는 대상은 아래의 HTML 뷰어다. 초기 조사에서 두 경로를 구분하지 못한 설명을 정정한다.
 - 교재 판권의 PDF 4쪽을 렌더링해 **3판 발행일 2020-02-26**을 확인했다. 상단의 `22. 12. 2.`는 출력 시각 표시이므로 발행일로 쓰지 않았다. PDF 쪽 번호와 교재 인쇄 쪽 번호는 본문에서 2쪽 차이가 난다. 각 문항에는 인쇄 쪽을 기록했다.
 - [2026 변경 공지](https://www.topcit.or.kr/board/notice/detail.do?seq=842)의 [첨부 PDF](https://www.topcit.or.kr/board/pdfPreview.do?seq=120) 1~3쪽을 읽었다. 2026 제25회부터 시스템아키텍처와 정보보안은 하나의 시험 영역으로 묶이고, 객관식은 4지선다 단일선택이다. 3쪽 출제기준의 정보보안 개념·애플리케이션·데이터·시스템 보안 역량에 맞춰 연습 범위를 구성했다.
 
@@ -33,3 +33,10 @@
 
 - 동료 검토 후 53문항의 무관한 오답을 관련 보안 개념·흔한 오해로 교체했다. 정답 위치와 ID는 유지하고 해설을 동시에 수정했으며 해당 문항 revision을 2로 올렸다. 100문항·4개 고유 보기·정답 인덱스를 다시 검사했다.
 
+
+## 활성 HTML 뷰어와 PDF 대조
+
+- 현재 [학습자료 버튼의 활성 대상](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/index.html)을 직접 요청하고 `main.js`, `toast/toast.js`에서 로딩 경로를 따라 [project.json](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/project.json)을 읽었다. 뷰어 메타데이터의 publish-date는 2021-01-05 22:37:38이며 이것도 교재 발행일과는 다르다.
+- project.json은 123개 페이지를 선언한다. [실제 판권 이미지](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/assets/page-images/page-853040-0002.jpg)에 3판 발행일 **2020-02-26**이 선명하게 표시된다. [목차 이미지](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/assets/page-images/page-853040-0006.jpg)와 [SQL 삽입 방어·XSS 본문 인쇄 70쪽](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/assets/page-images/page-853040-0070.jpg)을 읽어 PDF의 해당 내용·쪽수와 대조했다. 확인한 판권·목차·본문은 같은 3판이다.
+- PDF의 마지막 124쪽은 본문 이미지가 없는 출력 여백 페이지다. 뷰어에는 123개 페이지 중 빈 페이지를 제외한 배경 이미지 122개가 있고, PDF의 대응 이미지들과 자동 비교했다. 4개는 파일 바이트까지 동일했다. 나머지 대부분은 재압축 등에 따른 미세 차이가 있으며, 축소 비교에서 큰 차이를 보인 3쪽은 표지가 기울어져 출력된 것이었다. 이를 원본 파일 전체의 바이트 동일성이나 모든 문장의 완전 동일성 증명으로 표현하지 않는다.
+- 따라서 현재 활성 뷰어에서 새 판이 제공된다는 증거는 발견하지 못했고, **활성 뷰어도 판권 기준 2020년 3판**임을 직접 확인했다. PDF만 보고 최신판이라고 추정한 것이 아니라 활성 뷰어의 판권과 대표 본문을 추가 확인한 결과다. 2026 시험 범위는 별도로 최신 변경 공지를 적용한다.

@@ -47,6 +47,14 @@ try{
   state=await pc.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')));assert.equal(state.progress[q.id].streak,1);assert.equal(state.attempts.length,0);
   await pc.goto(link);await pc.locator('#import-confirm').waitFor();await pc.locator('#close-dialog').click();
   assert.equal(await pc.evaluate(id=>JSON.parse(localStorage.getItem('topcit-practice-v1')).progress[id].streak,q.id),1);
+  await pc.evaluate(id=>{const s=JSON.parse(localStorage.getItem('topcit-practice-v1'));s.progress[id].streak=2;localStorage.setItem('topcit-practice-v1',JSON.stringify(s));},q.id);
+  await pc.goto(link);await pc.locator('#import-confirm').waitFor();
+  assert.equal(await pc.evaluate(id=>JSON.parse(localStorage.getItem('topcit-practice-v1')).progress[id].streak,q.id),2);
+  await pc.locator('#import-confirm').click();await pc.locator('dialog').waitFor({state:'detached'});
+  assert.equal(await pc.evaluate(id=>JSON.parse(localStorage.getItem('topcit-practice-v1')).progress[id].streak,q.id),1);
+  await pc.goto(base+'#resume=bad');await pc.locator('#error').waitFor();
+  assert.equal(await pc.evaluate(id=>JSON.parse(localStorage.getItem('topcit-practice-v1')).progress[id].streak,q.id),1);
+
   await pc.locator('[data-area="architecture"]').click();await pc.locator('[data-mode=concept]').click();
   await pc.screenshot({path:'test-results/desktop-concept.png'});
   assert.equal(await pc.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
@@ -57,9 +65,11 @@ try{
   const added={...bank[0],id:'arch-new',revision:1};
   await page.route('**/data/architecture.json',r=>r.fulfill({json:[...bank,added]}));
   await page.reload();await page.locator('[data-area=architecture]').click();
+  await page.locator('#prompt').waitFor();
   assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')).active.architecture.questionId),'arch-new');
   await page.route('**/data/architecture.json',r=>r.fulfill({json:[{...bank[0],revision:2},...bank.slice(1)]}));
   await page.reload();await page.locator('[data-area=architecture]').click();
+  await page.locator('#prompt').waitFor();
   assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('topcit-practice-v1')).active.architecture.revision),2);
   assert.equal(errors.length,0,errors.join('\n'));
   console.log('Browser checks passed: mobile, submit/reload, 3 modes, clipboard fallback, cross-device import/cancel, additions/revisions.');

@@ -14,14 +14,16 @@ export function decode(raw) {
   return s;
 }
 // Reconcile by stable ID and content revision, never by array position.
-export function reconcile(s,bank) {
+export function reconcile(s,bank,{rejectNewer=false}={}) {
   const all=Object.values(bank).flat(),byId=new Map(all.map(q=>[q.id,q]));
   for(const [id,p] of Object.entries(s.progress)){
     const q=byId.get(id);
+    if(rejectNewer && q && p.revision>q.revision)throw Error('문항이 업데이트되었습니다. 새로고침한 뒤 이어서 풀어 주세요.');
     if(!q || p.revision!==q.revision)delete s.progress[id];
   }
   for(const [area,a] of Object.entries(s.active)){
     const q=byId.get(a.questionId);
+    if(rejectNewer && q && a.revision>q.revision)throw Error('문항이 업데이트되었습니다. 새로고침한 뒤 이어서 풀어 주세요.');
     if(!q || q.area!==area || a.revision!==q.revision || !Array.isArray(a.order) || [...a.order].sort().join()!=='0,1,2,3')delete s.active[area];
   }
   return s;

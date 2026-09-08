@@ -4,9 +4,20 @@
 
 ## 공식 자료
 
-- [공식 학습자료 목록](https://www.topcit.or.kr/board/study.do?language=ko)의 `openEssence('03')`가 지정하는 [03 시스템아키텍처 이해와 활용 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf)를 직접 내려받아 확인했습니다.
+- [공식 학습자료 목록](https://www.topcit.or.kr/board/study.do?language=ko)의 현재 활성 `openEssence('03')`는 [03 시스템아키텍처 웹뷰어](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/index.html)를 엽니다. 처음 읽은 [공식 서버 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf) 주소는 주석 처리된 다운로드 코드에 남아 있던 경로입니다. 이를 현재 활성 링크라고 설명한 초기 조사 기록을 정정합니다.
 - PDF는 221쪽입니다. PDF 4쪽 판권 이미지를 확인했으며 **3판 발행일은 2020-02-26**입니다. 페이지 상단의 2022-12-02 시각은 출력 표시이며 교재 발행일로 해석하지 않습니다.
 - [2026 변경 공지](https://www.topcit.or.kr/board/notice/detail.do?seq=842)의 [첨부 PDF](https://www.topcit.or.kr/board/pdfPreview.do?seq=120) 1~3쪽을 확인했습니다. 2026년부터 시스템아키텍처와 정보보안은 하나의 평가영역이며, 그 안에서 시스템아키텍처 기본 지식·활용, 운영체제, 네트워크를 평가합니다. 여기의 100문항은 특강 학습 주제별 자체 연습문항 수이며 실제 시험 문항 수가 아닙니다.
+
+## 활성 웹뷰어와 PDF 대조
+
+활성 뷰어의 HTML, `main.js`, `toast/toast.js`를 따라 [project.json](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/project.json)의 페이지 이미지 목록을 확인했습니다. 뷰어 HTML의 publish-date는 2021-01-05이며 이것도 교재 발행일과 별개의 게시 메타데이터입니다.
+
+- 활성 [판권 이미지](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/assets/page-images/page-904032-0002.jpg)를 직접 보아 3판 발행일 2020-02-26이 PDF 4쪽과 일치함을 확인했습니다.
+- 활성 이미지 중 인쇄 15쪽 목차, 49쪽 프로세스 동기화, 124쪽 재난 복구, 214쪽 SDN을 직접 보아 기존 PDF의 같은 인쇄 쪽과 주요 문구·표·도식·쪽 번호를 대조했습니다. 해당 부분은 같은 내용입니다.
+- 표본 원본 이미지와 PDF 내장 이미지 모두 1600×2186 크기입니다. 압축 파일 바이트 해시는 같지 않지만, 채널별 평균 절대 차이는 판권·본문 표본에서 255단계 중 약 0.4~0.64, 목차에서 약 4.0이었습니다. 이를 파일 전체의 동일성 증명으로 사용하지 않습니다.
+- 뷰어는 220개 페이지 항목(표지·빈 면·인쇄 1~218쪽), PDF는 221쪽입니다. PDF 마지막 221쪽에는 본문 이미지 없이 인쇄 머리말·꼬리말만 있음을 확인했습니다.
+
+따라서 **판권상 동일한 2020년 3판이고, 대조한 목차·본문 표본도 일치**합니다. 모든 페이지의 동일성이나 알려지지 않은 부분 수정 여부를 검증한 것은 아닙니다. 이번 대조에서 문항의 개념·정답을 바꿔야 할 개정 내용은 발견하지 않았습니다. 문제의 출처 PDF 링크는 공식 서버에서 열리는 참고 경로로 유지합니다.
 
 ## 읽기 방법과 범위
 
@@ -28,4 +39,3 @@
 - 기초 개념 식별과 간단한 적용 연습이 중심이며 실제 TOPCIT 난도·출제 빈도를 보장하지 않습니다.
 
 공식 원문은 링크로만 참조합니다. 무료 제공은 재배포 허가로 해석하지 않습니다.
-

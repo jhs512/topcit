@@ -51,6 +51,13 @@ test('store does not claim success when persistence fails',async()=>{
   await assert.rejects(store.update(s=>start(s,'architecture',qs,'x')),/quota/);
   assert.equal(store.read().attempts.length,0);
 });
+test('old tab cannot overwrite progress from newer question revision',async()=>{
+  const s=fresh();s.progress['arch-001']={revision:2,streak:1};
+  let saved=JSON.stringify(s);
+  const store=localStore({architecture:qs},{getItem:()=>saved,setItem:v=>{saved=v;}},{request:async(_,fn)=>fn()});
+  await assert.rejects(store.update(s=>start(s,'architecture',qs,'x')),/업데이트/);
+  assert.equal(JSON.parse(saved).progress['arch-001'].revision,2);
+});
 test('snapshot roundtrip is a replacement, not accumulated streak or attempt log',async()=>{
   const s=fresh();answer(s,'arch-001',1,'x');
   const encoded=await encodeSnapshot(s),data=await decodeSnapshot(encoded);
@@ -66,7 +73,7 @@ test('malformed, oversized, duplicate, unsafe and unsupported snapshot inputs re
   const bytes=new Uint8Array(await new Response(bomb).arrayBuffer());
   await assert.rejects(decodeSnapshot('v1.'+Buffer.from(bytes).toString('base64url')),/너무 큽니다/);
 });
-test('400-question snapshot worst progress states fit a measured share URL',async()=>{
+test('400-question populated snapshot fits a measured share URL',async()=>{
   const s=fresh();for(let i=0;i<400;i++)s.progress[`test-${i.toString().padStart(3,'0')}`]={revision:12345,streak:i%2+1};
   const encoded=await encodeSnapshot(s);console.log('400-item snapshot URL length:',encoded.length+50);
   assert.ok(encoded.length<MAX_ENCODED);assert.equal((await decodeSnapshot(encoded)).p.length,400);

@@ -1,0 +1,2002 @@
+{
+  "arch-001": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-002": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-003": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-004": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-005": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-006": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-007": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-008": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-009": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-010": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-011": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-012": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-013": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-014": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-015": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-016": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-017": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-018": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-019": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-020": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-021": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-022": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-023": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-024": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-025": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-026": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-027": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-028": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-029": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-030": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-031": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-032": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-033": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-034": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-035": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-036": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-037": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-038": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-039": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-040": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-041": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-042": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-043": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-044": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-045": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-046": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-047": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-048": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-049": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-050": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-051": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-052": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-053": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-054": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-055": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-056": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-057": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-058": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-059": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-060": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-061": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-062": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-063": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-064": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-065": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-066": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-067": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-068": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-069": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-070": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-071": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-072": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-073": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-074": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-075": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-076": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-077": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-078": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-079": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-080": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-081": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-082": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-083": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-084": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-085": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-086": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-087": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-088": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-089": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-090": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-091": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-092": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-093": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-094": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-095": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-096": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-097": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-098": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-099": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "arch-100": {
+    "area": "architecture",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-001": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-002": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-003": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-004": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-005": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-006": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-007": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-008": {
+    "area": "security",
+    "revision": 4,
+    "retired": false
+  },
+  "sec-009": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-010": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-011": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-012": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-013": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-014": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-015": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-016": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-017": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-018": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-019": {
+    "area": "security",
+    "revision": 3,
+    "retired": false
+  },
+  "sec-020": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-021": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-022": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-023": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-024": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-025": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-026": {
+    "area": "security",
+    "revision": 3,
+    "retired": false
+  },
+  "sec-027": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-028": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-029": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-030": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-031": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-032": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-033": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-034": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-035": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-036": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-037": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-038": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-039": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-040": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-041": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-042": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-043": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-044": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-045": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-046": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-047": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-048": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-049": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-050": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-051": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-052": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-053": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-054": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-055": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-056": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-057": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-058": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-059": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-060": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-061": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-062": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-063": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-064": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-065": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-066": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-067": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-068": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-069": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-070": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-071": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-072": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-073": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-074": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-075": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-076": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-077": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-078": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-079": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-080": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-081": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-082": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-083": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-084": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-085": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-086": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-087": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-088": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-089": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-090": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-091": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-092": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-093": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-094": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-095": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-096": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-097": {
+    "area": "security",
+    "revision": 2,
+    "retired": false
+  },
+  "sec-098": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-099": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "sec-100": {
+    "area": "security",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-001": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-002": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-003": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-004": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-005": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-006": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-007": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-008": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-009": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-010": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-011": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-012": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-013": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-014": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-015": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-016": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-017": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-018": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-019": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-020": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-021": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-022": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-023": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-024": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-025": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-026": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-027": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-028": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-029": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-030": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-031": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-032": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-033": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-034": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-035": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-036": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-037": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-038": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-039": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-040": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-041": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-042": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-043": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-044": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-045": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-046": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-047": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-048": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-049": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-050": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-051": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-052": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-053": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-054": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-055": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-056": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-057": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-058": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-059": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-060": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-061": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-062": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-063": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-064": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-065": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-066": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-067": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-068": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-069": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-070": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-071": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-072": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-073": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-074": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-075": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-076": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-077": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-078": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-079": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-080": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-081": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-082": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-083": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-084": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-085": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-086": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-087": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-088": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-089": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-090": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-091": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-092": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-093": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-094": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-095": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-096": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-097": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-098": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-099": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "biz-100": {
+    "area": "business",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-001": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-002": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-003": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-004": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-005": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-006": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-007": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-008": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-009": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-010": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-011": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-012": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-013": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-014": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-015": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-016": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-017": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-018": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-019": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-020": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-021": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-022": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-023": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-024": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-025": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-026": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-027": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-028": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-029": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-030": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-031": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-032": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-033": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-034": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-035": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-036": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-037": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-038": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-039": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-040": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-041": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-042": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-043": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-044": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-045": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-046": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-047": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-048": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-049": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-050": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-051": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-052": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-053": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-054": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-055": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-056": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-057": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-058": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-059": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-060": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-061": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-062": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-063": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-064": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-065": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-066": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-067": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-068": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-069": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-070": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-071": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-072": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-073": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-074": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-075": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-076": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-077": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-078": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-079": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-080": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-081": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-082": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-083": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-084": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-085": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-086": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-087": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-088": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-089": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-090": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-091": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-092": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-093": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-094": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-095": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-096": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-097": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-098": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-099": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  },
+  "pm-100": {
+    "area": "management",
+    "revision": 1,
+    "retired": false
+  }
+}

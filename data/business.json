@@ -1,0 +1,1902 @@
+[
+  {
+    "id": "biz-001",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT와 비즈니스 연계",
+    "prompt": "온라인 주문 도입의 성공 지표로 회사의 배송 지연 문제와 가장 직접 연결되는 것은?",
+    "options": [
+      "주문부터 배송 완료까지의 평균 시간",
+      "서버 평균 CPU 사용률",
+      "새 기능 배포 횟수",
+      "전체 주문 페이지 조회 수"
+    ],
+    "answer": 0,
+    "explanation": "배송 지연이라는 업무 문제에 가장 직접 연결되는 것은 주문부터 배송까지 걸린 시간입니다. 자원 사용률·배포 횟수·조회 수는 다른 성과를 보여 주지만 배송 결과를 직접 측정하지는 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-002",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT와 비즈니스 연계",
+    "prompt": "회사가 비용 절감을 목표로 했는데 IT팀은 사용하지 않는 고급 기능만 늘렸다. 가장 먼저 점검할 것은?",
+    "options": [
+      "개발팀의 기능 배포 횟수",
+      "비즈니스 목표와 IT 투자 간 정렬",
+      "개발 도구의 최신 버전 여부",
+      "기능별 코드 줄 수"
+    ],
+    "answer": 1,
+    "explanation": "전략적 연계는 IT가 비즈니스 목표를 실현하도록 하는 것입니다. 비용 절감에 기여하지 않는 기능을 늘리는 상황은 도구 버전이나 개발량보다 목표와 투자 간 불일치를 먼저 점검해야 합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-003",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT 자원",
+    "prompt": "IT 자원 관리 범위에 대한 설명으로 적절한 것은?",
+    "options": [
+      "인력은 비용이 발생하지 않으므로 제외한다",
+      "데이터는 무형이므로 자원이 아니다",
+      "장비·응용시스템뿐 아니라 데이터와 인력도 함께 관리한다",
+      "구매한 장비만 관리한다"
+    ],
+    "answer": 2,
+    "explanation": "IT 자원에는 기술 기반과 정보, 이를 활용하는 사람이 포함됩니다. 유형자산만 보아서는 서비스 역량을 관리하기 어렵습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-004",
+    "revision": 1,
+    "area": "business",
+    "topic": "PDCA",
+    "prompt": "예약 시스템을 바꾼 뒤 취소율을 목표치와 비교하는 활동은 PDCA의 어느 단계인가?",
+    "options": [
+      "Plan(계획)",
+      "Do(실행)",
+      "Act(개선 조치)",
+      "Check(점검)"
+    ],
+    "answer": 3,
+    "explanation": "결과를 목표와 비교·분석하는 것은 점검입니다. 목표 수립은 계획, 적용은 실행, 분석 후 수정은 개선 조치입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-005",
+    "revision": 1,
+    "area": "business",
+    "topic": "PDCA",
+    "prompt": "운영 성과 분석에서 승인 절차가 병목임을 발견한 뒤 승인 단계를 줄였다. 해당 활동은?",
+    "options": [
+      "Act(개선 조치)",
+      "Plan(목표 수립)만 수행",
+      "Check(결과 관찰)만 수행",
+      "성과 측정 없이 종료"
+    ],
+    "answer": 0,
+    "explanation": "문제 분석에 따라 프로세스를 수정하는 것은 개선 조치입니다. 관찰·측정 자체와 실제 시정은 구분합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-006",
+    "revision": 1,
+    "area": "business",
+    "topic": "가치사슬",
+    "prompt": "상품을 고객에게 전달하기 위해 출고·배송을 관리하는 활동은 가치사슬에서 어디에 가까운가?",
+    "options": [
+      "기업 전체의 법무 관리",
+      "주요 활동인 출하 물류",
+      "지원 활동인 인적자원 관리",
+      "지원 활동인 기술 개발"
+    ],
+    "answer": 1,
+    "explanation": "고객에게 제품을 전달하는 출하 물류는 주요 활동입니다. 인사·기술개발·법무는 이를 뒷받침하는 성격입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-007",
+    "revision": 1,
+    "area": "business",
+    "topic": "가치사슬",
+    "prompt": "제조사의 IT 활용을 가치사슬 관점에서 분석할 때 적절한 접근은?",
+    "options": [
+      "IT는 반드시 지원 활동에만 속한다고 가정한다",
+      "고객 접점의 정보시스템은 제외한다",
+      "생산·판매·서비스와 지원 활동 전반에서 기여를 찾는다",
+      "전산실 내부의 업무만 분석한다"
+    ],
+    "answer": 2,
+    "explanation": "IT는 주요 활동과 지원 활동 모두에 접목될 수 있습니다. 전산실이나 백오피스로 범위를 제한하면 실제 가치를 놓칩니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-008",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT 생태계",
+    "prompt": "콘텐츠 회사, 플랫폼 운영자, 통신사, 기기 제조사가 협력하는 이유를 가장 잘 설명한 것은?",
+    "options": [
+      "각 회사가 동일한 제품만 만들기 때문이다",
+      "플랫폼에는 네트워크가 필요 없기 때문이다",
+      "콘텐츠에는 이용자가 필요 없기 때문이다",
+      "서로 다른 역할을 연결해 최종 사용자 가치를 만든다"
+    ],
+    "answer": 3,
+    "explanation": "IT 생태계는 역할이 다른 참여자들의 연계를 통해 서비스를 제공합니다. 참여자가 모두 동일한 기능을 수행하는 구조가 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-009",
+    "revision": 1,
+    "area": "business",
+    "topic": "하이프 사이클",
+    "prompt": "신기술에 대한 관심이 매우 높다는 이유만으로 대규모 투자를 결정했다. 하이프 사이클 관점의 주의점은?",
+    "options": [
+      "기대 수준과 실제 사업 가치는 다를 수 있다",
+      "관심이 높으면 모든 기업에 수익이 보장된다",
+      "기대가 낮아지면 기술은 반드시 사라진다",
+      "시간이 지나면 모든 기술이 같은 속도로 성숙한다"
+    ],
+    "answer": 0,
+    "explanation": "하이프 사이클은 기술에 대한 기대의 변화를 설명합니다. 관심도만으로 실용성·수익성이나 성숙 속도를 보장할 수 없습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-010",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT 성과",
+    "prompt": "화상 협업 도구의 사업 가치를 평가하려 한다. 적절한 비교는?",
+    "options": [
+      "회사에 설치된 클라이언트 프로그램 수",
+      "도입 전후 의사결정 소요 시간과 출장 비용",
+      "직원이 생성한 회의방의 총개수",
+      "협업 도구 로그인 화면의 조회 수"
+    ],
+    "answer": 1,
+    "explanation": "협업의 사업 가치는 의사결정 시간과 출장 비용 등 업무 결과로 평가합니다. 회의방·조회·설치 수는 활용 정도의 단서지만 결과가 좋아졌음을 직접 입증하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "I. IT 비즈니스 개념"
+    }
+  },
+  {
+    "id": "biz-011",
+    "revision": 1,
+    "area": "business",
+    "topic": "전략 수립",
+    "prompt": "정보화 전략에서 As-Is와 To-Be 사이에 필요한 것은?",
+    "options": [
+      "목표와 무관한 장비 구매",
+      "미래 목표를 비공개로 유지",
+      "차이를 해소할 이행 과제와 우선순위",
+      "현재 시스템 목록 삭제"
+    ],
+    "answer": 2,
+    "explanation": "현재와 목표의 차이를 분석해 실행 경로를 정해야 전략이 실현됩니다. 현황을 버리거나 목표와 무관하게 투자해서는 안 됩니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-012",
+    "revision": 1,
+    "area": "business",
+    "topic": "미션과 비전",
+    "prompt": "회사가 추구하는 이상적인 미래 모습을 표현하는 것은?",
+    "options": [
+      "지난달 실적",
+      "하드웨어 목록",
+      "일일 작업 로그",
+      "비전"
+    ],
+    "answer": 3,
+    "explanation": "비전은 도달하려는 미래 모습입니다. 과거 실적·자원 목록·로그는 현황 자료이며 비전 자체가 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-013",
+    "revision": 1,
+    "area": "business",
+    "topic": "PEST",
+    "prompt": "정치·경제·사회·기술 변화를 조사해 해외 서비스 진출 환경을 분석한다. 적절한 도구는?",
+    "options": [
+      "PEST",
+      "SWOT",
+      "5 Forces",
+      "3C"
+    ],
+    "answer": 0,
+    "explanation": "PEST는 정치·경제·사회·기술의 거시환경을 분석합니다. SWOT은 내부·외부를 통합하고, 5 Forces는 산업 경쟁구조, 3C는 고객·경쟁사·자사를 봅니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-014",
+    "revision": 1,
+    "area": "business",
+    "topic": "산업구조 분석",
+    "prompt": "공급자가 소수여서 원재료 가격 협상에서 우위를 가진다. 5 Forces 중 해당 요인은?",
+    "options": [
+      "대체재의 위협",
+      "공급자의 교섭력",
+      "구매자의 교섭력",
+      "신규 진입자의 위협"
+    ],
+    "answer": 1,
+    "explanation": "사례는 투입재 공급자가 가격 조건에 영향을 주는 상황입니다. 고객·신규 경쟁자·다른 대안의 영향과 구별합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-015",
+    "revision": 1,
+    "area": "business",
+    "topic": "SWOT",
+    "prompt": "자사가 보유한 숙련 인력과 독자 기술은 SWOT에서 무엇에 해당하는가?",
+    "options": [
+      "위협(T)",
+      "외부 규제",
+      "강점(S)",
+      "기회(O)"
+    ],
+    "answer": 2,
+    "explanation": "강점은 조직 내부의 유리한 요소입니다. 기회·위협은 외부환경이고 외부 규제 자체는 내부 역량이 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-016",
+    "revision": 1,
+    "area": "business",
+    "topic": "SWOT",
+    "prompt": "시장에서 친환경 제품 수요가 늘어나 자사 서비스 확장 가능성이 생겼다. SWOT 분류는?",
+    "options": [
+      "강점(S)",
+      "약점(W)",
+      "내부 시스템 결함",
+      "기회(O)"
+    ],
+    "answer": 3,
+    "explanation": "시장 수요 증가는 외부의 유리한 변화인 기회입니다. 강점과 약점은 조직 내부의 특성입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-017",
+    "revision": 1,
+    "area": "business",
+    "topic": "SWOT 전략",
+    "prompt": "보유한 기술 강점으로 새로 열린 시장 기회를 활용하는 전략은?",
+    "options": [
+      "SO 전략",
+      "WT 전략",
+      "WO 전략",
+      "ST 전략"
+    ],
+    "answer": 0,
+    "explanation": "SO는 강점과 기회를 연결합니다. WT는 약점·위협, WO는 약점·기회, ST는 강점·위협의 조합입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-018",
+    "revision": 1,
+    "area": "business",
+    "topic": "BCG 매트릭스",
+    "prompt": "시장 성장률은 낮지만 상대적 시장점유율이 높은 사업의 BCG 분류는?",
+    "options": [
+      "개(Dog)",
+      "현금젖소(Cash Cow)",
+      "스타(Star)",
+      "물음표(Question Mark)"
+    ],
+    "answer": 1,
+    "explanation": "현금젖소는 낮은 성장률과 높은 점유율의 조합입니다. 스타는 둘 다 높고, 물음표는 성장률만 높으며, 개는 둘 다 낮습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-019",
+    "revision": 1,
+    "area": "business",
+    "topic": "3C",
+    "prompt": "3C로 신규 서비스를 분석할 때 함께 살필 대상은?",
+    "options": [
+      "전략·구조·시스템",
+      "정치·경제·사회",
+      "고객·경쟁사·자사",
+      "제품·가격·촉진"
+    ],
+    "answer": 2,
+    "explanation": "3C는 고객(Customer), 경쟁사(Competitor), 자사(Company)입니다. 제품·가격·촉진은 4P의 일부, 전략·구조·시스템은 7S의 일부, 정치·경제·사회는 PEST의 일부입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-020",
+    "revision": 1,
+    "area": "business",
+    "topic": "4P",
+    "prompt": "구독 서비스의 가격, 제공 기능, 판매 경로, 홍보 방법을 함께 설계한다. 연결되는 틀은?",
+    "options": [
+      "산업구조 분석 5 Forces",
+      "내부 역량 분석 7S",
+      "사업 포트폴리오 분석 BCG",
+      "마케팅 믹스 4P"
+    ],
+    "answer": 3,
+    "explanation": "4P는 제품·가격·유통·촉진을 묶어 설계합니다. 5 Forces는 산업 경쟁, 7S는 조직 내부 요소, BCG는 사업의 성장률과 점유율을 분석하는 틀입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "II. IT 비즈니스 전략"
+    }
+  },
+  {
+    "id": "biz-021",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT 거버넌스",
+    "prompt": "여러 부서가 경쟁적으로 시스템 예산을 요구한다. IT 거버넌스가 먼저 명확히 할 것은?",
+    "options": [
+      "투자 의사결정 권한과 책임 및 판단 기준",
+      "애플리케이션의 함수 호출 순서",
+      "서버 점검 작업의 실행 명령",
+      "개별 화면의 입력 필드 배치"
+    ],
+    "answer": 0,
+    "explanation": "거버넌스는 IT 투자의 의사결정과 책임 구조를 정합니다. 호출 순서·운영 명령·화면 배치는 각각 설계·운영·구현 수준의 결정입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-022",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT 거버넌스",
+    "prompt": "IT 거버넌스에서 위험과 성과를 함께 살펴야 하는 이유는?",
+    "options": [
+      "성과가 좋으면 책임을 없애기 위해",
+      "가치 창출과 위험 통제를 균형 있게 판단하기 위해",
+      "위험 관리가 성과를 항상 없애기 때문에",
+      "모든 위험을 담당자 개인에게 떠넘기기 위해"
+    ],
+    "answer": 1,
+    "explanation": "IT의 가치뿐 아니라 이를 얻는 비용과 위험도 평가해야 합니다. 위험 전가나 책임 회피가 거버넌스의 목적은 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-023",
+    "revision": 1,
+    "area": "business",
+    "topic": "EA",
+    "prompt": "부서별 시스템이 중복되고 데이터 연계가 어렵다. EA가 제공하는 핵심 도움은?",
+    "options": [
+      "개별 개발자의 코딩 속도만 측정한다",
+      "업무 요구를 제외하고 서버만 나열한다",
+      "업무·응용·데이터·기술의 관계를 전사적으로 파악한다",
+      "모든 시스템을 무조건 동일 언어로 다시 만든다"
+    ],
+    "answer": 2,
+    "explanation": "EA는 기업 전체의 구조와 관계를 설명하는 청사진입니다. 특정 언어 강제나 장비 목록만으로는 중복과 연계를 판단하기 어렵습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-024",
+    "revision": 1,
+    "area": "business",
+    "topic": "EA 구성",
+    "prompt": "EA에서 고객 데이터의 정의와 데이터 간 관계를 다루는 관점은?",
+    "options": [
+      "업무 아키텍처만",
+      "조직도만",
+      "시설 배치도만",
+      "데이터 아키텍처"
+    ],
+    "answer": 3,
+    "explanation": "데이터 아키텍처는 정보 구조와 관계를 다룹니다. 조직·시설 배치나 업무 절차만으로 데이터 구조를 표현하지는 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-025",
+    "revision": 1,
+    "area": "business",
+    "topic": "EA 현행화",
+    "prompt": "새 시스템을 도입했지만 EA 정보가 수년 전 상태다. 적절한 조치는?",
+    "options": [
+      "실제 변경을 반영해 아키텍처 정보를 현행화한다",
+      "최초 작성본이므로 영구 고정한다",
+      "담당자 기억만으로 모든 결정을 한다",
+      "갱신 대신 사용자를 줄인다"
+    ],
+    "answer": 0,
+    "explanation": "EA를 의사결정에 쓰려면 실제 환경과 일치해야 합니다. 오래된 청사진은 중복 투자와 영향 분석 오류를 일으킬 수 있습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-026",
+    "revision": 1,
+    "area": "business",
+    "topic": "ISP",
+    "prompt": "경영 전략을 바탕으로 중장기 정보화 과제와 추진 일정을 수립하는 활동은?",
+    "options": [
+      "CRM",
+      "ISP",
+      "SLA",
+      "WBS"
+    ],
+    "answer": 1,
+    "explanation": "ISP는 중장기 정보화 방향과 이행 계획을 수립합니다. SLA는 서비스 수준 합의, WBS는 프로젝트 범위 분해, CRM은 고객 관계 관리에 해당합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-027",
+    "revision": 1,
+    "area": "business",
+    "topic": "ISP",
+    "prompt": "정보화 계획에서 예산 부족으로 모든 과제를 동시에 실행할 수 없다. 적절한 방법은?",
+    "options": [
+      "도입 비용이 가장 큰 것부터 무조건 실행한다",
+      "의존관계와 무관하게 무작위로 실행한다",
+      "전략 기여·시급성·의존관계를 고려해 단계별로 배치한다",
+      "담당 부서 이름순으로 선정한다"
+    ],
+    "answer": 2,
+    "explanation": "이행 계획은 가치와 실행 가능성, 과제 간 관계를 함께 고려합니다. 이름순·금액순·무작위 선택만으로 합리적 우선순위를 만들 수 없습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-028",
+    "revision": 1,
+    "area": "business",
+    "topic": "계획과 통제",
+    "prompt": "전사 목표와 맞지 않는 부서 시스템 구매를 조정할 기준으로 적절한 것은?",
+    "options": [
+      "해당 부서의 사용 편의성만",
+      "제품 공급자의 시장점유율만",
+      "이번 분기에 남은 예산 규모만",
+      "합의된 정보화 원칙과 전사 아키텍처"
+    ],
+    "answer": 3,
+    "explanation": "부서의 편의성과 예산도 검토 요소지만, 전사 목표와의 충돌을 조정하려면 합의된 원칙과 아키텍처를 기준으로 삼아야 합니다. 공급자 인지도나 잔여 예산만으로 전략 적합성을 판단할 수 없습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-029",
+    "revision": 1,
+    "area": "business",
+    "topic": "EA 관점",
+    "prompt": "업무 담당자와 기술 담당자가 같은 시스템을 서로 다르게 설명한다. EA 관점의 대응은?",
+    "options": [
+      "관점별 표현을 제공하고 상호 관계를 연결한다",
+      "한 관점만 허용하고 나머지는 폐기한다",
+      "기술 용어로만 모든 사용자를 설득한다",
+      "업무 모델을 기술 모델과 무관하게 둔다"
+    ],
+    "answer": 0,
+    "explanation": "이해관계자는 관심사가 다르므로 여러 관점이 필요합니다. 관점을 연결해야 업무 요구와 기술 구현을 함께 이해할 수 있습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-030",
+    "revision": 1,
+    "area": "business",
+    "topic": "전략 성과 관리",
+    "prompt": "IT 투자 승인 후 실제 효과가 예상과 다른 경우 적절한 거버넌스 활동은?",
+    "options": [
+      "책임자를 숨기기 위해 기록을 지운다",
+      "성과를 평가하고 투자·운영 방향을 조정한다",
+      "승인 당시 수치를 실적처럼 계속 보고한다",
+      "결과를 측정하지 않는다"
+    ],
+    "answer": 1,
+    "explanation": "거버넌스에는 성과 모니터링과 피드백이 포함됩니다. 승인만으로 끝내거나 계획치를 실적으로 바꾸면 통제가 불가능합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "III. IT 비즈니스 계획의 이해"
+    }
+  },
+  {
+    "id": "biz-031",
+    "revision": 1,
+    "area": "business",
+    "topic": "도입 절차",
+    "prompt": "업무 시스템 구매에서 제품 비교 전에 우선 정리할 것은?",
+    "options": [
+      "제품 화면 색상만",
+      "가장 비싼 모델 목록",
+      "해결할 업무 문제와 필요한 요구사항",
+      "판매사의 홍보 문구 순위"
+    ],
+    "answer": 2,
+    "explanation": "필요를 정의해야 적합한 도입 방식을 평가할 수 있습니다. 홍보·색상·가격만으로 업무 적합성을 판단하기 어렵습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-032",
+    "revision": 1,
+    "area": "business",
+    "topic": "RFP",
+    "prompt": "발주자가 요구사항과 평가 기준을 알려 공급자의 제안을 받으려 한다. 적절한 문서는?",
+    "options": [
+      "정보제공요청서(RFI)",
+      "공급자의 제안서",
+      "프로젝트 완료보고서",
+      "제안요청서(RFP)"
+    ],
+    "answer": 3,
+    "explanation": "RFP는 발주자의 요구사항과 제안·평가 기준을 전달합니다. RFI는 사전 정보 수집, 제안서는 공급자의 응답, 완료보고서는 수행 결과 정리입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-033",
+    "revision": 1,
+    "area": "business",
+    "topic": "아웃소싱",
+    "prompt": "운영 업무를 외주화할 때 가장 타당한 판단은?",
+    "options": [
+      "비용 외에도 서비스 품질·위험·내부 역량을 함께 검토한다",
+      "계약 후 내부 관리 책임은 모두 사라진다",
+      "견적이 가장 낮으면 항상 최적이다",
+      "핵심 업무 지식은 전부 없애야 한다"
+    ],
+    "answer": 0,
+    "explanation": "외주화는 자원 활용 방식의 선택입니다. 계약 관리와 핵심 지식 유지가 필요하며 최저가만으로 성과를 보장하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-034",
+    "revision": 1,
+    "area": "business",
+    "topic": "아웃소싱 위험",
+    "prompt": "한 공급자에게 의존해 다른 업체로 전환하기 어렵다. 이를 줄일 준비는?",
+    "options": [
+      "종료 시점에 처음 이관을 논의한다",
+      "데이터 반환·이관 방식과 종료 지원 조건을 계약에 정한다",
+      "모든 문서를 공급자만 보유하게 한다",
+      "데이터 형식을 비공개로 고정한다"
+    ],
+    "answer": 1,
+    "explanation": "전환 가능성을 확보하려면 데이터·문서·종료 절차를 미리 정해야 합니다. 공급자 독점 보유는 종속 위험을 키웁니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-035",
+    "revision": 1,
+    "area": "business",
+    "topic": "도입 방식",
+    "prompt": "표준 회계 업무를 빠르게 전산화하려 한다. 패키지 도입 검토에서 중요한 것은?",
+    "options": [
+      "설치 후 업무 검토를 금지하는 것",
+      "라이선스 조건을 확인하지 않는 것",
+      "기능 적합성과 필요한 변경 범위",
+      "맞춤 개발보다 항상 완벽하다는 가정"
+    ],
+    "answer": 2,
+    "explanation": "패키지는 재사용 장점이 있지만 업무 적합성과 변경 비용을 확인해야 합니다. 모든 상황에 우월하거나 조건 검토가 불필요하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-036",
+    "revision": 1,
+    "area": "business",
+    "topic": "직접 개발",
+    "prompt": "독자적 업무가 경쟁력의 핵심이라 맞춤 개발을 검토한다. 함께 감안할 사항은?",
+    "options": [
+      "구매 비용만 존재한다는 가정",
+      "사용자 요구가 필요 없다는 가정",
+      "개발이 끝나면 유지보수가 없다는 가정",
+      "개발·유지보수 비용과 필요한 인력 역량"
+    ],
+    "answer": 3,
+    "explanation": "맞춤 개발은 요구 적합성을 높일 수 있지만 생애주기 비용과 역량이 필요합니다. 초기 구축 이후 운영도 고려해야 합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-037",
+    "revision": 1,
+    "area": "business",
+    "topic": "테일러링",
+    "prompt": "작은 도입 사업의 위험과 규모에 맞춰 표준 절차와 산출물을 조정한다. 이는?",
+    "options": [
+      "테일러링",
+      "무조건적인 절차 생략",
+      "모든 품질 기준 폐기",
+      "계약 무효화"
+    ],
+    "answer": 0,
+    "explanation": "테일러링은 상황에 맞춰 절차를 적절하게 조정하는 것입니다. 통제를 없애거나 계약을 버리는 것과 다릅니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-038",
+    "revision": 1,
+    "area": "business",
+    "topic": "인수 기준",
+    "prompt": "납품 시스템이 '쓸 만하다'는 의견만으로 인수 분쟁이 생겼다. 예방책은?",
+    "options": [
+      "시험 결과를 기록하지 않는다",
+      "측정·검증 가능한 인수 기준을 사전에 합의한다",
+      "모든 기준을 납품 후 처음 정한다",
+      "공급자의 감상만 인정한다"
+    ],
+    "answer": 1,
+    "explanation": "객관적 인수 기준이 있어야 요구 충족 여부를 합의할 수 있습니다. 주관적 인상이나 사후 기준은 분쟁을 키웁니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-039",
+    "revision": 1,
+    "area": "business",
+    "topic": "도입 평가",
+    "prompt": "시스템 A는 구매비가 싸지만 운영비가 높다. B와 공정하게 비교하려면?",
+    "options": [
+      "브랜드 인지도만 비교한다",
+      "일정 기간을 서로 다르게 적용한다",
+      "같은 기간의 도입·운영·유지보수 비용을 함께 비교한다",
+      "구매비만 비교한다"
+    ],
+    "answer": 2,
+    "explanation": "전체 사용 기간의 비용을 같은 조건으로 비교해야 합니다. 초기 가격만 보거나 기간이 다르면 비교가 왜곡됩니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-040",
+    "revision": 1,
+    "area": "business",
+    "topic": "외주 관리",
+    "prompt": "공급자가 계약상 응답 시간을 지키는지 확인하려 한다. 필요한 것은?",
+    "options": [
+      "담당자의 막연한 인상",
+      "연락처 삭제",
+      "장애 기록 미작성",
+      "합의된 지표와 측정 자료를 이용한 정기 점검"
+    ],
+    "answer": 3,
+    "explanation": "계약 이행은 측정 가능한 기준과 증거로 관리합니다. 인상에 의존하거나 기록을 없애면 객관적 평가가 어렵습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IV. IT 비즈니스 도입의 이해"
+    }
+  },
+  {
+    "id": "biz-041",
+    "revision": 1,
+    "area": "business",
+    "topic": "프로세스",
+    "prompt": "주문 접수부터 결제·출고까지 여러 부서를 거치는 활동을 개선하려 한다. 분석 단위로 적절한 것은?",
+    "options": [
+      "고객 결과를 만드는 전체 업무 흐름",
+      "부서별 작업 건수만",
+      "개별 직원의 자리 위치만",
+      "서버 모델명만"
+    ],
+    "answer": 0,
+    "explanation": "프로세스 관점은 부서 경계를 넘어 입력을 결과로 바꾸는 흐름을 봅니다. 부분별 실적만으로 전체 병목을 찾기 어렵습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-042",
+    "revision": 1,
+    "area": "business",
+    "topic": "BPR",
+    "prompt": "중복 결재와 재입력을 없애기 위해 업무 흐름 자체를 근본적으로 재설계한다. 가장 가까운 것은?",
+    "options": [
+      "비밀번호 초기화",
+      "BPR",
+      "기존 양식의 색상 변경",
+      "서버 재부팅"
+    ],
+    "answer": 1,
+    "explanation": "BPR은 근본적 재고와 급진적 프로세스 재설계입니다. 기존 업무를 유지한 외형 변경이나 운영 조치와 다릅니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-043",
+    "revision": 1,
+    "area": "business",
+    "topic": "BPM",
+    "prompt": "업무 흐름을 모델링·실행·관찰하고 지속적으로 개선하려 한다. 적절한 접근은?",
+    "options": [
+      "최초 개발비만 정산",
+      "업무 책임 제거",
+      "BPM",
+      "한 번 그린 프로세스 영구 고정"
+    ],
+    "answer": 2,
+    "explanation": "BPM은 프로세스 생애주기를 지속적으로 관리합니다. 일회성 도식 작성이나 비용 정산에 한정되지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-044",
+    "revision": 1,
+    "area": "business",
+    "topic": "프로세스 병목",
+    "prompt": "접수는 1분인데 승인 대기는 2일이다. 처리시간 개선의 우선 분석 대상은?",
+    "options": [
+      "접수 화면 글꼴만",
+      "로고 색상만",
+      "완료된 기록의 정렬 방향만",
+      "승인 대기의 원인과 인계 방식"
+    ],
+    "answer": 3,
+    "explanation": "전체 시간의 대부분을 차지하는 대기 구간을 살펴야 합니다. 병목과 무관한 외형 변경의 효과는 제한적입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-045",
+    "revision": 1,
+    "area": "business",
+    "topic": "6시그마",
+    "prompt": "청구 금액 오류가 반복된다. 6시그마 관점에서 적절한 출발은?",
+    "options": [
+      "오류와 프로세스 변동을 데이터로 정의·측정한다",
+      "담당자의 추측으로 원인을 확정한다",
+      "실패 사례를 자료에서 제외한다",
+      "측정 없이 무조건 인원을 줄인다"
+    ],
+    "answer": 0,
+    "explanation": "6시그마는 데이터에 기반해 결함과 변동을 줄입니다. 추측이나 불리한 데이터 제외로는 원인 분석이 어렵습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-046",
+    "revision": 1,
+    "area": "business",
+    "topic": "DMAIC",
+    "prompt": "개선한 프로세스의 성과가 다시 나빠지지 않도록 관리 기준을 유지한다. DMAIC의 단계는?",
+    "options": [
+      "Analyze",
+      "Control",
+      "Define",
+      "Measure"
+    ],
+    "answer": 1,
+    "explanation": "Control은 개선 상태를 유지·관리하는 단계입니다. Define은 문제 정의, Measure는 측정, Analyze는 원인 분석입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-047",
+    "revision": 1,
+    "area": "business",
+    "topic": "프로세스 정보",
+    "prompt": "부서마다 '고객'의 정의가 달라 같은 업무를 다르게 집계한다. 먼저 할 일은?",
+    "options": [
+      "집계 오류를 숨긴다",
+      "각 부서 수치를 임의로 합친다",
+      "공통 데이터 정의와 업무 기준을 합의한다",
+      "보고서 개수만 늘린다"
+    ],
+    "answer": 2,
+    "explanation": "공통 의미가 없으면 프로세스 정보가 일관되지 않습니다. 양식을 늘리거나 서로 다른 기준을 합쳐도 신뢰성이 생기지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-048",
+    "revision": 1,
+    "area": "business",
+    "topic": "프로세스 책임",
+    "prompt": "구매·물류 부서 사이에서 처리 책임이 누락된다. 적절한 개선은?",
+    "options": [
+      "인계 구간을 관리 대상에서 뺀다",
+      "모든 요청을 처음부터 되돌린다",
+      "부서별 목표만 높인다",
+      "인계 조건과 책임자를 명확하게 정한다"
+    ],
+    "answer": 3,
+    "explanation": "경계 구간의 책임과 입력·출력 기준을 정해야 누락을 줄일 수 있습니다. 부서별 목표만 높이면 전체 흐름은 여전히 끊길 수 있습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-049",
+    "revision": 1,
+    "area": "business",
+    "topic": "프로세스 측정",
+    "prompt": "고객 관점에서 주문 프로세스의 품질을 평가할 지표는?",
+    "options": [
+      "약속한 날짜에 정확히 배송된 주문 비율",
+      "내부 회의 참석자 수",
+      "업무 문서 글자 수",
+      "프로그램 파일 수"
+    ],
+    "answer": 0,
+    "explanation": "프로세스 품질은 고객에게 전달한 결과의 정확성·적시성과 연결됩니다. 내부 활동량만으로 결과의 품질을 알 수 없습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-050",
+    "revision": 1,
+    "area": "business",
+    "topic": "프로세스 개선 검증",
+    "prompt": "새 자동화가 효과가 있었는지 평가하려 한다. 적절한 비교 조건은?",
+    "options": [
+      "자동화했으므로 측정을 생략한다",
+      "유사한 업무 조건에서 도입 전후 오류율과 시간을 비교한다",
+      "성공 사례만 골라 비교한다",
+      "서로 다른 정의의 시간을 비교한다"
+    ],
+    "answer": 1,
+    "explanation": "같은 기준과 비교 가능한 조건이 필요합니다. 선택적 표본이나 지표 정의 차이는 효과를 과장할 수 있습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "V. IT 비즈니스 프로세스의 이해"
+    }
+  },
+  {
+    "id": "biz-051",
+    "revision": 1,
+    "area": "business",
+    "topic": "ERP",
+    "prompt": "구매·생산·회계에서 같은 거래를 반복 입력한다. 통합 개선과 가장 관련 깊은 시스템은?",
+    "options": [
+      "SCM",
+      "PLM",
+      "ERP",
+      "CRM"
+    ],
+    "answer": 2,
+    "explanation": "ERP는 구매·생산·회계 등 기업 내부 자원과 업무 정보를 통합합니다. CRM은 고객 관계, SCM은 공급망, PLM은 제품 생애주기에 중심을 둡니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-052",
+    "revision": 1,
+    "area": "business",
+    "topic": "ERP 도입",
+    "prompt": "ERP를 도입했는데 부서별 품목 코드가 제각각이다. 우선 필요한 것은?",
+    "options": [
+      "중복 코드를 그대로 계속 늘린다",
+      "화면 색상만 통일한다",
+      "전체 데이터를 검토 없이 합친다",
+      "기준정보를 정비하고 코드 체계를 합의한다"
+    ],
+    "answer": 3,
+    "explanation": "통합 시스템이 효과를 내려면 공통 기준정보가 필요합니다. 화면 통일이나 무검증 병합은 의미 불일치를 해결하지 못합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-053",
+    "revision": 1,
+    "area": "business",
+    "topic": "CRM",
+    "prompt": "고객 구매 이력과 상담 정보를 활용해 이탈을 줄이려 한다. 가장 관련 깊은 시스템은?",
+    "options": [
+      "CRM",
+      "SCM",
+      "PLM",
+      "컴파일러"
+    ],
+    "answer": 0,
+    "explanation": "CRM은 고객 관계와 고객 가치를 관리합니다. SCM은 공급망, PLM은 제품 생애주기, 컴파일러는 프로그램 변환을 다룹니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-054",
+    "revision": 1,
+    "area": "business",
+    "topic": "CRM 활용",
+    "prompt": "동일한 할인 메시지를 모두에게 보내는 대신 고객군별 요구를 반영하려 한다. 적절한 활동은?",
+    "options": [
+      "서버 사용률로 고객 취향을 단정한다",
+      "고객 특성과 행동을 분석해 세분화한다",
+      "고객 이력을 무조건 삭제한다",
+      "재고 수량만으로 고객 의도를 확정한다"
+    ],
+    "answer": 1,
+    "explanation": "고객 세분화는 요구와 행동 차이를 반영합니다. 재고나 서버 지표만으로 개별 고객 선호를 파악할 수 없습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-055",
+    "revision": 1,
+    "area": "business",
+    "topic": "SCM",
+    "prompt": "부품 공급사부터 제조·물류·판매까지 수요와 재고 정보를 연계한다. 적절한 개념은?",
+    "options": [
+      "소스 코드 형상관리",
+      "개인 일정관리",
+      "SCM",
+      "CRM만"
+    ],
+    "answer": 2,
+    "explanation": "SCM은 공급망 참여자 간 물류와 정보를 조정합니다. 고객 접점이나 개발 이력 관리만을 뜻하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-056",
+    "revision": 1,
+    "area": "business",
+    "topic": "공급망 정보 공유",
+    "prompt": "실제 판매 수요가 공급망 상류에 늦게 전달되어 과잉 재고가 생긴다. 적절한 개선은?",
+    "options": [
+      "각 업체가 추측 주문만 확대한다",
+      "판매 정보를 더 늦게 전달한다",
+      "공급사와 정보 교환을 중단한다",
+      "실수요·재고 정보를 공유해 계획을 조정한다"
+    ],
+    "answer": 3,
+    "explanation": "수요 정보의 왜곡·지연을 줄이면 과잉 대응을 완화할 수 있습니다. 추측 확대와 정보 단절은 불균형을 키웁니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-057",
+    "revision": 1,
+    "area": "business",
+    "topic": "KMS",
+    "prompt": "숙련자의 문제 해결 경험을 문서화하여 다른 팀이 재사용하도록 한다. 관련 시스템은?",
+    "options": [
+      "KMS",
+      "CRM",
+      "SCM",
+      "PLM"
+    ],
+    "answer": 0,
+    "explanation": "KMS는 경험과 지식의 축적·공유·활용을 지원합니다. CRM은 고객 관계, SCM은 공급망, PLM은 제품 생애주기 정보를 주로 관리합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-058",
+    "revision": 1,
+    "area": "business",
+    "topic": "지식관리",
+    "prompt": "지식 저장소에 문서가 많지만 아무도 찾지 못한다. 개선 방향은?",
+    "options": [
+      "오래된 문서를 최신으로 표시한다",
+      "분류·검색과 갱신 책임을 정해 활용을 돕는다",
+      "문서 수만 성과로 평가한다",
+      "제목을 모두 같은 이름으로 바꾼다"
+    ],
+    "answer": 1,
+    "explanation": "지식관리는 저장량보다 활용 가능성이 중요합니다. 검색성과 신뢰성을 높여야 경험이 재사용됩니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-059",
+    "revision": 1,
+    "area": "business",
+    "topic": "PLM",
+    "prompt": "제품의 기획·설계·생산·서비스 단계 정보를 연결해 설계 변경 영향을 관리한다. 적절한 것은?",
+    "options": [
+      "이메일 스팸 필터",
+      "네트워크 라우팅",
+      "PLM",
+      "CRM"
+    ],
+    "answer": 2,
+    "explanation": "PLM은 제품 전체 생애주기의 정보를 관리합니다. 고객 관계나 통신 운영은 해당 정보 범위와 다릅니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-060",
+    "revision": 1,
+    "area": "business",
+    "topic": "EDW",
+    "prompt": "여러 업무 시스템의 이력을 통합해 전사 분석 기반을 만들려 한다. 가장 가까운 것은?",
+    "options": [
+      "ERP",
+      "CRM",
+      "OLTP",
+      "EDW"
+    ],
+    "answer": 3,
+    "explanation": "EDW는 여러 시스템의 이력 데이터를 통합하여 전사 분석 기반을 만듭니다. ERP·CRM은 업무 관리 시스템이며 OLTP는 일상 거래 처리에 초점을 둡니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-061",
+    "revision": 1,
+    "area": "business",
+    "topic": "DSS",
+    "prompt": "판매량과 비용을 바꿔 가며 공장 증설 대안의 결과를 비교한다. 관련 시스템은?",
+    "options": [
+      "DSS",
+      "TPS",
+      "KMS",
+      "ERP"
+    ],
+    "answer": 0,
+    "explanation": "DSS는 데이터와 모델을 이용해 대안별 의사결정을 지원합니다. TPS는 거래 처리, KMS는 지식 공유, ERP는 기업 자원·업무 통합이 주목적입니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-062",
+    "revision": 1,
+    "area": "business",
+    "topic": "BI",
+    "prompt": "지점별 매출 추세를 분석해 영업 전략을 정한다. BI의 역할로 적절한 것은?",
+    "options": [
+      "분석 결과를 기록하지 않는다",
+      "데이터를 의사결정에 유용한 정보로 분석·제공한다",
+      "경영자의 판단 책임을 완전히 없앤다",
+      "데이터 품질과 무관하게 항상 정답을 준다"
+    ],
+    "answer": 1,
+    "explanation": "BI는 의사결정을 지원하며 데이터 품질과 해석이 중요합니다. 자동으로 항상 정답을 보장하거나 책임을 대신하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-063",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT 서비스 관리",
+    "prompt": "IT팀을 장비 보유량보다 사용자가 받는 서비스 품질 중심으로 관리하려 한다. 적절한 관점은?",
+    "options": [
+      "개발 언어 통일만",
+      "구매 영수증 보관만",
+      "ITSM",
+      "장비 일련번호 정렬만"
+    ],
+    "answer": 2,
+    "explanation": "ITSM은 고객 요구에 맞는 서비스 제공과 관리를 중시합니다. 자산 목록·언어·증빙만으로 서비스 품질을 관리하지 못합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-064",
+    "revision": 1,
+    "area": "business",
+    "topic": "SLA",
+    "prompt": "고객과 공급자가 가동률 목표, 측정 기간, 미달 시 조치를 문서로 합의했다. 이는?",
+    "options": [
+      "SOW",
+      "RFP",
+      "RFI",
+      "SLA"
+    ],
+    "answer": 3,
+    "explanation": "SLA는 가동률 같은 서비스 수준과 측정 기준에 대한 합의입니다. SOW는 작업 내용, RFP는 제안 요청, RFI는 사전 정보 수집에 초점을 둡니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-065",
+    "revision": 1,
+    "area": "business",
+    "topic": "SLM",
+    "prompt": "매달 서비스 지표를 측정하고 SLA 목표와 비교하여 개선한다. 이는?",
+    "options": [
+      "SLM",
+      "SLA 서명만",
+      "장비 구매만",
+      "납품 종료 선언만"
+    ],
+    "answer": 0,
+    "explanation": "SLM은 합의한 서비스 수준을 지속적으로 관리합니다. SLA 문서 체결과 실제 측정·개선 활동은 구별합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VI. IT 비즈니스 서비스 이해하기"
+    }
+  },
+  {
+    "id": "biz-066",
+    "revision": 1,
+    "area": "business",
+    "topic": "TCO",
+    "prompt": "소프트웨어 비용 평가에 구입비·교육비·운영비·유지보수비를 함께 넣는 관점은?",
+    "options": [
+      "시장점유율만",
+      "TCO",
+      "매출액만",
+      "초기 가격만"
+    ],
+    "answer": 1,
+    "explanation": "TCO는 보유·사용에 드는 총비용을 봅니다. 매출이나 최초 지출만으로 전체 비용을 설명할 수 없습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-067",
+    "revision": 1,
+    "area": "business",
+    "topic": "ROI",
+    "prompt": "이 문제에서 ROI=(총편익-총비용)/총비용으로 정의한다. 비용 100, 편익 130의 ROI는?",
+    "options": [
+      "70%",
+      "230%",
+      "30%",
+      "130%"
+    ],
+    "answer": 2,
+    "explanation": "순편익은 130-100=30이고 이를 비용 100으로 나누면 30%입니다. 총편익 비율 130%와 혼동하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-068",
+    "revision": 1,
+    "area": "business",
+    "topic": "NPV",
+    "prompt": "투자 대안 평가에서 미래 현금흐름을 현재 가치로 할인하는 주된 이유는?",
+    "options": [
+      "미래 수입을 모두 무시하기 위해",
+      "비용을 매출로 바꾸기 위해",
+      "실제 지출을 숨기기 위해",
+      "돈의 시간 가치를 반영하기 위해"
+    ],
+    "answer": 3,
+    "explanation": "같은 금액도 발생 시점에 따라 가치가 달라지므로 할인합니다. 현금흐름을 누락하거나 수입·비용을 뒤바꾸는 절차가 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-069",
+    "revision": 1,
+    "area": "business",
+    "topic": "회수기간",
+    "prompt": "초기 투자 120을 매년 말 40씩 균등 회수한다. 할인과 추가 비용을 무시할 때 회수기간은?",
+    "options": [
+      "3년",
+      "1년",
+      "2년",
+      "4년"
+    ],
+    "answer": 0,
+    "explanation": "120÷40=3년입니다. 누적 유입이 초기 투자액에 도달하는 시점을 계산합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-070",
+    "revision": 1,
+    "area": "business",
+    "topic": "회수기간의 한계",
+    "prompt": "두 사업 중 회수기간만 짧은 사업을 고르면 놓치기 쉬운 것은?",
+    "options": [
+      "회수 시점의 정의",
+      "회수 후 발생하는 장기 편익",
+      "최초 투자일의 존재",
+      "투자금액의 단위"
+    ],
+    "answer": 1,
+    "explanation": "회수기간은 투자 회수 속도를 강조해 이후 수익 규모를 충분히 반영하지 못합니다. 장기 가치 평가에는 다른 지표도 필요합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-071",
+    "revision": 1,
+    "area": "business",
+    "topic": "BSC",
+    "prompt": "BSC가 재무 지표만 보는 평가를 보완하는 방법은?",
+    "options": [
+      "조직 전략을 제외한다",
+      "매출 하나로 모든 활동을 평가한다",
+      "고객·내부 프로세스·학습과 성장도 함께 본다",
+      "회계 자료를 전부 버린다"
+    ],
+    "answer": 2,
+    "explanation": "BSC는 재무와 비재무 관점을 함께 관리합니다. 재무를 폐기하거나 단일 지표로 축소하는 방식이 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-072",
+    "revision": 1,
+    "area": "business",
+    "topic": "BSC 고객 관점",
+    "prompt": "고객 만족도와 재구매율을 관리한다. BSC의 가장 직접적인 관점은?",
+    "options": [
+      "학습과 성장",
+      "내부 프로세스만",
+      "재무제표 작성만",
+      "고객"
+    ],
+    "answer": 3,
+    "explanation": "만족·충성도는 고객 관점의 대표적 결과입니다. 직원 역량이나 내부 처리 효율과는 측정 대상이 다릅니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-073",
+    "revision": 1,
+    "area": "business",
+    "topic": "KPI",
+    "prompt": "'응답 품질 향상' 목표를 측정 가능한 KPI로 바꾼 예는?",
+    "options": [
+      "합의된 기준을 충족한 상담 응답의 비율",
+      "최선을 다한다",
+      "서비스를 아름답게 한다",
+      "좋은 분위기를 만든다"
+    ],
+    "answer": 0,
+    "explanation": "KPI는 목표 달성 정도를 관찰할 수 있는 지표여야 합니다. 막연한 의지 표현은 측정 기준이 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-074",
+    "revision": 1,
+    "area": "business",
+    "topic": "IT-BSC",
+    "prompt": "IT-BSC에서 직원의 기술 학습과 향후 서비스 역량 확보는 어느 관점에 가까운가?",
+    "options": [
+      "자산 처분만의 관점",
+      "미래 지향적 관점",
+      "현재 매출만의 관점",
+      "고객 수금만의 관점"
+    ],
+    "answer": 1,
+    "explanation": "미래 지향적 관점은 지속적인 발전을 위한 역량과 기술 준비를 다룹니다. 현재 현금 흐름만 측정하는 관점과 다릅니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-075",
+    "revision": 1,
+    "area": "business",
+    "topic": "MBO",
+    "prompt": "개인이 설정한 목표가 회사 목표와 충돌한다. MBO 운영에서 필요한 것은?",
+    "options": [
+      "성과 확인을 중단한다",
+      "모든 목표를 공개 없이 임의 변경한다",
+      "상사와 구성원이 목표를 협의·조정한다",
+      "개인 목표는 조직과 무관하게 고정한다"
+    ],
+    "answer": 2,
+    "explanation": "MBO는 참여를 통한 목표 설정과 조직 목표의 연계가 중요합니다. 개인 자율성만 강조해 충돌을 방치해서는 안 됩니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VII. IT 비즈니스 성과평가 이해하기"
+    }
+  },
+  {
+    "id": "biz-076",
+    "revision": 1,
+    "area": "business",
+    "topic": "오픈 이노베이션",
+    "prompt": "회사 내부 연구뿐 아니라 대학·외부 기업의 기술을 활용해 신제품을 만든다. 이는?",
+    "options": [
+      "폐쇄형 연구만",
+      "모든 지식의 무단 복제",
+      "외부 협력 금지",
+      "오픈 이노베이션"
+    ],
+    "answer": 3,
+    "explanation": "오픈 이노베이션은 외부 지식과 내부 역량을 연결합니다. 권리를 무시한 복제나 폐쇄 전략과 다릅니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VIII. IT 비즈니스 환경 변화와 대응"
+    }
+  },
+  {
+    "id": "biz-077",
+    "revision": 1,
+    "area": "business",
+    "topic": "크라우드소싱",
+    "prompt": "온라인에서 여러 참여자에게 제품 개선 아이디어를 모집한다. 관련 개념은?",
+    "options": [
+      "크라우드소싱",
+      "단일 직원의 독점 검토",
+      "재무 결산",
+      "주공정 분석"
+    ],
+    "answer": 0,
+    "explanation": "크라우드소싱은 다수 참여자의 지식·아이디어·노력을 활용합니다. 단일 담당자 업무나 회계·일정 분석을 의미하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VIII. IT 비즈니스 환경 변화와 대응"
+    }
+  },
+  {
+    "id": "biz-078",
+    "revision": 1,
+    "area": "business",
+    "topic": "혁신",
+    "prompt": "기존 제품의 과도한 기능이 필요 없는 고객에게 단순하고 저렴한 대안을 제공한다. 관련 전략은?",
+    "options": [
+      "판매 후 지원을 숨기는 접근",
+      "하위 시장을 겨냥한 파괴적 혁신 접근",
+      "무조건 최고 사양만 추가하는 접근",
+      "모든 고객의 요구가 같다고 보는 접근"
+    ],
+    "answer": 1,
+    "explanation": "파괴적 혁신은 기존 제공 수준이 과한 고객이나 새로운 시장을 겨냥할 수 있습니다. 단순한 기능 증대만을 뜻하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VIII. IT 비즈니스 환경 변화와 대응"
+    }
+  },
+  {
+    "id": "biz-079",
+    "revision": 1,
+    "area": "business",
+    "topic": "환경 변화 대응",
+    "prompt": "고객 접점이 모바일로 이동했다. 회사가 기술 도입 전에 확인할 핵심은?",
+    "options": [
+      "유행 용어의 개수",
+      "가장 비싼 장비의 재고",
+      "고객 행동 변화와 서비스 가치",
+      "경쟁사의 화면을 그대로 베낄 방법"
+    ],
+    "answer": 2,
+    "explanation": "환경 대응은 실제 고객 문제와 가치에서 출발해야 합니다. 모방·유행·고가 장비 자체가 전략을 대신하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "VIII. IT 비즈니스 환경 변화와 대응"
+    }
+  },
+  {
+    "id": "biz-080",
+    "revision": 1,
+    "area": "business",
+    "topic": "모바일 서비스",
+    "prompt": "현장 직원이 이동 중 업무를 처리하는 모바일 서비스를 설계한다. 중요한 고려는?",
+    "options": [
+      "PC 화면을 축소만 해서 제공",
+      "모든 기능을 한 화면에 동시에 배치",
+      "네트워크 상황은 고려하지 않음",
+      "작은 화면과 이동 상황에 맞춘 핵심 업무 흐름"
+    ],
+    "answer": 3,
+    "explanation": "모바일은 화면·입력·이동 환경을 고려해야 합니다. 단순 축소나 과도한 정보 배치는 사용성을 해칠 수 있습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IX. IT 비즈니스 최신 서비스"
+    }
+  },
+  {
+    "id": "biz-081",
+    "revision": 1,
+    "area": "business",
+    "topic": "IoT 비즈니스",
+    "prompt": "설비 센서의 진동 데이터를 수집해 이상 징후를 조기에 발견한다. 고객 가치는?",
+    "options": [
+      "예기치 않은 중단을 줄이고 정비 계획을 개선한다",
+      "센서 수 자체가 곧 매출이다",
+      "측정하면 모든 고장이 불가능해진다",
+      "데이터를 모으면 정비가 전혀 필요 없다"
+    ],
+    "answer": 0,
+    "explanation": "센서 데이터는 상태 판단과 대응을 돕습니다. 측정 자체가 무고장이나 수익을 보장하지는 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IX. IT 비즈니스 최신 서비스"
+    }
+  },
+  {
+    "id": "biz-082",
+    "revision": 1,
+    "area": "business",
+    "topic": "클라우드 활용",
+    "prompt": "방문량이 계절마다 크게 달라지는 서비스가 사용량에 맞춰 자원을 조절하려 한다. 기대하는 이점은?",
+    "options": [
+      "인터넷과 무관한 모든 서비스 보장",
+      "수요 변화에 따른 자원 탄력성",
+      "데이터 관리 책임의 완전 소멸",
+      "모든 비용의 영구 면제"
+    ],
+    "answer": 1,
+    "explanation": "클라우드 자원은 필요에 맞게 확장·축소하는 데 유용합니다. 비용·책임·연결 조건을 모두 없애는 것은 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IX. IT 비즈니스 최신 서비스"
+    }
+  },
+  {
+    "id": "biz-083",
+    "revision": 1,
+    "area": "business",
+    "topic": "데이터 기반 서비스",
+    "prompt": "판매 예측 모델을 서비스에 적용할 때 적절한 태도는?",
+    "options": [
+      "훈련 데이터만 보고 미래 정확도를 보장한다",
+      "틀린 예측 사례를 무조건 숨긴다",
+      "실제 예측 성능과 오류의 영향을 검증한다",
+      "AI라는 이름이면 검증을 생략한다"
+    ],
+    "answer": 2,
+    "explanation": "비즈니스 적용에는 실제 성능과 실패 영향 검토가 필요합니다. 기술 명칭이나 학습 결과만으로 현장 효과를 보장하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IX. IT 비즈니스 최신 서비스"
+    }
+  },
+  {
+    "id": "biz-084",
+    "revision": 1,
+    "area": "business",
+    "topic": "3D 프린팅",
+    "prompt": "소량의 맞춤형 부품 시제품을 빠르게 확인하고 싶다. 3D 프린팅의 활용과 가장 가까운 것은?",
+    "options": [
+      "모든 대량생산 원가가 반드시 0이 된다",
+      "설계 데이터가 필요 없어진다",
+      "재료 특성을 검토하지 않아도 된다",
+      "형상을 시험하며 설계를 반복 개선한다"
+    ],
+    "answer": 3,
+    "explanation": "3D 프린팅은 맞춤형 제작과 시제품 반복에 활용됩니다. 비용·설계·재료 제약까지 사라지는 것은 아닙니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IX. IT 비즈니스 최신 서비스"
+    }
+  },
+  {
+    "id": "biz-085",
+    "revision": 1,
+    "area": "business",
+    "topic": "기술 도입 판단",
+    "prompt": "새 분석 서비스의 도입 효과가 불확실하다. 적절한 다음 단계는?",
+    "options": [
+      "작은 범위에서 가설과 성공 기준을 정해 검증한다",
+      "이름이 최신이므로 즉시 전사 도입한다",
+      "실패 가능성을 문서에서 뺀다",
+      "공급자 홍보 수치만 실적으로 쓴다"
+    ],
+    "answer": 0,
+    "explanation": "제한된 검증으로 업무 적합성과 효과를 확인할 수 있습니다. 유행이나 검증되지 않은 수치는 투자 판단을 대신하지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "IX. IT 비즈니스 최신 서비스"
+    }
+  },
+  {
+    "id": "biz-086",
+    "revision": 1,
+    "area": "business",
+    "topic": "전문가 윤리",
+    "prompt": "납기를 맞추려면 안전에 영향을 주는 결함을 숨겨야 한다는 지시를 받았다. 적절한 대응은?",
+    "options": [
+      "일정이 우선이므로 아무 조치 없이 배포한다",
+      "결함과 영향을 사실대로 보고하고 해결을 논의한다",
+      "안전 결함을 성능 개선으로 바꿔 기록한다",
+      "책임을 피하려 시험 기록을 삭제한다"
+    ],
+    "answer": 1,
+    "explanation": "전문가는 공익과 안전, 정직한 보고를 고려해야 합니다. 은폐·기록 조작은 위험을 해결하지 못합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "X. IT 비즈니스 관련 직업윤리"
+    }
+  },
+  {
+    "id": "biz-087",
+    "revision": 1,
+    "area": "business",
+    "topic": "이해상충",
+    "prompt": "공급자 평가자가 평가 대상 회사에 개인적 이해관계가 있다. 적절한 행동은?",
+    "options": [
+      "관계없는 평가 자료를 없앤다",
+      "친분을 성능 점수로 환산한다",
+      "관계를 공개하고 정해진 절차에 따라 평가 참여를 조정한다",
+      "비밀로 한 채 해당 회사를 우대한다"
+    ],
+    "answer": 2,
+    "explanation": "이해상충은 투명하게 드러내고 공정성을 확보해야 합니다. 숨기거나 평가 기준을 바꾸는 것은 신뢰를 해칩니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "X. IT 비즈니스 관련 직업윤리"
+    }
+  },
+  {
+    "id": "biz-088",
+    "revision": 1,
+    "area": "business",
+    "topic": "전문 역량",
+    "prompt": "처음 접하는 안전 중요 기술에 대해 검증 없이 '완벽히 보장한다'고 말하려 한다. 적절한 태도는?",
+    "options": [
+      "영업 목적이면 과장한다",
+      "모르는 용어를 늘려 설명한다",
+      "예상 성능을 검증 실적으로 보고한다",
+      "역량과 검증의 한계를 밝히고 전문가 검토를 구한다"
+    ],
+    "answer": 3,
+    "explanation": "전문가는 자신의 역량과 근거를 정확히 표현해야 합니다. 과장·모호한 용어·실적 조작은 적절한 판단을 방해합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "X. IT 비즈니스 관련 직업윤리"
+    }
+  },
+  {
+    "id": "biz-089",
+    "revision": 1,
+    "area": "business",
+    "topic": "비밀 존중",
+    "prompt": "업무 중 알게 된 고객의 비공개 정보를 개인 홍보에 사용하려 한다. 적절한 판단은?",
+    "options": [
+      "권한과 목적을 확인하고 임의로 공개하지 않는다",
+      "업무에서 봤으므로 개인 소유다",
+      "익숙한 고객이면 자유롭게 공개한다",
+      "퇴근 후에는 비밀 의무가 없다"
+    ],
+    "answer": 0,
+    "explanation": "업무상 접근 가능성과 공개 권한은 다릅니다. 개인 친분이나 시간대가 정보의 비공개 성격을 없애지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "X. IT 비즈니스 관련 직업윤리"
+    }
+  },
+  {
+    "id": "biz-090",
+    "revision": 1,
+    "area": "business",
+    "topic": "정직한 평가",
+    "prompt": "성능 보고서에 유리한 측정 결과만 골라 넣으려 한다. 적절한 작성은?",
+    "options": [
+      "비교 대상만 더 나쁜 조건으로 시험한다",
+      "조건과 한계를 밝히고 대표성 있는 결과를 제시한다",
+      "불리한 표본은 설명 없이 제거한다",
+      "예측치를 측정치로 표시한다"
+    ],
+    "answer": 1,
+    "explanation": "정직한 보고는 비교 조건과 한계를 함께 공개합니다. 선택적 제외와 불공정 비교는 독자의 판단을 왜곡합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "X. IT 비즈니스 관련 직업윤리"
+    }
+  },
+  {
+    "id": "biz-091",
+    "revision": 1,
+    "area": "business",
+    "topic": "동료 존중",
+    "prompt": "코드 검토에서 동료의 오류를 발견했다. 전문적 태도는?",
+    "options": [
+      "실수를 외부에 조롱거리로 공개한다",
+      "친한 동료이므로 오류를 숨긴다",
+      "코드의 문제와 근거, 개선안을 구체적으로 설명한다",
+      "작성자의 인격을 공격한다"
+    ],
+    "answer": 2,
+    "explanation": "검토는 결과물의 품질 개선을 위한 활동입니다. 인격 공격·조롱·은폐는 협업과 품질을 모두 해칩니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "X. IT 비즈니스 관련 직업윤리"
+    }
+  },
+  {
+    "id": "biz-092",
+    "revision": 1,
+    "area": "business",
+    "topic": "개인정보 최소화",
+    "prompt": "출석 확인에 학번만 필요한 서비스가 상세 가족 정보를 추가로 받으려 한다. 설계 원칙으로 적절한 것은?",
+    "options": [
+      "나중에 쓸지 모르므로 모두 모은다",
+      "항목이 많을수록 무조건 안전하다",
+      "동의 화면이 있으면 필요성은 검토하지 않는다",
+      "목적에 필요한 항목만 수집하도록 줄인다"
+    ],
+    "answer": 3,
+    "explanation": "최소 수집은 목적에 비해 과도한 정보 처리를 줄이는 원칙입니다. 미래 가능성이나 화면 존재만으로 필요성이 생기지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XI. 개인정보 보호"
+    }
+  },
+  {
+    "id": "biz-093",
+    "revision": 1,
+    "area": "business",
+    "topic": "개인정보 접근",
+    "prompt": "전 직원에게 고객 목록 조회 권한을 주려 한다. 더 적절한 설계는?",
+    "options": [
+      "업무 필요에 따라 접근 범위를 제한한다",
+      "사번이 있으면 모든 정보를 허용한다",
+      "접근 기록을 남기지 않는다",
+      "공용 계정 하나로 모두 접속한다"
+    ],
+    "answer": 0,
+    "explanation": "업무상 필요한 권한만 주어 불필요한 노출을 줄입니다. 전면 허용·공용 계정·무기록은 통제와 추적을 어렵게 합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XI. 개인정보 보호"
+    }
+  },
+  {
+    "id": "biz-094",
+    "revision": 1,
+    "area": "business",
+    "topic": "개인정보 노출",
+    "prompt": "교육용 화면 예시에 실제 고객 연락처가 보인다. 공개 전 조치로 적절한 것은?",
+    "options": [
+      "파일명을 바꾸면 정보가 보호된다고 본다",
+      "가상 데이터로 대체하고 식별 가능 정보를 점검한다",
+      "글자 크기만 줄인다",
+      "화면에 이미 나왔으니 그대로 배포한다"
+    ],
+    "answer": 1,
+    "explanation": "가상 데이터로 대체하고 재식별 요소를 점검해야 합니다. 크기·파일명 변경만으로 정보가 제거되지는 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XI. 개인정보 보호"
+    }
+  },
+  {
+    "id": "biz-095",
+    "revision": 1,
+    "area": "business",
+    "topic": "개인정보 수명주기",
+    "prompt": "개인정보를 처리하는 서비스의 관리 범위로 적절한 것은?",
+    "options": [
+      "비밀번호 입력창만",
+      "첫 로그인 시점만",
+      "수집부터 이용·보관·삭제까지 전체 과정",
+      "수집 화면만"
+    ],
+    "answer": 2,
+    "explanation": "개인정보 보호는 수명주기 전체를 다룹니다. 첫 화면이나 인증만 안전해도 이후 보관·공개·삭제 위험은 남습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XI. 개인정보 보호"
+    }
+  },
+  {
+    "id": "biz-096",
+    "revision": 1,
+    "area": "business",
+    "topic": "저작물 이용",
+    "prompt": "무료로 내려받은 학습 PDF를 공개 저장소에 올리려 한다. 먼저 확인할 것은?",
+    "options": [
+      "다운로드 페이지에서 가격이 무료인지 여부만",
+      "출처 링크를 덧붙일 수 있는지 여부만",
+      "저장소가 비상업 목적인지 여부만",
+      "재배포를 허용하는 라이선스 조건 또는 권리자의 허락"
+    ],
+    "answer": 3,
+    "explanation": "무료 다운로드, 출처 표시, 비상업 목적만으로 재배포 허가가 생기지는 않습니다. 라이선스가 해당 재배포를 허용하는지 또는 별도 허락을 받았는지 확인해야 합니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XII. 저작권과 산업재산권 보호"
+    }
+  },
+  {
+    "id": "biz-097",
+    "revision": 1,
+    "area": "business",
+    "topic": "소프트웨어 라이선스",
+    "prompt": "외부 오픈소스 코드를 제품에 포함하기 전 적절한 절차는?",
+    "options": [
+      "라이선스 의무와 사용 방식의 적합성을 확인한다",
+      "공개 코드이므로 모든 조건을 무시한다",
+      "저작자 표시를 무조건 삭제한다",
+      "유료 제품이면 확인할 필요가 없다"
+    ],
+    "answer": 0,
+    "explanation": "오픈소스도 라이선스 조건이 있습니다. 공개 여부나 제품 가격만으로 의무가 없어지지 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XII. 저작권과 산업재산권 보호"
+    }
+  },
+  {
+    "id": "biz-098",
+    "revision": 1,
+    "area": "business",
+    "topic": "출처와 권리",
+    "prompt": "다른 사람이 만든 그림을 쓰면서 출처만 적으면 항상 충분하다는 주장에 대한 적절한 판단은?",
+    "options": [
+      "비상업적이면 모든 제한이 사라진다",
+      "출처 표시와 별도로 이용 허용 범위를 확인해야 한다",
+      "출처 한 줄이 모든 이용을 허가한다",
+      "인터넷 그림은 모두 권리가 없다"
+    ],
+    "answer": 1,
+    "explanation": "출처 표시와 이용 권한은 다른 문제입니다. 공개 위치나 비상업 목적만으로 모든 사용이 허용되지는 않습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XII. 저작권과 산업재산권 보호"
+    }
+  },
+  {
+    "id": "biz-099",
+    "revision": 1,
+    "area": "business",
+    "topic": "AI 윤리",
+    "prompt": "추천 모델이 일부 사용자 집단에 반복적으로 불리한 결과를 낸다. 적절한 대응은?",
+    "options": [
+      "불리한 집단을 평가에서 제외한다",
+      "전체 평균이 높으면 모든 문제가 해결됐다고 본다",
+      "데이터와 결과의 편향을 점검하고 개선한다",
+      "자동 결과이므로 검토하지 않는다"
+    ],
+    "answer": 2,
+    "explanation": "평균 성능만으로 집단별 불공정을 알 수 없습니다. 데이터와 실제 영향을 검토해야 책임 있는 서비스가 됩니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XIII. IT 비즈니스 최신 서비스의 윤리적 이슈"
+    }
+  },
+  {
+    "id": "biz-100",
+    "revision": 1,
+    "area": "business",
+    "topic": "책임 있는 서비스",
+    "prompt": "자동화 서비스의 잘못된 결과로 사용자가 피해를 입었다. 운영 관점에서 필요한 것은?",
+    "options": [
+      "기계가 했으니 책임 검토 중단",
+      "오류 기록 삭제",
+      "사용자 문의 통로 폐쇄",
+      "문제 제기·검토·시정할 절차와 책임 주체"
+    ],
+    "answer": 3,
+    "explanation": "자동화가 문제 해결 책임을 없애지는 않습니다. 검토와 시정 경로가 있어야 피해 원인을 파악하고 개선할 수 있습니다.",
+    "source": {
+      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf",
+      "section": "XIII. IT 비즈니스 최신 서비스의 윤리적 이슈"
+    }
+  }
+]
