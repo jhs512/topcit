@@ -1,0 +1,23 @@
+# 공식 교재 로컬 보관
+
+이 폴더의 PDF 네 권은 문항 작성에 사용한 공식 교재의 로컬 보관본입니다. **판권 기준 2020년 2월 26일 발행 3판**이며, 최신 개정판이라는 이름을 붙이지 않습니다. 현재 공식 학습자료 페이지의 활성 전자책에서도 같은 판권을 확인했습니다.
+
+PDF는 `sources/*.pdf` 규칙으로 Git에서 제외합니다. 공개 저장소에는 이 출처 목록만 보관하며, 무료 열람·다운로드를 재배포 허가로 해석하지 않습니다.
+
+| 로컬 파일 | PDF 쪽수 | 원본 PDF | 현재 활성 전자책 |
+| --- | ---: | --- | --- |
+| 03_시스템아키텍처_이해와활용.pdf | 221 | [공식 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf) | [03 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/index.html) |
+| 04_정보보안_이해와활용.pdf | 124 | [공식 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf) | [04 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/index.html) |
+| 05_IT비즈니스와윤리.pdf | 213 | [공식 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf) | [05 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/index.html) |
+| 06_프로젝트관리_및_테크니컬커뮤니케이션.pdf | 139 | [공식 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/06_%ED%85%8C%ED%81%AC%EB%8B%88%EC%BB%AC_%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A6%AC.pdf) | [06 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/index.html) |
+
+## 판권과 본문 대조 범위
+
+네 권 모두 PDF 4쪽 및 활성 전자책의 판권을 확인했습니다. PDF의 2022-12-02 출력 표시는 교재 발행일과 구별합니다. [공식 학습자료 페이지](https://www.topcit.or.kr/board/study.do)의 PDF 연결 코드는 주석 처리되어 있고, 실제 버튼은 위 전자책을 엽니다.
+
+- **03:** 목차와 동기화(인쇄 49쪽), 재난 복구(124쪽), SDN(214쪽)의 대표 본문을 대조했습니다. [상세 조사 메모](../notes/architecture-sources.md)
+- **04:** 목차와 SQL 삽입·XSS(인쇄 70쪽)를 대조하고 페이지 배경 이미지 비교를 보조적으로 수행했습니다. [상세 조사 메모](../notes/security-sources.md)
+- **05:** 목차와 BSC(인쇄 107쪽)를 대조했습니다.
+- **06:** 목차와 3점 추정(인쇄 92쪽), CPM(93쪽)을 대조했습니다. [05·06 상세 조사 메모](../notes/business-management-sources.md)
+
+확인한 판권과 대표 본문은 일치합니다. 전자책과 PDF의 페이지 수는 다르므로 모든 페이지·문장이 완전히 동일하거나 파일이 바이트 단위로 같다고 단정하지 않습니다. 교재 전권 정독이나 모든 내용의 최신성 검증을 뜻하지도 않습니다. 2026년 시험 체계는 별도의 [공식 변경 안내](https://www.topcit.or.kr/board/notice/detail.do?seq=842)를 참고합니다.
