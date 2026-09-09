@@ -28,6 +28,6 @@
 | 무결성 | 부적절한 변경 방지·탐지 |
 | 가용성 | 필요할 때 이용 가능 |
 
-[참고 교재 04: 정보보안](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/index.html)
+[참고 교재 04: 정보보안](../viewer/index.html?book=04&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

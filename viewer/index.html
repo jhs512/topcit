@@ -1,0 +1,7 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TOPCIT 교재 보기</title><link rel="stylesheet" href="viewer.css"></head>
+<body><header><h1 id="title">TOPCIT 교재 보기</h1><p id="reference"></p></header>
+<main><section id="setup"><h2>교재를 직접 열지 못한 경우</h2><p>PDF를 내려받아 선택해도 이 뷰어에서 같은 페이지를 볼 수 있습니다. 선택한 파일은 서버로 전송하지 않습니다.</p><p><a id="download" target="_blank" rel="noopener">교재 PDF 내려받기 ↗</a></p><label class="file-label">내려받은 교재 선택 <input id="file" type="file" accept="application/pdf,.pdf"></label><p class="small">공식 교재를 내려받은 뒤 위에서 선택하세요. 다른 기기에서는 다시 선택해야 합니다.</p></section>
+<p id="status" role="status" aria-live="polite">교재를 확인하고 있습니다.</p>
+<section id="reader" hidden><nav aria-label="PDF 페이지 이동"><button id="prev">← 이전</button><label>PDF 페이지 <input id="page" type="number" min="1" value="1"></label><span id="count"></span><button id="go">이동</button><button id="next">다음 →</button><label>확대 <select id="zoom"><option value="fit">화면 맞춤</option><option value="1">100%</option><option value="1.5">150%</option><option value="2">200%</option></select></label></nav><div id="canvas-wrap"><canvas id="canvas" aria-label="교재 페이지"></canvas></div><div class="actions"><button id="replace">다른 PDF 선택</button><button id="forget">이 브라우저의 교재 보관 해제</button></div></section></main>
+<script type="module" src="viewer.mjs"></script></body></html>

@@ -28,6 +28,6 @@
 | 갱신 이상 | 같은 사실이 불일치 |
 | 삭제 이상 | 필요한 사실까지 사라짐 |
 
-[참고 교재 02: 데이터 이해와 활용](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_02/index.html)
+[참고 교재 02: 데이터 이해와 활용](../viewer/index.html?book=02&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

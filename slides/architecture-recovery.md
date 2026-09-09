@@ -28,6 +28,6 @@ RTO 2시간은 목표 복구시간입니다. RPO 15분은 장애 시 잃어도 �
 | RPO | 허용 가능한 데이터 손실 시점 |
 | 복구 검증 | 복원 결과와 시간 확인 |
 
-[참고 교재 03: 시스템아키텍처](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/index.html)
+[참고 교재 03: 시스템아키텍처](../viewer/index.html?book=03&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

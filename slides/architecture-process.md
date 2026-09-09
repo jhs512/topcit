@@ -28,6 +28,6 @@
 | 스레드 | 실행 흐름의 단위 |
 | 공유 데이터 | 동기화 필요 |
 
-[참고 교재 03: 시스템아키텍처](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/index.html)
+[참고 교재 03: 시스템아키텍처](../viewer/index.html?book=03&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

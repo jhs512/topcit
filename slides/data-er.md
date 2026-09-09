@@ -29,6 +29,6 @@ ER 모델링은 업무의 개체·속성·관계를 표현합니다. **무엇을
 | 관계 | 대상 사이 연결 |
 | 카디널리티 | 연결 가능한 수 |
 
-[참고 교재 02: 데이터 이해와 활용](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_02/index.html)
+[참고 교재 02: 데이터 이해와 활용](../viewer/index.html?book=02&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

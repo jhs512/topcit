@@ -28,6 +28,6 @@
 | 해석 | 근거에 따른 판단 |
 | 요청 | 필요한 결정과 행동 |
 
-[참고 교재 06: 프로젝트 관리와 소통](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/index.html)
+[참고 교재 06: 프로젝트 관리와 소통](../viewer/index.html?book=06&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

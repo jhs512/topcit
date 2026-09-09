@@ -28,6 +28,6 @@ IT 거버넌스는 IT에 관한 **의사결정 권한과 책임, 평가·감독 
 | 관리 | 계획·실행·운영 |
 | 성과 확인 | 목표와 실제 비교 |
 
-[참고 교재 05: IT비즈니스와 윤리](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/index.html)
+[참고 교재 05: IT비즈니스와 윤리](../viewer/index.html?book=05&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

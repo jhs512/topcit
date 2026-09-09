@@ -40,6 +40,6 @@ A는 2일, B는 5일, D는 2일로 고정합니다.
 ::: critical-path
 :::
 
-[공식 교재 06 — 주공정법(CPM), 인쇄 93쪽](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/index.html)
+[공식 교재 06 — 주공정법(CPM), 인쇄 93쪽](../viewer/index.html?book=06&page=95)
 
 예시의 작업·기간은 수업용으로 새로 구성했습니다. 공식 기출문제나 출제 예측 자료가 아닙니다.

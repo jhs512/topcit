@@ -28,6 +28,6 @@
 | 접근 제한 | 필요한 담당자만 |
 | 보유·삭제 | 목적과 기간에 맞게 관리 |
 
-[참고 교재 04: 정보보안](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/index.html)
+[참고 교재 04: 정보보안](../viewer/index.html?book=04&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

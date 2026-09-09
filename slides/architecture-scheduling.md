@@ -28,6 +28,6 @@
 | 라운드 로빈 | 시간 할당량 순환 |
 | 우선순위 | 중요도에 따른 선택 |
 
-[참고 교재 03: 시스템아키텍처](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/index.html)
+[참고 교재 03: 시스템아키텍처](../viewer/index.html?book=03&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

@@ -29,6 +29,6 @@ ACID는 원자성·일관성·격리성·지속성입니다. 외부 결제 같�
 | 격리성 | 동시 실행 간 간섭 제어 |
 | 지속성 | 완료한 변경의 보존 |
 
-[참고 교재 02: 데이터 이해와 활용](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_02/index.html)
+[참고 교재 02: 데이터 이해와 활용](../viewer/index.html?book=02&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

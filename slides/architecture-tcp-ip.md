@@ -29,6 +29,6 @@ TCP가 제공하는 신뢰성은 애플리케이션의 업무 성공을 뜻하�
 | TCP·UDP | 전송 방식 |
 | 응용 계층 | 메시지 의미 |
 
-[참고 교재 03: 시스템아키텍처](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/index.html)
+[참고 교재 03: 시스템아키텍처](../viewer/index.html?book=03&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

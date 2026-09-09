@@ -28,6 +28,6 @@ UML은 소프트웨어의 구조와 동작을 표현하는 모델링 언어입�
 | 시퀀스 | 참여자 간 메시지 순서 |
 | 상태 | 사건에 따른 상태 전이 |
 
-[참고 교재 01: 소프트웨어 개발](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_01/index.html)
+[참고 교재 01: 소프트웨어 개발](../viewer/index.html?book=01&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

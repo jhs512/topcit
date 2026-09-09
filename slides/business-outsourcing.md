@@ -28,6 +28,6 @@ SLA는 합의한 서비스 수준입니다. 인력 투입량만으로 서비스 
 | SLA | 측정 가능한 수준 |
 | 관리 | 실적 확인과 개선 |
 
-[참고 교재 05: IT비즈니스와 윤리](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/index.html)
+[참고 교재 05: IT비즈니스와 윤리](../viewer/index.html?book=05&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

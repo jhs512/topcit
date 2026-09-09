@@ -28,6 +28,6 @@ WBS는 작업의 분해 구조입니다. 선후관계와 날짜를 정하는 일
 | WBS | 전체 작업 분해 |
 | 일정 | 순서·기간·날짜 |
 
-[참고 교재 06: 프로젝트 관리와 소통](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/index.html)
+[참고 교재 06: 프로젝트 관리와 소통](../viewer/index.html?book=06&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

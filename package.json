@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "marked": "^18.0.12",
+    "pdfjs-dist": "^6.3.289",
     "playwright": "^1.62.1"
   }
 }

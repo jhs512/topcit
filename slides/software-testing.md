@@ -28,6 +28,6 @@
 | 경계값 | 조건이 바뀌는 주변 |
 | 회귀 테스트 | 변경 후 기존 동작 확인 |
 
-[참고 교재 01: 소프트웨어 개발](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_01/index.html)
+[참고 교재 01: 소프트웨어 개발](../viewer/index.html?book=01&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

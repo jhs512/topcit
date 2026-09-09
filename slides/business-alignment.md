@@ -62,6 +62,6 @@ IT는 이런 활동을 지원하는 수단입니다. 주문 시스템 자체가 
 
 **화면을 새로 만들었다는 사실과 업무 성과가 개선됐다는 사실은 다릅니다.**
 
-[참고: 공식 교재 05, IT와 업무의 연계·가치사슬](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/index.html)
+[교재 보기: IT와 비즈니스의 연계 — 인쇄 23쪽](../viewer/index.html?book=05&page=25)
 
 예시는 수업을 위해 새로 구성했습니다.

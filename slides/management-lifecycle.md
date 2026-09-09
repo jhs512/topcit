@@ -28,6 +28,6 @@
 | 운영 | 반복 서비스 유지 |
 | 종료 | 인수와 결과 정리 |
 
-[참고 교재 06: 프로젝트 관리와 소통](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/index.html)
+[참고 교재 06: 프로젝트 관리와 소통](../viewer/index.html?book=06&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

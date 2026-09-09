@@ -28,6 +28,6 @@
 | 결합도 | 다른 모듈에 대한 의존 |
 | 인터페이스 | 협력에 필요한 계약 |
 
-[참고 교재 01: 소프트웨어 개발](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_01/index.html)
+[참고 교재 01: 소프트웨어 개발](../viewer/index.html?book=01&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

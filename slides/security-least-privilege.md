@@ -28,6 +28,6 @@
 | 직무분리 | 중요한 단계의 책임 분리 |
 | 권한 회수 | 역할 종료 후 접근 제거 |
 
-[참고 교재 04: 정보보안](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/index.html)
+[참고 교재 04: 정보보안](../viewer/index.html?book=04&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

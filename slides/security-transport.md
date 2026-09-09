@@ -28,6 +28,6 @@ HTTPS를 사용해도 서버의 잘못된 권한 검사나 악성 콘텐츠가 �
 | 암호화 | 통신 내용 보호 |
 | 종단 보안 | 서버·클라이언트 별도 보호 |
 
-[참고 교재 04: 정보보안](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/index.html)
+[참고 교재 04: 정보보안](../viewer/index.html?book=04&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

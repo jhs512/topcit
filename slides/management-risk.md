@@ -28,6 +28,6 @@
 | 이슈 | 현재 발생한 문제 |
 | 대응 | 책임자·조건·행동 |
 
-[참고 교재 06: 프로젝트 관리와 소통](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/index.html)
+[참고 교재 06: 프로젝트 관리와 소통](../viewer/index.html?book=06&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

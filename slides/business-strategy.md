@@ -36,7 +36,7 @@ IT비즈니스와 윤리 · 핵심 개념 02
 | 강점 + 위협 | 배송 신뢰도로 경쟁 서비스와 차별화 |
 | 약점 + 위협 | 작은 범위로 시작해 운영 위험 제한 |
 
-[참고: 공식 교재 05, 전략·환경분석](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/index.html)
+[참고: 공식 교재 05, 전략·환경분석](../viewer/index.html?book=05&page=1)
 
 ---
 

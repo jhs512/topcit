@@ -28,6 +28,6 @@ IT비즈니스와 윤리 · 핵심 개념 05
 | 목표 설계 | 어떤 상태가 필요한가 |
 | 이행 계획 | 어떤 순서로 바꿀 것인가 |
 
-[참고 교재 05: IT비즈니스와 윤리](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/index.html)
+[참고 교재 05: IT비즈니스와 윤리](../viewer/index.html?book=05&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

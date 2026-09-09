@@ -28,6 +28,6 @@ RAID는 백업을 대신하지 않습니다. 실수로 삭제한 내용이나 �
 | RAID 1 | 복제 저장 |
 | RAID 5 | 분산 패리티·한 디스크 장애 허용 |
 
-[참고 교재 03: 시스템아키텍처](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/index.html)
+[참고 교재 03: 시스템아키텍처](../viewer/index.html?book=03&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.

@@ -29,6 +29,6 @@
 | 일관성 | 규칙·의미의 통일 |
 | 적시성 | 필요한 시점의 데이터 |
 
-[참고 교재 02: 데이터 이해와 활용](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_02/index.html)
+[참고 교재 02: 데이터 이해와 활용](../viewer/index.html?book=02&page=1)
 
 사례는 개념 설명을 위해 새로 구성했습니다.
