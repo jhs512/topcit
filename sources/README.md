@@ -1,28 +1,24 @@
-# 공식 교재 로컬 보관
+# 교재 보관본과 자체 뷰어
 
-이 폴더의 PDF 여섯 권은 문항 작성에 사용한 공식 교재의 로컬 보관본입니다. **판권 기준 2020년 2월 26일 발행 3판**이며, 최신 개정판이라는 이름을 붙이지 않습니다. 현재 공식 학습자료 페이지의 활성 전자책에서도 같은 판권을 확인했습니다.
+TOPCIT 교재 여섯 권의 보관본을 자체 뷰어에서 제공합니다. 교재의 원저자는 TOPCIT이며, 수업용 슬라이드와 사례는 별도로 작성한 자료입니다. 보관본을 최신 개정판으로 표시하지 않습니다.
 
-사용자의 명시적인 배포 요청에 따라 교재 01–06의 보관본을 자체 뷰어에서 제공하도록 변경했습니다. 원문은 TOPCIT 공식 교재이며 아래에 원출처를 표시합니다.
+| 교재 | PDF 쪽수 | 교재 열기 |
+| --- | ---: | --- |
+| 01 소프트웨어 개발 | 139 | [자체 뷰어](../viewer/index.html?book=01&page=1) |
+| 02 데이터 이해와 활용 | 159 | [자체 뷰어](../viewer/index.html?book=02&page=1) |
+| 03 시스템아키텍처 이해와 활용 | 221 | [자체 뷰어](../viewer/index.html?book=03&page=1) |
+| 04 정보보안 이해와 활용 | 124 | [자체 뷰어](../viewer/index.html?book=04&page=1) |
+| 05 IT비즈니스와 윤리 | 213 | [자체 뷰어](../viewer/index.html?book=05&page=1) |
+| 06 프로젝트 관리 및 테크니컬 커뮤니케이션 | 139 | [자체 뷰어](../viewer/index.html?book=06&page=1) |
 
-| 로컬 파일 | PDF 쪽수 | 원본 PDF | 현재 활성 전자책 |
-| --- | ---: | --- | --- |
-| 03_시스템아키텍처_이해와활용.pdf | 221 | [공식 PDF](https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1) | [03 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1) |
-| 04_정보보안_이해와활용.pdf | 124 | [공식 PDF](https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1) | [04 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1) |
-| 05_IT비즈니스와윤리.pdf | 213 | [공식 PDF](https://jhs512.github.io/topcit/viewer/index.html?book=05&page=1) | [05 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=05&page=1) |
-| 06_프로젝트관리_및_테크니컬커뮤니케이션.pdf | 139 | [공식 PDF](https://jhs512.github.io/topcit/viewer/index.html?book=06&page=1) | [06 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=06&page=1) |
+PDF 페이지와 책에 인쇄된 쪽수는 다릅니다. 슬라이드 참고 링크는 검토한 **PDF 페이지**를 지정합니다. 가로 화면에서는 두 쪽, 세로 화면에서는 한 쪽을 자동으로 표시하며 보기 방식과 배율을 직접 바꿀 수 있습니다.
 
-## 판권과 본문 대조 범위
+## 본문 대조 기록
 
-여섯 권 모두 PDF 4쪽 및 활성 전자책의 판권을 확인했습니다. PDF의 2022-12-02 출력 표시는 교재 발행일과 구별합니다. [공식 학습자료 페이지](https://www.topcit.or.kr/board/study.do)의 PDF 연결 코드는 주석 처리되어 있고, 실제 버튼은 위 전자책을 엽니다.
+60개 개념 슬라이드의 정의·원리·공식과 교재의 관련 본문을 대조했습니다. 설명 순서, 단순화한 비교표, 자체 사례·수치는 원문의 직접 인용과 구분합니다.
 
-- **03:** 목차와 동기화(인쇄 49쪽), 재난 복구(124쪽), SDN(214쪽)의 대표 본문을 대조했습니다. [상세 조사 메모](../notes/architecture-sources.md)
-- **04:** 목차와 SQL 삽입·XSS(인쇄 70쪽)를 대조하고 페이지 배경 이미지 비교를 보조적으로 수행했습니다. [상세 조사 메모](../notes/security-sources.md)
-- **05:** 목차와 BSC(인쇄 107쪽)를 대조했습니다.
-- **06:** 목차와 3점 추정(인쇄 92쪽), CPM(93쪽)을 대조했습니다. [05·06 상세 조사 메모](../notes/business-management-sources.md)
+- [소프트웨어·데이터 20개 검토](../notes/audit-software-data.md)
+- [시스템아키텍처·보안 20개 검토](../notes/audit-architecture-security.md)
+- [비즈니스·프로젝트 관리 20개 검토](../notes/audit-business-management.md)
 
-확인한 판권과 대표 본문은 일치합니다. 전자책과 PDF의 페이지 수는 다르므로 모든 페이지·문장이 완전히 동일하거나 파일이 바이트 단위로 같다고 단정하지 않습니다. 교재 전권 정독이나 모든 내용의 최신성 검증을 뜻하지도 않습니다. 2026년 시험 체계는 별도의 [공식 변경 안내](https://www.topcit.or.kr/board/notice/detail.do?seq=842)를 참고합니다.
-
-## 추가 보관 교재
-
-- [01 소프트웨어 개발](../viewer/index.html?book=01&page=1)
-- [02 데이터 이해와 활용](../viewer/index.html?book=02&page=1)
+이 기록은 슬라이드의 근거 검토 범위이며, 교재 전체의 최신성이나 2026년 시험 출제 빈도를 보증하지 않습니다. 시험 체계는 별도의 [공식 변경 안내](https://www.topcit.or.kr/board/notice/detail.do?seq=842)를 참고합니다.

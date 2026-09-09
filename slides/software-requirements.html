@@ -7,9 +7,9 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active " aria-label="요구사항 분석"><h1>요구사항 분석</h1>
-<p>소프트웨어 개발 · 핵심 개념 01</p>
+<p>과목명: 소프트웨어 개발 · 핵심 개념 01</p>
 <p>요구사항은 시스템이 제공할 기능과 지켜야 할 조건입니다. <strong>이해관계자의 필요를 확인 가능한 기준</strong>으로 바꿉니다.</p>
-<h2>왜 필요한가</h2>
+<h2>요구사항을 먼저 명확히 하는 이유</h2>
 <p>모호한 요구는 구현 후에도 완료 여부를 합의하기 어렵게 만듭니다.</p>
 </section>
 <section class=" " aria-label="빠른 검색이라는 요구"><h1>빠른 검색이라는 요구</h1>
@@ -34,11 +34,11 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 <td>어떤 조건을 지키는가</td>
 </tr>
 <tr>
-<td>인수 기준</td>
-<td>완료를 어떻게 확인하는가</td>
+<td>검증 가능성</td>
+<td>요구를 만족했는지 확인할 수 있는가</td>
 </tr>
 </tbody></table>
-<p class="source"><a href="../viewer/index.html?book=01&amp;page=1">참고 교재 01: 소프트웨어 개발</a></p>
+<p class="source"><a href="../viewer/index.html?book=01&amp;page=112">교재 01 — 요구사항 명세와 성능 조건, PDF 112쪽</a> · <a href="../viewer/index.html?book=01&amp;page=113">교재 01 — 비기능 요구·변경 추적, PDF 113쪽</a></p>
 <p class="caption">사례는 개념 설명을 위해 새로 구성했습니다.</p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};

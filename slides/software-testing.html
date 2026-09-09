@@ -7,9 +7,9 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active " aria-label="테스트와 검증 기준"><h1>테스트와 검증 기준</h1>
-<p>소프트웨어 개발 · 핵심 개념 09</p>
+<p>과목명: 소프트웨어 개발 · 핵심 개념 09</p>
 <p>테스트는 입력과 조건에 따른 동작을 확인해 결함을 발견하는 활동입니다. <strong>기대 결과의 근거</strong>가 필요합니다.</p>
-<h2>왜 필요한가</h2>
+<h2>기대 결과와 경계값을 확인하는 이유</h2>
 <p>일부 성공 사례만 확인하면 경계값과 예외 조건의 결함을 놓칠 수 있습니다.</p>
 </section>
 <section class=" " aria-label="허용 수량이 1부터 10까지"><h1>허용 수량이 1부터 10까지</h1>
@@ -34,11 +34,11 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 <td>조건이 바뀌는 주변</td>
 </tr>
 <tr>
-<td>회귀 테스트</td>
-<td>변경 후 기존 동작 확인</td>
+<td>단위 테스트</td>
+<td>단위 모듈 안의 결함 확인</td>
 </tr>
 </tbody></table>
-<p class="source"><a href="../viewer/index.html?book=01&amp;page=1">참고 교재 01: 소프트웨어 개발</a></p>
+<p class="source"><a href="../viewer/index.html?book=01&amp;page=101">교재 01 — 테스팅 원리, PDF 101쪽</a> · <a href="../viewer/index.html?book=01&amp;page=103">교재 01 — 동등 분할·경계값, PDF 103쪽</a> · <a href="../viewer/index.html?book=01&amp;page=104">교재 01 — 테스트 수준, PDF 104쪽</a></p>
 <p class="caption">사례는 개념 설명을 위해 새로 구성했습니다.</p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};

@@ -7,9 +7,9 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active " aria-label="알고리즘과 시간복잡도"><h1>알고리즘과 시간복잡도</h1>
-<p>소프트웨어 개발 · 핵심 개념 04</p>
+<p>과목명: 소프트웨어 개발 · 핵심 개념 04</p>
 <p>시간복잡도는 입력 크기가 증가할 때 <strong>연산량이 어떻게 증가하는지</strong> 나타냅니다. 실제 초 단위 시간과는 구분합니다.</p>
-<h2>왜 필요한가</h2>
+<h2>입력 크기에 따른 계산량을 비교하는 이유</h2>
 <p>작은 입력에서 빠른 코드도 입력이 커지면 증가율 때문에 감당하기 어려워질 수 있습니다.</p>
 </section>
 <section class=" " aria-label="순차 탐색과 이진 탐색"><h1>순차 탐색과 이진 탐색</h1>
@@ -31,7 +31,7 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 </tr>
 <tr>
 <td>O(log n)</td>
-<td>단계마다 후보 축소</td>
+<td>예: 후보를 매 단계 절반으로 축소</td>
 </tr>
 <tr>
 <td>O(n)</td>
@@ -42,7 +42,7 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 <td>입력 쌍 비교 규모</td>
 </tr>
 </tbody></table>
-<p class="source"><a href="../viewer/index.html?book=01&amp;page=1">참고 교재 01: 소프트웨어 개발</a></p>
+<p class="source"><a href="../viewer/index.html?book=01&amp;page=44">교재 01 — 실행 빈도와 Big-O, PDF 44쪽</a> · <a href="../viewer/index.html?book=01&amp;page=49">교재 01 — 정렬된 자료의 이진 탐색, PDF 49쪽</a></p>
 <p class="caption">사례는 개념 설명을 위해 새로 구성했습니다.</p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};

@@ -7,14 +7,14 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active " aria-label="지식재산권과 라이선스"><h1>지식재산권과 라이선스</h1>
-<p>IT비즈니스와 윤리 · 핵심 개념 09</p>
+<p>과목명: IT비즈니스와 윤리 · 핵심 개념 09</p>
 <p>소프트웨어를 사용할 수 있는 범위는 <strong>권리와 이용 조건</strong>에 따라 달라집니다. 공개된 자료도 조건 확인이 필요합니다.</p>
-<h2>왜 필요한가</h2>
+<h2>지식재산권과 라이선스: 필요한 이유</h2>
 <p>가격이 무료라는 사실만으로 수정·재배포·상업적 이용 범위를 알 수 없습니다.</p>
 </section>
 <section class=" " aria-label="외부 라이브러리 도입"><h1>외부 라이브러리 도입</h1>
 <p>팀은 라이브러리의 라이선스와 배포 방식을 확인하고, 필요한 고지와 소스 제공 조건 등을 검토합니다.</p>
-<h2>사례에서 확인할 원리</h2>
+<h2>지식재산권과 라이선스: 사례 해석</h2>
 <p>저작권 보유와 사용 허락은 다릅니다. 구체적인 의무는 해당 라이선스 원문과 이용 방식에 따라 판단합니다.</p>
 </section>
 <section class=" " aria-label="지식재산권과 라이선스의 핵심 구분"><h1>지식재산권과 라이선스의 핵심 구분</h1>
@@ -38,8 +38,8 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 <td>가격에 대한 설명</td>
 </tr>
 </tbody></table>
-<p class="source"><a href="../viewer/index.html?book=05&amp;page=1">참고 교재 05: IT비즈니스와 윤리</a></p>
-<p class="caption">사례는 개념 설명을 위해 새로 구성했습니다.</p>
+<p class="caption">설명 순서와 비교표는 교재 개념을 수업용으로 재구성했습니다. 사례·수치는 자체 예시입니다.</p>
+<p class="source"><a href="../viewer/index.html?book=05&amp;page=194">교재 05 — 저작권 개념 (PDF 194쪽)</a> · <a href="../viewer/index.html?book=05&amp;page=195">교재 05 — 소프트웨어 라이선스 (PDF 195쪽)</a> · <a href="../viewer/index.html?book=05&amp;page=196">교재 05 — 라이선스별 의무 차이 (PDF 196쪽)</a></p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};
 

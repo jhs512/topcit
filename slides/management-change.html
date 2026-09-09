@@ -7,14 +7,14 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active " aria-label="변경과 기준선"><h1>변경과 기준선</h1>
-<p>프로젝트 관리와 소통 · 핵심 개념 09</p>
+<p>과목명: 프로젝트 관리와 소통 · 핵심 개념 09</p>
 <p>기준선은 합의된 범위·일정·비용 등의 비교 기준입니다. 변경관리는 <strong>변경의 영향과 승인 여부</strong>를 다룹니다.</p>
-<h2>왜 필요한가</h2>
+<h2>변경과 기준선: 필요한 이유</h2>
 <p>작은 기능 추가도 설계·시험·운영에 영향을 줄 수 있으므로 전체 영향을 확인해야 합니다.</p>
 </section>
 <section class=" " aria-label="로그인 방식 추가"><h1>로그인 방식 추가</h1>
 <p>요청을 기록하고 보안·개발·시험·일정 영향을 분석한 뒤 승인 여부를 결정합니다. 승인되면 계획과 관련 문서를 갱신합니다.</p>
-<h2>사례에서 확인할 원리</h2>
+<h2>변경과 기준선: 사례 해석</h2>
 <p>변경을 무조건 막는 것이 목적은 아닙니다. 필요한 변경을 통제된 방식으로 반영하고 추적합니다.</p>
 </section>
 <section class=" " aria-label="변경과 기준선의 핵심 구분"><h1>변경과 기준선의 핵심 구분</h1>
@@ -38,8 +38,8 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 <td>기준과 기록 갱신</td>
 </tr>
 </tbody></table>
-<p class="source"><a href="../viewer/index.html?book=06&amp;page=1">참고 교재 06: 프로젝트 관리와 소통</a></p>
-<p class="caption">사례는 개념 설명을 위해 새로 구성했습니다.</p>
+<p class="caption">설명 순서와 비교표는 교재 개념을 수업용으로 재구성했습니다. 사례·수치는 자체 예시입니다.</p>
+<p class="source"><a href="../viewer/index.html?book=06&amp;page=87">교재 06 — 범위 기준선·변경통제 (PDF 87쪽)</a> · <a href="../viewer/index.html?book=06&amp;page=93">교재 06 — 승인 후 일정 갱신 (PDF 93쪽)</a> · <a href="../viewer/index.html?book=06&amp;page=104">교재 06 — 원가 기준선 (PDF 104쪽)</a></p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};
 

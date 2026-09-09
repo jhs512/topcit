@@ -7,14 +7,14 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active " aria-label="프로젝트 생명주기"><h1>프로젝트 생명주기</h1>
-<p>프로젝트 관리와 소통 · 핵심 개념 01</p>
+<p>과목명: 프로젝트 관리와 소통 · 핵심 개념 01</p>
 <p>프로젝트는 고유한 결과물을 만들기 위한 <strong>한시적인 활동</strong>입니다. 시작과 종료, 달성할 목표가 있습니다.</p>
-<h2>왜 필요한가</h2>
+<h2>프로젝트 생명주기: 필요한 이유</h2>
 <p>반복 운영 업무와 프로젝트를 구분해야 완료 기준과 자원 계획을 정할 수 있습니다.</p>
 </section>
 <section class=" " aria-label="수강신청 시스템 구축"><h1>수강신청 시스템 구축</h1>
 <p>새 시스템 구축은 프로젝트이고, 출시 후 매학기 안정적으로 운영하는 업무는 지속적인 운영에 해당합니다.</p>
-<h2>사례에서 확인할 원리</h2>
+<h2>프로젝트 생명주기: 사례 해석</h2>
 <p>착수·계획·실행·감시 및 통제·종료는 관리 프로세스의 묶음입니다. 개발 단계와 반드시 일대일로 대응하지는 않습니다.</p>
 </section>
 <section class=" " aria-label="프로젝트 생명주기의 핵심 구분"><h1>프로젝트 생명주기의 핵심 구분</h1>
@@ -38,8 +38,8 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 <td>인수와 결과 정리</td>
 </tr>
 </tbody></table>
-<p class="source"><a href="../viewer/index.html?book=06&amp;page=1">참고 교재 06: 프로젝트 관리와 소통</a></p>
-<p class="caption">사례는 개념 설명을 위해 새로 구성했습니다.</p>
+<p class="caption">설명 순서와 비교표는 교재 개념을 수업용으로 재구성했습니다. 사례·수치는 자체 예시입니다.</p>
+<p class="source"><a href="../viewer/index.html?book=06&amp;page=68">교재 06 — 프로젝트 정의 (PDF 68쪽)</a> · <a href="../viewer/index.html?book=06&amp;page=69">교재 06 — 한시성·고유성 (PDF 69쪽)</a> · <a href="../viewer/index.html?book=06&amp;page=77">교재 06 — 관리 프로세스 그룹 (PDF 77쪽)</a></p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};
 

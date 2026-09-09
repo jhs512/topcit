@@ -8,7 +8,9 @@
     "test:browser": "node tests/browser.mjs",
     "registry": "node scripts/registry.mjs",
     "build:slides": "node scripts/build-slides.mjs",
-    "test:slides": "node tests/slides.mjs"
+    "test:slides": "node tests/slides.mjs",
+    "test:viewer": "node tests/viewer.mjs",
+    "test:slide-sources": "node tests/slide-sources.mjs"
   },
   "devDependencies": {
     "marked": "^18.0.12",

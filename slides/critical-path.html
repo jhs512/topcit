@@ -7,7 +7,7 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active compact" aria-label="주공정과 프로젝트 완료 기간"><h1>주공정과 프로젝트 완료 기간</h1>
-<!-- layout: compact --><p>TOPCIT · 프로젝트 관리</p>
+<!-- layout: compact --><p>과목명: 프로젝트 관리와 소통</p>
 <p><strong>주공정</strong>은 프로젝트 시작부터 끝까지 이어지는 경로 중, 소요 기간이 가장 긴 경로입니다.</p>
 <table>
 <thead>
@@ -50,8 +50,9 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 </section>
 <section class=" " aria-label="화면 개발 기간에 따른 완료일 변화"><h1>화면 개발 기간에 따른 완료일 변화</h1>
 <p>A는 2일, B는 5일, D는 2일로 고정합니다.</p>
-<div class="widget"><div><label for="duration">C 작업 기간: <output id="days">3</output>일</label><p><input id="duration" type="range" min="1" max="8" value="3" aria-label="C 작업 기간"></p><p class="small">슬라이더 또는 좌우 방향키로 기간을 바꿔 보세요.</p></div><div aria-live="polite"><div class="formula">2 + max(5, <span id="c">3</span>) + 2<br>= <strong><span id="total">9</span>일</strong></div><p id="path">주공정은 A → B → D입니다.</p><p id="insight">C가 2일 더 걸려도 전체 완료 기간은 같습니다.</p></div></div><p><a href="../viewer/index.html?book=06&amp;page=95">공식 교재 06 — 주공정법(CPM), 인쇄 93쪽</a></p>
-<p class="caption">예시의 작업·기간은 수업용으로 새로 구성했습니다. 공식 기출문제나 출제 예측 자료가 아닙니다.</p>
+<div class="widget"><div><label for="duration">C 작업 기간: <output id="days">3</output>일</label><p><input id="duration" type="range" min="1" max="8" value="3" aria-label="C 작업 기간"></p><p class="small">슬라이더 또는 좌우 방향키로 기간을 바꿔 보세요.</p></div><div aria-live="polite"><div class="formula">2 + max(5, <span id="c">3</span>) + 2<br>= <strong><span id="total">9</span>일</strong></div><p id="path">주공정은 A → B → D입니다.</p><p id="insight">C가 2일 더 걸려도 전체 완료 기간은 같습니다.</p></div></div><p class="caption">예시의 작업·기간은 수업용으로 새로 구성했습니다. 공식 기출문제나 출제 예측 자료가 아닙니다.</p>
+<p class="caption">설명 순서와 비교표는 교재 개념을 수업용으로 재구성했습니다. 사례·수치는 자체 예시입니다.</p>
+<p class="source"><a href="../viewer/index.html?book=06&amp;page=95">교재 06 — 주공정법 (PDF 95쪽)</a> · <a href="../viewer/index.html?book=06&amp;page=96">교재 06 — 여유시간 (PDF 96쪽)</a></p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};
 

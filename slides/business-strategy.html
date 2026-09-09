@@ -7,9 +7,9 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active " aria-label="환경분석과 전략"><h1>환경분석과 전략</h1>
-<p>IT비즈니스와 윤리 · 핵심 개념 02</p>
+<p>과목명: IT비즈니스와 윤리 · 핵심 개념 02</p>
 <p>전략은 제한된 자원을 어디에 사용할지 정하는 선택입니다. <strong>내부 역량과 외부 환경</strong>을 함께 살펴봅니다.</p>
-<h2>왜 필요한가</h2>
+<h2>환경분석과 전략: 필요한 이유</h2>
 <p>유행하는 기술을 도입하기 전에 조직이 가진 강점과 시장의 변화를 구분해야 합니다.</p>
 </section>
 <section class=" " aria-label="내부 역량과 외부 환경"><h1>내부 역량과 외부 환경</h1>
@@ -62,13 +62,14 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 <td>작은 범위로 시작해 운영 위험 제한</td>
 </tr>
 </tbody></table>
-<p class="source"><a href="../viewer/index.html?book=05&amp;page=1">참고: 공식 교재 05, 전략·환경분석</a></p>
 </section>
 <section class=" " aria-label="전략은 선택과 실행으로 구체화됩니다"><h1>전략은 선택과 실행으로 구체화됩니다</h1>
 <p>SWOT 표는 분석 결과를 정리하는 도구입니다. 표를 채우는 것만으로 전략이 완성되지는 않습니다.</p>
 <p><strong>어떤 고객에게 어떤 가치를 제공할지</strong> 정하고, 필요한 자원과 실행 순서를 선택합니다.</p>
 <p>빠른 배송을 선택했다면 재고 정확도와 출고 과정도 함께 개선해야 합니다.</p>
 <p>선택한 전략의 성과는 배송 준수율·고객 재구매율처럼 목표와 연결된 지표로 확인합니다.</p>
+<p class="caption">설명 순서와 비교표는 교재 개념을 수업용으로 재구성했습니다. 사례·수치는 자체 예시입니다.</p>
+<p class="source"><a href="../viewer/index.html?book=05&amp;page=34">교재 05 — 환경분석·전략 선택·구현 (PDF 34쪽)</a></p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};
 

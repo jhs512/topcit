@@ -7,9 +7,9 @@ section h2{font-size:clamp(24px,3vw,40px);color:#006b57}section>p{max-width:1000
 section{word-break:keep-all;overflow-wrap:break-word}section .source,section .caption{font-size:17px;line-height:1.5;color:#52625b}.widget{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}.widget .formula{margin-top:0}section h1{max-width:1160px}@media(max-width:700px){.widget{grid-template-columns:1fr;gap:15px}section .source,section .caption{font-size:15px}}
 @media(min-width:701px){section.compact h1{font-size:52px;margin:12px 0 22px}section.compact p{font-size:24px;line-height:1.45;margin:18px 0}section.compact td,section.compact th{padding:10px 14px}}
 </style></head><body><main><section class="active " aria-label="트랜잭션과 ACID"><h1>트랜잭션과 ACID</h1>
-<p>데이터 이해와 활용 · 핵심 개념 07</p>
+<p>과목명: 데이터 이해와 활용 · 핵심 개념 07</p>
 <p>트랜잭션은 여러 데이터 작업을 <strong>하나의 논리적 처리 단위</strong>로 묶습니다. 전부 반영하거나 취소할 경계를 정합니다.</p>
-<h2>왜 필요한가</h2>
+<h2>작업을 하나의 트랜잭션으로 묶는 이유</h2>
 <p>업무의 중간 상태만 저장되면 서로 연결된 기록이 모순될 수 있습니다.</p>
 </section>
 <section class=" " aria-label="주문과 재고 처리"><h1>주문과 재고 처리</h1>
@@ -42,7 +42,7 @@ section{word-break:keep-all;overflow-wrap:break-word}section .source,section .ca
 <td>완료한 변경의 보존</td>
 </tr>
 </tbody></table>
-<p class="source"><a href="../viewer/index.html?book=02&amp;page=1">참고 교재 02: 데이터 이해와 활용</a></p>
+<p class="source"><a href="../viewer/index.html?book=02&amp;page=121">교재 02 — 트랜잭션·ACID·커밋, PDF 121쪽</a> · <a href="../viewer/index.html?book=02&amp;page=131">교재 02 — 분산 트랜잭션의 2단계 완료, PDF 131쪽</a></p>
 <p class="caption">사례는 개념 설명을 위해 새로 구성했습니다.</p>
 </section></main><nav aria-label="슬라이드 이동"><button id="prev">← 이전</button><span id="counter"></span><button id="next">다음 →</button><button id="full">전체 화면</button></nav><script>
 const slides=[...document.querySelectorAll('section')];let index=0;const $=id=>document.getElementById(id);function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));$('counter').textContent=`${index+1} / ${slides.length}`;$('prev').disabled=index===0;$('next').disabled=index===slides.length-1;window.scrollTo(0,0)}$('prev').onclick=()=>show(index-1);$('next').onclick=()=>show(index+1);document.addEventListener('keydown',e=>{if(['INPUT','BUTTON','SUMMARY','A'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight'){show(index+1);e.preventDefault()}if(e.key==='ArrowLeft'){show(index-1);e.preventDefault()}});$('full').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{$('full').textContent='전체 화면 사용 불가'}};if($("duration")) $('duration').oninput=()=>{const c=Number($('duration').value);$('days').textContent=c;$('c').textContent=c;$('total').textContent=4+Math.max(5,c);$('path').textContent=c<5?'주공정은 A → B → D입니다.':c===5?'두 경로가 모두 주공정입니다.':'주공정이 A → C → D로 바뀝니다.';$('insight').textContent=c<5?`C가 ${5-c}일 더 걸려도 전체 완료 기간은 같습니다.`:c===5?'두 경로 모두 여유가 0일입니다.':'C의 기간 증가가 전체 완료 기간에 영향을 줍니다.'};
