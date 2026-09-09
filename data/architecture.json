@@ -14,7 +14,7 @@
     "answer": 0,
     "explanation": "시스템아키텍처는 구성 요소뿐 아니라 관계와 제약을 다룬다. 화면 디자인만으로 인프라 요구를 결정할 수 없고 네트워크도 주요 구성 요소다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "시스템 개념 > 01 시스템아키텍처의 개념 / 02 시스템아키텍처 유형 / 03 서버의 스택 구조, 인쇄 22~30쪽"
     }
   },
@@ -33,7 +33,7 @@
     "answer": 1,
     "explanation": "응용 계층은 업무 규칙을 처리한다. 표현 계층은 사용자 인터페이스, 데이터 계층은 저장과 조회를 담당하며 물리 연결과 파티션은 업무 규칙 배치가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "시스템 개념 > 01 시스템아키텍처의 개념 / 02 시스템아키텍처 유형 / 03 서버의 스택 구조, 인쇄 22~30쪽"
     }
   },
@@ -52,7 +52,7 @@
     "answer": 2,
     "explanation": "중앙집중형은 관리와 데이터 통합에 유리하지만 중심부 장애의 영향이 넓다. 별도 이중화나 재해 복구 없이 독립 복구가 보장되지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "시스템 개념 > 01 시스템아키텍처의 개념 / 02 시스템아키텍처 유형 / 03 서버의 스택 구조, 인쇄 22~30쪽"
     }
   },
@@ -71,7 +71,7 @@
     "answer": 3,
     "explanation": "분산 운영은 부하와 장애 영향을 나눌 수 있지만 데이터 동기화와 관리가 복잡하다. 분산형이 중앙 CPU나 동일 물리 디스크 사용을 요구하지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "시스템 개념 > 01 시스템아키텍처의 개념 / 02 시스템아키텍처 유형 / 03 서버의 스택 구조, 인쇄 22~30쪽"
     }
   },
@@ -90,7 +90,7 @@
     "answer": 0,
     "explanation": "운영체제가 하드웨어 자원을 관리하고 미들웨어는 응용 서비스의 실행을 돕는다. 응용 프로그램은 이 기반 위에서 업무 기능을 제공한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "시스템 개념 > 01 시스템아키텍처의 개념 / 02 시스템아키텍처 유형 / 03 서버의 스택 구조, 인쇄 22~30쪽"
     }
   },
@@ -109,7 +109,7 @@
     "answer": 1,
     "explanation": "미들웨어는 운영체제와 응용 사이의 공통 서비스를 제공한다. 나머지는 하드웨어 구성 요소로 응용 실행 서비스 계층이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "시스템 개념 > 01 시스템아키텍처의 개념 / 02 시스템아키텍처 유형 / 03 서버의 스택 구조, 인쇄 22~30쪽"
     }
   },
@@ -128,7 +128,7 @@
     "answer": 2,
     "explanation": "용량 산정은 실제 부하와 자원 소모, 증가 여유를 반영한다. 화면 장비나 이름은 처리 용량의 직접 근거가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "정보시스템 구축 기술 > 02 정보시스템 용량 산정, 인쇄 113~116쪽"
     }
   },
@@ -147,7 +147,7 @@
     "answer": 3,
     "explanation": "시뮬레이션법은 작업 부하 모델을 실행해 규모를 추정한다. 참조법은 유사 사례 비교이고 수식 계산법은 입력 요소와 보정치를 수식에 적용한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "정보시스템 구축 기술 > 02 정보시스템 용량 산정, 인쇄 113~116쪽"
     }
   },
@@ -166,7 +166,7 @@
     "answer": 0,
     "explanation": "로드 밸런싱은 여러 처리 노드에 부하를 분산한다. 디스크 정리나 문자 변환은 요청 분배 기능을 대신하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "시스템 개념 > 01 시스템아키텍처의 개념 > 정보시스템의 구성 요소, 인쇄 24~25쪽"
     }
   },
@@ -185,7 +185,7 @@
     "answer": 1,
     "explanation": "서비스 경로의 공통 장비가 하나면 그 장애가 전체에 영향을 줄 수 있다. 서버 이중화나 데이터 백업은 네트워크 이중화와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "장애 대응 처리 기술 > 01 고가용성"
     }
   },
@@ -204,7 +204,7 @@
     "answer": 2,
     "explanation": "운영체제는 CPU·메모리 등 자원을 관리하고 응용에 실행 인터페이스를 제공한다. 웹 서버와 데이터베이스 클라이언트는 응용이며, 컴파일러의 주 역할은 코드를 번역하는 것이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 01 운영체제, 인쇄 43~45쪽"
     }
   },
@@ -223,7 +223,7 @@
     "answer": 3,
     "explanation": "프로세스는 실행 중인 프로그램이다. 저장된 코드나 파일 이름 표시는 실행 상태 자체를 의미하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 02 프로세스와 스레드, 인쇄 46~48쪽"
     }
   },
@@ -242,7 +242,7 @@
     "answer": 0,
     "explanation": "준비 상태는 실행 가능한 프로세스가 CPU를 기다리는 상태다. 입출력 사건을 기다리는 대기 상태와 CPU를 사용 중인 실행 상태를 구분한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 02 프로세스와 스레드, 인쇄 46~48쪽"
     }
   },
@@ -261,7 +261,7 @@
     "answer": 1,
     "explanation": "문맥 교환은 실행 상태를 보존하고 다른 상태를 복원하는 과정이다. 코드 삭제나 프로세스 전체 종료와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 02 프로세스와 스레드, 인쇄 46~48쪽"
     }
   },
@@ -280,7 +280,7 @@
     "answer": 2,
     "explanation": "PCB는 프로세스 식별자·상태·다음 명령 위치 등 운영체제의 관리 정보를 담는다. 사용자 데이터나 실행 파일 주석, 파일 데이터 블록과 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 02 프로세스와 스레드, 인쇄 46~48쪽"
     }
   },
@@ -299,7 +299,7 @@
     "answer": 3,
     "explanation": "스레드는 프로세스 자원을 공유하되 실행 흐름별 스택과 레지스터 상태를 갖는다. 별도 실행 파일이나 컴퓨터가 필요한 것은 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 02 프로세스와 스레드, 인쇄 46~48쪽"
     }
   },
@@ -318,7 +318,7 @@
     "answer": 0,
     "explanation": "읽기·수정·쓰기 전체가 보호되지 않으면 갱신이 덮어써질 수 있다. 이는 경쟁 상태이며, 서로 자원을 무한 대기하는 교착이나 페이지 부재와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 03 프로세스 동기화와 교착 상태, 인쇄 49~50쪽"
     }
   },
@@ -337,7 +337,7 @@
     "answer": 1,
     "explanation": "임계 구역은 공유 자료를 수정하는 등 동시 실행을 제한해야 하는 코드 구간이다. 준비 큐는 실행을 기다리는 목록이고 파일 디렉터리는 이름과 파일의 관계를 관리한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 03 프로세스 동기화와 교착 상태, 인쇄 49~50쪽"
     }
   },
@@ -356,7 +356,7 @@
     "answer": 2,
     "explanation": "상호 배제는 같은 공유 자원의 임계 구역을 동시에 실행하지 않도록 한다. 대기 시간 제한은 별도의 조건이며 메모리 주소 변환과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 03 프로세스 동기화와 교착 상태, 인쇄 49~50쪽"
     }
   },
@@ -375,7 +375,7 @@
     "answer": 3,
     "explanation": "카운팅 세마포어는 사용 가능한 자원 수를 세며 접근을 조절한다. 캐시나 네트워크 기능은 이런 동기화 카운터가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 03 프로세스 동기화와 교착 상태, 인쇄 49~50쪽"
     }
   },
@@ -394,7 +394,7 @@
     "answer": 0,
     "explanation": "서로가 가진 자원을 기다려 진행할 수 없는 순환 대기는 교착 상태의 전형적 상황이다. 처리 속도가 잠깐 느린 것과는 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 03 프로세스 동기화와 교착 상태, 인쇄 49~50쪽"
     }
   },
@@ -413,7 +413,7 @@
     "answer": 1,
     "explanation": "일관된 자원 획득 순서는 교착 조건 중 순환 대기를 깨는 방법이다. 자원 수나 파일 공개 여부와는 다른 문제다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 03 프로세스 동기화와 교착 상태, 인쇄 49~50쪽"
     }
   },
@@ -432,7 +432,7 @@
     "answer": 2,
     "explanation": "교착 회피는 자원 배정 후 안전 상태를 유지할 수 있는지 판단한다. 발생 후 처리인 탐지·복구나 이름 변경과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 03 프로세스 동기화와 교착 상태, 인쇄 49~50쪽"
     }
   },
@@ -451,7 +451,7 @@
     "answer": 3,
     "explanation": "라운드 로빈은 시간 할당량을 사용해 CPU를 순환 배정한다. 페이지 교체는 메모리, 미러링은 저장 장치 방식이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 05 스케줄링, 인쇄 53~54쪽"
     }
   },
@@ -470,7 +470,7 @@
     "answer": 0,
     "explanation": "짧은 시간 조각은 교환 빈도를 높여 유효 작업 이외의 비용을 늘릴 수 있다. 파일 크기 한도나 명령어 형식, 실제 메모리 용량은 바뀌지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 05 스케줄링, 인쇄 53~54쪽"
     }
   },
@@ -489,7 +489,7 @@
     "answer": 1,
     "explanation": "HRN의 응답비율은 (대기시간+수행시간)/수행시간이다. (8+2)/2=5이며 단순히 대기시간을 나누는 4와 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 05 스케줄링, 인쇄 53~54쪽"
     }
   },
@@ -508,7 +508,7 @@
     "answer": 2,
     "explanation": "가상 메모리는 논리 주소 공간과 물리 메모리를 분리해 관리한다. 물리 메모리가 실제로 무한해진다는 뜻은 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 06 가상 기억장치, 인쇄 54~56쪽"
     }
   },
@@ -527,7 +527,7 @@
     "answer": 3,
     "explanation": "페이징은 고정 크기 단위의 대응을 사용한다. 의미별 가변 크기 분할인 세그먼테이션과 구별된다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 06 가상 기억장치, 인쇄 54~56쪽"
     }
   },
@@ -546,7 +546,7 @@
     "answer": 0,
     "explanation": "페이지 폴트는 필요한 페이지가 메모리에 없을 때 발생할 수 있다. 운영체제가 적재를 처리하며 항상 프로그램 오류라는 뜻은 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 06 가상 기억장치, 인쇄 54~56쪽"
     }
   },
@@ -565,7 +565,7 @@
     "answer": 1,
     "explanation": "LRU는 최근 사용 이력, FIFO는 적재 순서를 기준으로 한다. 두 기준은 서로 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 06 가상 기억장치, 인쇄 54~56쪽"
     }
   },
@@ -584,7 +584,7 @@
     "answer": 2,
     "explanation": "FIFO는 적재 순서를 따르므로 참조만으로 순서가 바뀌지 않는다. 최근 참조에 따라 판단하는 것은 LRU 계열이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 06 가상 기억장치, 인쇄 54~56쪽"
     }
   },
@@ -603,7 +603,7 @@
     "answer": 3,
     "explanation": "스래싱은 과도한 페이지 교환으로 유효 처리량이 떨어지는 현상이다. 캐시 적중은 보통 접근 비용을 줄인다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 06 가상 기억장치, 인쇄 54~56쪽"
     }
   },
@@ -622,7 +622,7 @@
     "answer": 0,
     "explanation": "시간적 지역성은 최근 사용한 항목의 재사용이고 공간적 지역성은 인접 위치 접근 경향이다. 단편화나 순환 대기는 다른 현상이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 03 기억장치 > 지역성, 인쇄 69쪽"
     }
   },
@@ -641,7 +641,7 @@
     "answer": 1,
     "explanation": "가까운 메모리 주소를 연이어 접근하는 경향이 공간적 지역성이다. 캐시 블록으로 인접 데이터를 함께 가져오는 방식과 맞는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 03 기억장치 > 지역성, 인쇄 69쪽"
     }
   },
@@ -660,7 +660,7 @@
     "answer": 2,
     "explanation": "할당된 영역 안의 미사용 부분은 내부 단편화다. 할당 영역 사이에 나뉘어 남는 공간은 외부 단편화이며 페이지 부재와 교착은 별개의 문제다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 04 기억장치 관리, 인쇄 50~53쪽"
     }
   },
@@ -679,7 +679,7 @@
     "answer": 3,
     "explanation": "색인 할당은 블록 위치를 색인으로 관리한다. 연속 할당은 파일에 연속 공간을 배정하는 방식이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 07 파일 시스템, 인쇄 56~59쪽"
     }
   },
@@ -698,7 +698,7 @@
     "answer": 0,
     "explanation": "inode는 파일 메타데이터와 데이터 블록 위치 정보를 관리한다. 파일 내용 자체나 CPU 실행 위치, 가상 주소 변환 테이블과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 07 파일 시스템, 인쇄 56~59쪽"
     }
   },
@@ -717,7 +717,7 @@
     "answer": 1,
     "explanation": "DMA는 초기 설정 등에는 CPU가 관여해도 데이터 전송을 별도 제어기가 맡도록 한다. CPU가 전송의 모든 바이트를 직접 처리하는 방식과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 04 입출력 장치 > 직접 메모리 접근, 인쇄 70쪽"
     }
   },
@@ -736,7 +736,7 @@
     "answer": 2,
     "explanation": "인터럽트는 사건 발생을 프로세서에 알린다. 폴링은 CPU가 상태를 반복 확인하는 접근이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 08 입출력 시스템, 인쇄 59쪽"
     }
   },
@@ -755,7 +755,7 @@
     "answer": 3,
     "explanation": "선점은 실행 중인 작업에서 CPU를 회수해 다른 작업에 줄 수 있다는 뜻이다. 파일 할당이나 주소 변환과 무관하다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "운영체제 > 05 스케줄링, 인쇄 53~54쪽"
     }
   },
@@ -774,7 +774,7 @@
     "answer": 0,
     "explanation": "ALU는 산술·논리 연산을 수행한다. 제어 장치는 동작을 지시하고 PC는 다음 명령 주소를 보관하며 디스크는 보조기억장치다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 02 중앙처리장치, 인쇄 64~66쪽"
     }
   },
@@ -793,7 +793,7 @@
     "answer": 1,
     "explanation": "PC는 다음에 인출할 명령 주소를 관리한다. 명령어 레지스터는 가져온 명령, 누산기는 연산 값, 메모리 버퍼는 전송 데이터를 담는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 02 중앙처리장치, 인쇄 64~66쪽"
     }
   },
@@ -812,7 +812,7 @@
     "answer": 2,
     "explanation": "명령어 인출 후 해독을 통해 수행할 동작을 알아낸다. 데이터 저장은 실행 결과를 기록하는 동작이고 디스크 블록 할당은 저장 공간 관리다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 02 중앙처리장치, 인쇄 64~66쪽"
     }
   },
@@ -831,7 +831,7 @@
     "answer": 3,
     "explanation": "레지스터는 CPU 내부의 소량 고속 저장소다. 메모리와 보조기억장치는 더 큰 용량을 제공하지만 접근 특성이 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 03 기억장치, 인쇄 67~69쪽"
     }
   },
@@ -850,7 +850,7 @@
     "answer": 0,
     "explanation": "캐시는 지역성을 이용해 CPU가 데이터를 가까운 고속 저장소에서 얻도록 하여 평균 접근 비용을 줄인다. 테이프·디스크·공유 폴더 서버는 CPU와 주기억장치 사이의 캐시 계층이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 03 기억장치, 인쇄 67~69쪽"
     }
   },
@@ -869,7 +869,7 @@
     "answer": 1,
     "explanation": "일반 DRAM은 휘발성 메모리다. 실행 중 데이터를 저장할 수 있지만 영속성을 위해 비휘발성 저장과 적절한 기록 처리가 필요하다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 03 기억장치, 인쇄 67~69쪽"
     }
   },
@@ -888,7 +888,7 @@
     "answer": 2,
     "explanation": "하버드 구조는 명령어와 데이터 경로를 분리한다. 폰 노이만 구조의 공유 경로와 대비되는 개념이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 01 컴퓨터의 구조와 아키텍처, 인쇄 63~64쪽"
     }
   },
@@ -907,7 +907,7 @@
     "answer": 3,
     "explanation": "RISC는 단순화된 명령어와 효율적인 실행을 지향한다. 복잡한 명령어가 많다는 설명은 일반적인 CISC 대비와 맞지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 02 중앙처리장치 / 데이터 처리 기술 > 01 병렬 처리 시스템"
     }
   },
@@ -926,7 +926,7 @@
     "answer": 0,
     "explanation": "파이프라이닝은 단계 중첩으로 처리량을 높인다. 개별 지연을 0으로 만들거나 분기 자체를 제거하는 것은 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "컴퓨터 아키텍처 > 02 중앙처리장치 / 데이터 처리 기술 > 01 병렬 처리 시스템"
     }
   },
@@ -945,7 +945,7 @@
     "answer": 1,
     "explanation": "SIMD는 하나의 명령 흐름을 여러 데이터에 적용한다. SISD는 하나의 명령 흐름과 하나의 데이터 흐름이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 01 병렬 처리 시스템"
     }
   },
@@ -964,7 +964,7 @@
     "answer": 2,
     "explanation": "MIMD는 다중 명령·다중 데이터 흐름이다. SIMD는 단일 명령·다중 데이터, SISD는 단일 명령·단일 데이터, MISD는 다중 명령·단일 데이터다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 01 병렬 처리 시스템"
     }
   },
@@ -983,7 +983,7 @@
     "answer": 3,
     "explanation": "공유 메모리에서는 동시 갱신을 조절해야 한다. 메모리를 공유한다는 사실만으로 데이터 접근 순서가 안전해지지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 01 병렬 처리 시스템"
     }
   },
@@ -1002,7 +1002,7 @@
     "answer": 0,
     "explanation": "NAS는 네트워크를 통한 파일 단위 접근을 제공한다. DAS는 직접 연결이고 SAN은 블록 저장 접근을 제공하며 캐시는 CPU 근처의 저장 계층이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 02 스토리지 기술"
     }
   },
@@ -1021,7 +1021,7 @@
     "answer": 1,
     "explanation": "SAN은 블록 저장 접근을 제공하는 저장 네트워크다. NAS의 파일 접근과 구별하고 DNS·SMTP는 다른 서비스다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 02 스토리지 기술"
     }
   },
@@ -1040,7 +1040,7 @@
     "answer": 2,
     "explanation": "DAS는 서버 직접 연결 저장 방식이다. NAS·SAN·클라우드 파일 공유는 네트워크를 통한 저장 접근 방식이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 02 스토리지 기술"
     }
   },
@@ -1059,7 +1059,7 @@
     "answer": 3,
     "explanation": "RAID 0은 스트라이핑으로 병렬 접근을 도모하지만 중복에 의한 장애 내성이 없다. 미러링이나 패리티 방식과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 03 고가용성 저장장치"
     }
   },
@@ -1078,7 +1078,7 @@
     "answer": 0,
     "explanation": "RAID 1은 미러링이다. RAID 0은 중복 없는 스트라이핑이며 파일 압축이나 디스크 조각 모음은 동일 데이터 복제에 의한 장애 대비가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 03 고가용성 저장장치"
     }
   },
@@ -1097,7 +1097,7 @@
     "answer": 1,
     "explanation": "RAID 5의 가용 용량은 동일 디스크 기준 (개수−1)×용량이다. 4개 중 한 개 분량이 패리티에 해당하므로 6TB다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 03 고가용성 저장장치"
     }
   },
@@ -1116,7 +1116,7 @@
     "answer": 2,
     "explanation": "RAID는 주로 장치 장애 대응이며 삭제나 논리 오류도 반영될 수 있다. 과거 시점 복구를 위한 백업은 별도로 필요하다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 03 고가용성 저장장치"
     }
   },
@@ -1135,7 +1135,7 @@
     "answer": 3,
     "explanation": "증분은 직전 백업 이후 변경분, 차등은 마지막 전체 백업 이후 변경분을 저장한다. 복원 시 필요한 백업 집합도 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 03 고가용성 저장장치"
     }
   },
@@ -1154,7 +1154,7 @@
     "answer": 0,
     "explanation": "차등 백업은 마지막 전체 백업 이후 변경을 누적하므로 전체와 해당 시점 차등이 기본 복원 집합이다. 증분처럼 매일의 변경분 연결이 필요하지 않다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 처리 기술 > 03 고가용성 저장장치"
     }
   },
@@ -1173,7 +1173,7 @@
     "answer": 1,
     "explanation": "페일오버는 장애 시 대기 구성 요소로 서비스 역할을 넘기는 것이다. 백업은 복구할 사본을 보관하며 CPU 문맥 교환은 프로세서의 실행 대상을 바꾸는 동작이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "장애 대응 처리 기술 > 01 고가용성 > HA 구성 유형, 인쇄 121쪽"
     }
   },
@@ -1192,7 +1192,7 @@
     "answer": 2,
     "explanation": "RTO는 복구까지 허용되는 시간 목표다. RPO는 복구할 데이터 시점, 즉 허용 가능한 데이터 손실 범위를 나타낸다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "장애 대응 처리 기술 > 03 재난 복구 시스템, 인쇄 123~124쪽"
     }
   },
@@ -1211,7 +1211,7 @@
     "answer": 3,
     "explanation": "RPO는 데이터 복구 시점 목표다. RTO는 서비스 복구에 허용한 시간이며 가용성 비율과 실제 평균 복구 소요 시간도 구별해야 한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "장애 대응 처리 기술 > 03 재난 복구 시스템, 인쇄 123~124쪽"
     }
   },
@@ -1230,7 +1230,7 @@
     "answer": 0,
     "explanation": "광역 장애에는 원격 복구 기반과 실제 전환 절차가 필요하다. 같은 장소에만 둔 복제는 동일 재해의 영향을 함께 받을 수 있다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "장애 대응 처리 기술 > 03 재난 복구 시스템, 인쇄 123~124쪽"
     }
   },
@@ -1249,7 +1249,7 @@
     "answer": 1,
     "explanation": "IaaS는 인프라 자원을 서비스로 제공한다. 완성 응용을 사용하는 SaaS보다 사용자가 관리하는 범위가 넓다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 02 클라우드 컴퓨팅 유형, 인쇄 127~129쪽"
     }
   },
@@ -1268,7 +1268,7 @@
     "answer": 2,
     "explanation": "PaaS는 응용 개발·실행 플랫폼을 제공한다. 물리 서버를 직접 구축하는 방식보다 기반 관리 부담을 줄이며, 완성된 응용만 사용하는 SaaS와도 구별된다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 02 클라우드 컴퓨팅 유형, 인쇄 127~129쪽"
     }
   },
@@ -1287,7 +1287,7 @@
     "answer": 3,
     "explanation": "SaaS는 완성된 응용 서비스를 제공한다. 인프라만 빌리는 IaaS와 관리 범위가 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 02 클라우드 컴퓨팅 유형, 인쇄 127~129쪽"
     }
   },
@@ -1306,7 +1306,7 @@
     "answer": 0,
     "explanation": "유틸리티 컴퓨팅은 자원을 사용량에 따라 과금하는 제공 방식이다. 주소 지정·CPU 처리·파일 배치는 과금 모델이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 01 클라우드 컴퓨팅의 정의 > 유틸리티 컴퓨팅과 비교, 인쇄 127쪽"
     }
   },
@@ -1325,7 +1325,7 @@
     "answer": 1,
     "explanation": "하이퍼바이저는 가상 머신 실행 기반과 자원 관리를 제공한다. 네트워크 레코드나 저장 중복 정보는 그 역할이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 03 서버 가상화 기술, 인쇄 129~132쪽"
     }
   },
@@ -1344,7 +1344,7 @@
     "answer": 2,
     "explanation": "Type 1은 하드웨어에서 직접 실행되는 구조이고 Type 2는 호스트 운영체제 위에 놓인다. 나머지는 하이퍼바이저 유형이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 03 서버 가상화 기술, 인쇄 129~132쪽"
     }
   },
@@ -1363,7 +1363,7 @@
     "answer": 3,
     "explanation": "컨테이너는 호스트 커널을 공유하며 실행 환경을 격리하는 방식이다. 가상 머신은 게스트 운영체제를 실행할 수 있다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 03 서버 가상화 기술, 인쇄 129~132쪽"
     }
   },
@@ -1382,7 +1382,7 @@
     "answer": 0,
     "explanation": "쿠버네티스는 컨테이너의 배치와 운영을 조정한다. 문자 표현이나 주소 범위를 나타내는 데이터와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 05 클라우드 플랫폼 > 쿠버네티스, 인쇄 134쪽"
     }
   },
@@ -1401,7 +1401,7 @@
     "answer": 1,
     "explanation": "하이브리드 클라우드는 서로 다른 클라우드 배치 모델을 연계한다. 로컬 폴더나 메모리 구조와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "클라우드 컴퓨팅 기술 > 02 클라우드 컴퓨팅 유형 > 클라우드 운영 형태에 따른 분류, 인쇄 129쪽"
     }
   },
@@ -1420,7 +1420,7 @@
     "answer": 2,
     "explanation": "복제는 노드 장애에 대한 내성을 높인다. 복제만으로 업무 의미를 추론하거나 질의를 만들어 주지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "빅 데이터 시스템 > 01 빅 데이터 시스템의 구조 > 하둡의 주요 기술 요소, 인쇄 137쪽"
     }
   },
@@ -1439,7 +1439,7 @@
     "answer": 3,
     "explanation": "프로토콜은 구문·의미·타이밍 등 통신 규칙이다. 외형을 같게 한다고 상호 운용이 보장되지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 개념 > 01 프로토콜 / 02 OSI 참조 모델과 TCP/IP 프로토콜 계층 구조"
     }
   },
@@ -1458,7 +1458,7 @@
     "answer": 0,
     "explanation": "계층화는 기능을 모듈화하고 계층 간 서비스 경계를 정한다. 하위 계층 서비스를 이용하며 오류 가능성 자체를 없애지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 개념 > 01 프로토콜 / 02 OSI 참조 모델과 TCP/IP 프로토콜 계층 구조"
     }
   },
@@ -1477,7 +1477,7 @@
     "answer": 1,
     "explanation": "캡슐화는 헤더 등의 제어 정보를 붙이는 과정이다. 수신 측은 이를 해석하고 제거하며 상위로 전달한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 링크 계층 > 02 데이터 링크 계층 캡슐화, 인쇄 144쪽"
     }
   },
@@ -1496,7 +1496,7 @@
     "answer": 2,
     "explanation": "일반적인 계층 2 스위치는 목적지 MAC 주소와 학습한 주소 테이블을 이용한다. IP 최장 접두사 경로 선택은 계층 3 기능이며 TCP 윈도우나 문자 인코딩은 포트 전달 기준이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 01 네트워크 계층 개요 및 장비, 인쇄 155~158쪽"
     }
   },
@@ -1515,7 +1515,7 @@
     "answer": 3,
     "explanation": "라우터는 목적지 IP와 라우팅 정보를 바탕으로 네트워크 간 다음 경로를 선택한다. 리피터는 물리 신호를 중계하고 메모리 관리 장치와 DAS는 네트워크 경로 선택 장치가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 01 네트워크 계층 개요 및 장비, 인쇄 155~158쪽"
     }
   },
@@ -1534,7 +1534,7 @@
     "answer": 0,
     "explanation": "ARP는 로컬 링크의 IPv4 주소와 MAC 주소 대응을 얻는다. DHCP는 IP 설정 배정, DNS는 이름 해석, NTP는 시간 동기화에 사용한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 링크 계층 > 04 MAC 주소 검사 > IP 주소와 MAC 주소 변환 프로토콜, 인쇄 146쪽"
     }
   },
@@ -1553,7 +1553,7 @@
     "answer": 1,
     "explanation": "VLAN은 계층 2 네트워크를 논리적으로 나눈다. 메모리나 디스크 기법은 브로드캐스트 영역을 분리하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 01 네트워크 계층 개요 및 장비 > VLAN, 인쇄 158쪽"
     }
   },
@@ -1572,7 +1572,7 @@
     "answer": 2,
     "explanation": "CRC는 계산한 검사값을 비교해 오류를 검출한다. FIFO·LRU는 교체 정책으로도 쓰이는 순서 기준이며 라운드 로빈은 스케줄링 방식이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 링크 계층 > 05 데이터 링크 계층 오류 검출과 오류 정정 기법, 인쇄 147~149쪽"
     }
   },
@@ -1591,7 +1591,7 @@
     "answer": 3,
     "explanation": "ARQ는 확인 응답과 재전송으로 오류를 복구하는 접근이다. CRC 계산만으로 재전송까지 수행되는 것은 아니며 라우팅 요약은 경로 정보 관리다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "데이터 링크 계층 > 05 데이터 링크 계층 오류 검출과 오류 정정 기법, 인쇄 147~149쪽"
     }
   },
@@ -1610,7 +1610,7 @@
     "answer": 0,
     "explanation": "IPv4는 32비트 주소를 사용한다. 128비트는 IPv6 주소의 길이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 06 IPv4 개요 / 07 IPv4 주소 지정 체계 및 서브네팅, 인쇄 167~171쪽"
     }
   },
@@ -1629,7 +1629,7 @@
     "answer": 1,
     "explanation": "호스트 비트는 32−26=6이므로 총 64개다. 문제 조건에 따라 두 주소를 제외하면 62개다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 06 IPv4 개요 / 07 IPv4 주소 지정 체계 및 서브네팅, 인쇄 167~171쪽"
     }
   },
@@ -1648,7 +1648,7 @@
     "answer": 2,
     "explanation": "/26의 주소 블록은 64개씩 나뉜다. 70은 64~127 범위이므로 네트워크 주소는 .64다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 06 IPv4 개요 / 07 IPv4 주소 지정 체계 및 서브네팅, 인쇄 167~171쪽"
     }
   },
@@ -1667,7 +1667,7 @@
     "answer": 3,
     "explanation": "CIDR은 클래스에 고정되지 않은 접두사 길이를 사용하며 경로 요약에 활용된다. ARP는 주소 대응, DHCP는 설정 배정, HTTP는 웹 통신 규칙이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 06 IPv4 개요 / 07 IPv4 주소 지정 체계 및 서브네팅, 인쇄 167~171쪽"
     }
   },
@@ -1686,7 +1686,7 @@
     "answer": 0,
     "explanation": "다른 네트워크로 향하는 패킷은 적절한 경로가 없으면 기본 게이트웨이로 보낸다. 메모리나 화면 장치로 네트워크 경로를 대신하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 01 네트워크 계층 개요 및 장비 / 07 IPv4 주소 지정 체계 및 서브네팅"
     }
   },
@@ -1705,7 +1705,7 @@
     "answer": 1,
     "explanation": "IPv6는 더 큰 주소 공간을 제공하며 주소 길이는 128비트다. 파일 압축이나 CPU 명령어 형식 개선이 주소 체계의 목적은 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 08 IPv6 개요 / 09 IPv6 주소 체계 및 헤더 구조, 인쇄 172~173쪽"
     }
   },
@@ -1724,7 +1724,7 @@
     "answer": 2,
     "explanation": "DHCP는 IP 주소 등 호스트 네트워크 설정을 자동 제공한다. DNS는 이름 해석, NTP는 시간 동기화, ICMP는 네트워크 제어 메시지에 사용한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 07 IPv4 주소 지정 체계 및 서브네팅 > IPv4 주소 할당 방식, 인쇄 171쪽"
     }
   },
@@ -1743,7 +1743,7 @@
     "answer": 3,
     "explanation": "TTL은 라우터를 거치며 감소하고 소진되면 패킷이 폐기되어 무한 순환을 제한한다. TCP 윈도우와 포트, 목적지 IP 주소는 순환 횟수 제한 값이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 02 네트워크 계층 캡슐화 > IPv4 헤더, 인쇄 160쪽"
     }
   },
@@ -1762,7 +1762,7 @@
     "answer": 0,
     "explanation": "ping은 ICMP Echo 요청·응답을 이용한다. TCP 연결이나 DHCP 설정 배정이 아니며 ARP는 로컬 주소 해석을 담당한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "네트워크 계층 > 03 패킷 스위칭 및 네트워크 계층 프로토콜/명령어, 인쇄 160~162쪽"
     }
   },
@@ -1781,7 +1781,7 @@
     "answer": 1,
     "explanation": "TCP는 연결 기반으로 신뢰성 있는 순서 전달을 지원한다. IP나 UDP 자체는 같은 전달 보장을 제공하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "전송 계층 프로토콜 > 02 TCP, 인쇄 178~184쪽"
     }
   },
@@ -1800,7 +1800,7 @@
     "answer": 2,
     "explanation": "UDP는 연결 설정 없이 데이터그램을 전달하며 재전송·순서 보장을 자체 제공하지 않는다. 필요하면 응용이 보완해야 한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "전송 계층 프로토콜 > 03 UDP, 인쇄 185~186쪽"
     }
   },
@@ -1819,7 +1819,7 @@
     "answer": 3,
     "explanation": "TCP 연결 설정은 SYN, SYN+ACK, ACK의 3-way handshake를 사용한다. FIN은 종료 요청, RST는 연결 재설정에 관련되므로 정상 연결 설정 순서가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "전송 계층 프로토콜 > 02 TCP, 인쇄 178~184쪽"
     }
   },
@@ -1838,7 +1838,7 @@
     "answer": 0,
     "explanation": "흐름 제어는 수신 측 처리 능력에 송신량을 맞춘다. 네트워크 혼잡을 다루는 혼잡 제어와 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "전송 계층 프로토콜 > 02 TCP, 인쇄 178~184쪽"
     }
   },
@@ -1857,7 +1857,7 @@
     "answer": 1,
     "explanation": "혼잡 제어는 네트워크의 수용 능력을 고려한다. 수신 버퍼 중심의 흐름 제어 및 로컬 메모리 관리와 목적이 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "전송 계층 프로토콜 > 02 TCP, 인쇄 178~184쪽"
     }
   },
@@ -1876,7 +1876,7 @@
     "answer": 2,
     "explanation": "DNS는 도메인 이름에 대한 IP 등 레코드를 조회한다. DHCP는 호스트 설정 배정, NTP는 시간 동기화, ARP는 로컬 IP와 MAC 대응을 제공한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "응용 계층 프로토콜 > 01 응용 계층 프로토콜, 인쇄 191~193쪽"
     }
   },
@@ -1895,7 +1895,7 @@
     "answer": 3,
     "explanation": "SDN은 제어 평면과 데이터 평면을 분리하는 접근이다. NFV는 네트워크 기능의 가상화, VLAN은 논리 링크 분리, RAID는 저장 장치 중복·배치를 다룬다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1",
       "section": "최신 기술 > 02 소프트웨어 기반 네트워크 > SDN, 인쇄 213~215쪽"
     }
   }

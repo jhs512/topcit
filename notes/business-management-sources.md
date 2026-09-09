@@ -2,9 +2,9 @@
 
 ## 공식 자료와 버전
 
-- [공식 학습자료 목록](https://www.topcit.or.kr/board/study.do?language=ko)의 활성 `openEssence`는 [05 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/index.html)과 [06 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/index.html)을 연다. 처음 조사에서 HTML 안의 **주석 처리된 PDF 다운로드 함수**를 활성 함수로 잘못 읽었다. 아래 PDF는 접근 가능한 공식 서버 자료지만 현재 목록의 활성 다운로드 링크는 아니다. 이후 실제 전자책의 구성 파일·검색 본문·페이지 이미지를 직접 읽어 대조했다.
-- [05 IT비즈니스와 윤리](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf): PDF 213쪽. 판권 PDF 4쪽에 **3판 발행일 2020-02-26**이 표시되어 있다.
-- [06 프로젝트 관리 및 테크니컬 커뮤니케이션](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/06_%ED%85%8C%ED%81%AC%EB%8B%88%EC%BB%AC_%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A6%AC.pdf): PDF 139쪽. 판권 PDF 4쪽도 **3판 발행일 2020-02-26**이다.
+- [공식 학습자료 목록](https://www.topcit.or.kr/board/study.do?language=ko)의 활성 `openEssence`는 [05 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=05&page=1)과 [06 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=06&page=1)을 연다. 처음 조사에서 HTML 안의 **주석 처리된 PDF 다운로드 함수**를 활성 함수로 잘못 읽었다. 아래 PDF는 접근 가능한 공식 서버 자료지만 현재 목록의 활성 다운로드 링크는 아니다. 이후 실제 전자책의 구성 파일·검색 본문·페이지 이미지를 직접 읽어 대조했다.
+- [05 IT비즈니스와 윤리](https://jhs512.github.io/topcit/viewer/index.html?book=05&page=1): PDF 213쪽. 판권 PDF 4쪽에 **3판 발행일 2020-02-26**이 표시되어 있다.
+- [06 프로젝트 관리 및 테크니컬 커뮤니케이션](https://jhs512.github.io/topcit/viewer/index.html?book=06&page=1): PDF 139쪽. 판권 PDF 4쪽도 **3판 발행일 2020-02-26**이다.
 - 두 PDF의 출력 머리글에는 2022-12-02가 있다. 이는 2026 개편판의 발행일을 뜻하지 않는다.
 - [2026 시험 변경 안내](https://www.topcit.or.kr/board/notice/detail.do?seq=842)의 [첨부 PDF](https://www.topcit.or.kr/board/pdfPreview.do?seq=120) 1~3쪽 본문을 직접 확인했다. 05·06의 내용은 2026 시험의 IT비즈니스에 연결되며, 3쪽의 주요내용에는 환경분석·전략, 솔루션·성과관리, 트렌드, 지식재산권, 직업윤리, 프로젝트관리·커뮤니케이션이 포함된다. 교재와 새 출제기준의 세부 범위가 완전히 같다고 가정하지 않았다.
 
@@ -23,7 +23,7 @@
 
 판권과 위 목차·본문은 기존 PDF의 같은 위치와 일치했다. 활성 전자책의 판권 4번째 페이지(두 권), 05의 BSC 페이지, 06의 3점 추정 페이지는 실제 배경 이미지로도 확인했다. **확인한 판본은 동일한 3판이며 2026 개정 교재라는 근거는 발견하지 못했다.** 페이지 개수가 서로 다르므로 두 파일 전체가 바이트 단위로 같거나 모든 페이지가 동일하다고 주장하지 않는다. 전체 페이지 이미지 전수 비교는 하지 않았다.
 
-원본 데이터: [05 project.json](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/project.json), [05 검색 본문](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/data/searchwords.json), [06 project.json](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/project.json), [06 검색 본문](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/data/searchwords.json). 전자책 데이터와 페이지 이미지는 임시 폴더에서만 읽고 저장소에는 넣지 않았다.
+원본 데이터: [05 project.json](https://jhs512.github.io/topcit/viewer/index.html?book=05&page=1), [05 검색 본문](https://jhs512.github.io/topcit/viewer/index.html?book=05&page=1), [06 project.json](https://jhs512.github.io/topcit/viewer/index.html?book=06&page=1), [06 검색 본문](https://jhs512.github.io/topcit/viewer/index.html?book=06&page=1). 전자책 데이터와 페이지 이미지는 임시 폴더에서만 읽고 저장소에는 넣지 않았다.
 
 ## 실제 읽은 범위와 방법
 

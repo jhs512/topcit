@@ -14,7 +14,7 @@
     "answer": 1,
     "explanation": "기밀성은 인가되지 않은 열람을 막는다. 무결성은 부적절한 변경 방지, 가용성은 서비스 이용 가능성, 부인방지는 행위 증거와 관련된다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
     }
   },
@@ -33,7 +33,7 @@
     "answer": 2,
     "explanation": "무결성은 데이터의 부적절한 변경을 방지·탐지한다. 기밀성은 열람 제한, 가용성은 이용 가능성, 익명성은 신원 노출 제한에 초점이 있다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
     }
   },
@@ -52,7 +52,7 @@
     "answer": 3,
     "explanation": "서비스를 필요한 때 사용할 수 없는 상황이므로 가용성 침해다. 열람·변조·행위 부정이 제시되지 않아 다른 성질의 침해를 직접 결론 내리지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
     }
   },
@@ -71,7 +71,7 @@
     "answer": 0,
     "explanation": "시설 출입문을 잠그는 것은 물리적 통제다. 정책 수립은 관리적 통제이고 논리적 권한·암호화는 정보시스템의 기술적 통제다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
     }
   },
@@ -90,7 +90,7 @@
     "answer": 1,
     "explanation": "교육·조직·책임 지정은 관리적 통제다. 출입 통제는 물리적, 암호화·계정 검사 구현은 기술적 통제다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 13~14 (PDF 쪽은 +2)"
     }
   },
@@ -109,7 +109,7 @@
     "answer": 2,
     "explanation": "인증은 주장한 신원 확인이고 인가는 자원별 허용 작업 결정이다. 식별자 입력만으로 인증이나 권한 검사를 마치지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 39~40 (PDF 쪽은 +2)"
     }
   },
@@ -128,7 +128,7 @@
     "answer": 3,
     "explanation": "부인방지는 누가 행위를 했는지 증거를 제공하여 사후 부정을 어렵게 한다. 읽기 제한·이용 가능성·익명성은 승인 사실 입증과 다른 목표다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 14~15,35~36 (PDF 쪽은 +2)"
     }
   },
@@ -147,7 +147,7 @@
     "answer": 0,
     "explanation": "독립적인 자기 복제와 네트워크 전파가 웜의 핵심 특징이다. 나머지 보기는 숙주 의존, 정상 도구 위장, 복구 대가 요구라는 다른 분류 기준이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 15 (PDF 쪽은 +2)"
     }
   },
@@ -166,7 +166,7 @@
     "answer": 1,
     "explanation": "정상 프로그램으로 위장한 악성 기능은 트로이 목마의 특징이다. 자기 복제·패킷 도청·복구 대가 요구는 이 상황에서 제시된 특징이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 15 (PDF 쪽은 +2)"
     }
   },
@@ -185,7 +185,7 @@
     "answer": 2,
     "explanation": "바이러스는 다른 프로그램에 붙어 그 실행과 함께 동작·확산한다. 독립 전파의 웜이나 정상 도구 위장, 패킷 관찰과 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 15 (PDF 쪽은 +2)"
     }
   },
@@ -204,7 +204,7 @@
     "answer": 3,
     "explanation": "대칭키 방식은 같은 키로 암호화와 복호화를 수행한다. 해시는 복호화하는 방식이 아니며 인증서는 키와 신원 연결을 제공한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 24 (PDF 쪽은 +2)"
     }
   },
@@ -223,7 +223,7 @@
     "answer": 0,
     "explanation": "대칭키는 양측이 비밀키를 공유해야 하므로 안전한 분배가 중요하다. 공개 게시나 수신자 복호화 금지는 정상 통신 목적을 해친다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 24 (PDF 쪽은 +2)"
     }
   },
@@ -242,7 +242,7 @@
     "answer": 1,
     "explanation": "수신자의 공개키로 암호화한 정보는 대응 개인키로 복호화한다. 송신자 키로는 수신자만의 복호화 권한이 정해지지 않으며 수신자의 개인키를 송신자에게 전달하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 26~28 (PDF 쪽은 +2)"
     }
   },
@@ -261,7 +261,7 @@
     "answer": 2,
     "explanation": "개인키는 소유자만 안전하게 관리해야 한다. 공개키·알고리즘·발급기관 이름은 비밀키와 같은 비밀정보가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 26~28 (PDF 쪽은 +2)"
     }
   },
@@ -280,7 +280,7 @@
     "answer": 3,
     "explanation": "AES는 대칭키 블록 암호다. RSA는 공개키 암호 방식이고 SHA-256은 해시 함수, X.509는 인증서 표준이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 24~28 (PDF 쪽은 +2)"
     }
   },
@@ -299,7 +299,7 @@
     "answer": 0,
     "explanation": "블록 암호는 고정 크기 블록을 암호화한다. 스트림 암호는 흐름 단위 처리를 하고 해시는 복호화 목적의 암호화가 아니며 서명 검증은 다른 기능이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 24~25 (PDF 쪽은 +2)"
     }
   },
@@ -318,7 +318,7 @@
     "answer": 1,
     "explanation": "해시 함수는 가변 길이 입력을 고정 길이 요약값으로 바꾼다. 암호화는 키를 이용한 복호화를 전제하고 압축은 일반적으로 입력 크기에 따라 출력 길이가 달라진다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 27~30 (PDF 쪽은 +2)"
     }
   },
@@ -337,7 +337,7 @@
     "answer": 2,
     "explanation": "충돌은 서로 다른 입력의 해시값이 같은 경우다. 같은 입력에서 같은 값을 얻는 결정성과 구별하고 복호화·키 생성도 충돌이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 27~30 (PDF 쪽은 +2)"
     }
   },
@@ -356,7 +356,7 @@
     "answer": 3,
     "explanation": "해시 불일치는 원본과 동일하지 않음을 보여 주지만 전송 오류인지 공격인지는 별도 조사해야 한다. 공격 주체까지 확정할 수 없다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 15,29~30 (PDF 쪽은 +2)"
     }
   },
@@ -375,7 +375,7 @@
     "answer": 0,
     "explanation": "알고리즘이나 형식이 알려져도 키를 모르면 보호되도록 설계해야 한다. 명칭·형식·경로 은폐만으로 암호키의 보호를 대신할 수 없다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 23~24 (PDF 쪽은 +2)"
     }
   },
@@ -394,7 +394,7 @@
     "answer": 1,
     "explanation": "비밀번호와 PIN은 모두 알고 있는 정보다. 입력 항목이 두 개라고 지식·소유·생체의 서로 다른 요소가 되는 것은 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 32 (PDF 쪽은 +2)"
     }
   },
@@ -413,7 +413,7 @@
     "answer": 2,
     "explanation": "비밀번호는 지식, 토큰은 소유 기반이다. 서로 다른 종류를 결합하는 것과 항목 수만 늘리는 것을 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 32 (PDF 쪽은 +2)"
     }
   },
@@ -432,7 +432,7 @@
     "answer": 3,
     "explanation": "지문은 신체 특징 기반 인증이다. 기억한 비밀정보나 소지한 도구를 확인하는 것과 다르며 인가는 인증 후 허용할 작업을 결정한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 34 (PDF 쪽은 +2)"
     }
   },
@@ -451,7 +451,7 @@
     "answer": 0,
     "explanation": "일회용 비밀번호는 고정값의 반복 사용을 줄인다. 인증 자체를 없애거나 파일을 압축하는 기술이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 33~34 (PDF 쪽은 +2)"
     }
   },
@@ -470,7 +470,7 @@
     "answer": 1,
     "explanation": "서명은 작성자의 개인키로 만들고 작성자의 공개키로 검증한다. 수신자 키는 작성자 본인의 서명 생성 키가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 35~36 (PDF 쪽은 +2)"
     }
   },
@@ -489,7 +489,7 @@
     "answer": 2,
     "explanation": "서명 검증은 출처와 변경 여부 확인에 쓰인다. 서명만으로 평문 기밀성을 제공하지 않으며 개인키 복원이 목적도 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 35~36 (PDF 쪽은 +2)"
     }
   },
@@ -508,7 +508,7 @@
     "answer": 3,
     "explanation": "서명은 기밀성과 별개다. 읽기 제한이 필요하면 암호화·접근통제를 추가해야 하며 서명 생성에는 해시가 활용된다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 35~36 (PDF 쪽은 +2)"
     }
   },
@@ -527,7 +527,7 @@
     "answer": 0,
     "explanation": "인증서는 공개키가 누구에게 속하는지 확인하는 기반이다. 개인키나 비밀번호 공개를 위한 수단이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 37~39 (PDF 쪽은 +2)"
     }
   },
@@ -546,7 +546,7 @@
     "answer": 1,
     "explanation": "키 유출 시 기존 인증서를 계속 신뢰해서는 안 된다. 만료일·파일명 변경만으로 유출된 키의 악용을 막을 수 없다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 39 (PDF 쪽은 +2)"
     }
   },
@@ -565,7 +565,7 @@
     "answer": 2,
     "explanation": "CRL은 폐기 목록을 받아 검사하는 방식이다. OCSP는 온라인 상태 질의이며 유효기간·서명만 확인해서는 만료 전 폐기 여부까지 알 수 없다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 39 (PDF 쪽은 +2)"
     }
   },
@@ -584,7 +584,7 @@
     "answer": 3,
     "explanation": "OCSP는 인증서 상태 확인 프로토콜이다. 나머지는 파일 전송, 주소 해석, 네트워크 설정에 사용된다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 39 (PDF 쪽은 +2)"
     }
   },
@@ -603,7 +603,7 @@
     "answer": 0,
     "explanation": "최소권한 원칙은 수행 업무에 필요한 권한만 부여한다. 관리 편의를 위해 과도한 권한을 주면 피해 범위가 커진다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 40 (PDF 쪽은 +2)"
     }
   },
@@ -622,7 +622,7 @@
     "answer": 1,
     "explanation": "RBAC는 역할에 권한을 묶어 부여한다. DAC는 소유자 재량, MAC는 등급 정책 중심이며 해시는 조직의 역할별 권한을 나타내지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 41~42 (PDF 쪽은 +2)"
     }
   },
@@ -641,7 +641,7 @@
     "answer": 2,
     "explanation": "DAC는 객체 소유자가 접근 허용에 재량을 가진다. MAC는 등급 정책, RBAC는 역할 중심이며 인증서 검증은 객체 접근권한 부여와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 41 (PDF 쪽은 +2)"
     }
   },
@@ -660,7 +660,7 @@
     "answer": 3,
     "explanation": "MAC는 보안 레이블과 인가등급을 기반으로 중앙 정책을 적용한다. 소유자 재량에 맡기는 DAC와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 41 (PDF 쪽은 +2)"
     }
   },
@@ -679,7 +679,7 @@
     "answer": 0,
     "explanation": "ACL은 객체를 기준으로 주체별 허용 작업을 기록한다. Capability List는 주체 중심이고 폐기 목록·보안등급만으로 객체별 사용자 권한 목록을 나타내지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 42 (PDF 쪽은 +2)"
     }
   },
@@ -698,7 +698,7 @@
     "answer": 1,
     "explanation": "Capability List는 주체의 접근 가능한 객체·권한을 모은다. ACL은 객체 중심이며 폐기 목록이나 객체 등급은 사용자 한 명의 권한 목록과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 42 (PDF 쪽은 +2)"
     }
   },
@@ -717,7 +717,7 @@
     "answer": 2,
     "explanation": "Bell-LaPadula는 기밀성 중심 모델이다. Biba는 무결성을 강조하고 나머지는 데이터 설계·스케줄링 기법이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 42 (PDF 쪽은 +2)"
     }
   },
@@ -736,7 +736,7 @@
     "answer": 3,
     "explanation": "Biba는 무결성에 초점을 둔다. Bell-LaPadula는 기밀성 모델이며 RSA·DNS는 접근통제 모델이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 42 (PDF 쪽은 +2)"
     }
   },
@@ -755,7 +755,7 @@
     "answer": 0,
     "explanation": "업무 변경에 따라 권한도 재검토해야 최소권한이 유지된다. 권한을 계속 누적하거나 공유하면 불필요한 접근이 가능하다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 39~42 (PDF 쪽은 +2)"
     }
   },
@@ -774,7 +774,7 @@
     "answer": 1,
     "explanation": "APT는 특정 조직을 향한 지속적·다단계 공격을 설명한다. 단일 연결 공격이나 일회성 스캔만으로 지속적 잠복 특징을 설명하기 어렵고 정상 점검은 공격 목적이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 46 (PDF 쪽은 +2)"
     }
   },
@@ -793,7 +793,7 @@
     "answer": 2,
     "explanation": "파밍은 이름 해석 정보 등의 변조로 가짜 사이트에 연결되게 한다. 서비스 중단·메모리 경계 침범·파일 암호화와 다른 공격 경로다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 47 (PDF 쪽은 +2)"
     }
   },
@@ -812,7 +812,7 @@
     "answer": 3,
     "explanation": "문자 링크를 유인 경로로 사용하므로 스미싱이다. QR 코드, 이름 해석 조작, 수동 도청은 제시된 공격 경로와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 48 (PDF 쪽은 +2)"
     }
   },
@@ -831,7 +831,7 @@
     "answer": 0,
     "explanation": "대상자의 이름과 업무 정보를 활용한 맞춤형 피싱은 스피어 피싱이다. 무차별 피싱과 달리 특정인을 겨냥하며 주소 위조·채굴과도 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 48 (PDF 쪽은 +2)"
     }
   },
@@ -850,7 +850,7 @@
     "answer": 1,
     "explanation": "QR 코드를 피싱 연결 경로로 쓰는 방식은 큐싱이다. 문자 링크·파일 잠금·서비스 중단은 다른 유인 또는 공격 방식이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 47~48 (PDF 쪽은 +2)"
     }
   },
@@ -869,7 +869,7 @@
     "answer": 2,
     "explanation": "파일 사용을 제한하고 복구 대가를 요구하므로 랜섬웨어다. 채굴·패킷 관찰·주소 위조는 제시된 피해 방식과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 49 (PDF 쪽은 +2)"
     }
   },
@@ -888,7 +888,7 @@
     "answer": 3,
     "explanation": "크립토재킹은 승인 없이 연산 자원을 채굴에 쓴다. 복구 대가 요구·비밀번호 추측·패킷 도청과 구분한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 49 (PDF 쪽은 +2)"
     }
   },
@@ -907,7 +907,7 @@
     "answer": 0,
     "explanation": "취약한 브라우저로 페이지를 방문하는 과정에서 자동 감염되는 것이 드라이브 바이 다운로드다. 별도의 회신·정상 업데이트·과부하 공격과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 50 (PDF 쪽은 +2)"
     }
   },
@@ -926,7 +926,7 @@
     "answer": 1,
     "explanation": "파일리스 공격은 메모리·정상 도구를 악용할 수 있다. 파일 유무만으로 침해 여부를 판단하면 놓칠 수 있다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 50 (PDF 쪽은 +2)"
     }
   },
@@ -945,7 +945,7 @@
     "answer": 2,
     "explanation": "멀버타이징은 광고를 악성코드 배포 경로로 사용한다. 문자·QR 코드·주소 대응 메시지를 활용하는 방식과 전달 경로가 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 51 (PDF 쪽은 +2)"
     }
   },
@@ -964,7 +964,7 @@
     "answer": 3,
     "explanation": "별도로 신뢰한 경로로 확인하면 사칭 메시지에 제시된 연락처까지 함께 속는 위험을 줄인다. 비밀번호 공유는 해결책이 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 48 (PDF 쪽은 +2)"
     }
   },
@@ -983,7 +983,7 @@
     "answer": 0,
     "explanation": "기본 인증정보는 외부에 알려져 있을 수 있으므로 변경해야 한다. 이름 변경은 인증 보호를 대신하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 51~52 (PDF 쪽은 +2)"
     }
   },
@@ -1002,7 +1002,7 @@
     "answer": 1,
     "explanation": "공개 읽기 설정은 저장소 접근 정책의 문제이므로 허용 주체와 공개 범위를 확인해야 한다. 압축·DNS·알고리즘 이름 확인만으로 과도한 접근권한이 바뀌지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 53 (PDF 쪽은 +2)"
     }
   },
@@ -1021,7 +1021,7 @@
     "answer": 1,
     "explanation": "분실 단말의 정보 노출은 잠금·저장 보호·분실 대응 설정으로 줄인다. 로그나 백업만으로 단말의 기존 자료 접근을 막지 못하며 자동 로그인은 위험을 늘린다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 56 (PDF 쪽은 +2)"
     }
   },
@@ -1040,7 +1040,7 @@
     "answer": 3,
     "explanation": "재식별은 비식별 처리한 정보를 다른 자료와 결합해 개인을 다시 알아보는 것이다. 해시 출력 중복·키 반복 사용·세션 메시지 반복과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 19,54~55 (PDF 쪽은 +2)"
     }
   },
@@ -1059,7 +1059,7 @@
     "answer": 0,
     "explanation": "자산·가치·위협·취약성을 먼저 파악해야 대책의 우선순위를 정할 수 있다. 현황을 확인하지 않은 구매나 일괄 분류는 위험 분석을 대신하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 59~60 (PDF 쪽은 +2)"
     }
   },
@@ -1078,7 +1078,7 @@
     "answer": 1,
     "explanation": "취약성은 악용 가능한 약점이고 위협은 피해를 유발할 요인·행위다. 약점이 있다는 사실과 실제 피해 발생은 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 59~60 (PDF 쪽은 +2)"
     }
   },
@@ -1097,7 +1097,7 @@
     "answer": 2,
     "explanation": "금액·확률 등의 수치로 평가해 비용과 비교하므로 정량 평가다. 정성 등급, 기본 통제 선택, 식별번호 목록은 그 자체로 금액 기반 평가가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 60 (PDF 쪽은 +2)"
     }
   },
@@ -1116,7 +1116,7 @@
     "answer": 3,
     "explanation": "전문가 판단과 범주를 활용하므로 정성 평가다. 금액 계산이나 평가 없는 통제 적용, 식별번호 목록화와 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 60 (PDF 쪽은 +2)"
     }
   },
@@ -1135,7 +1135,7 @@
     "answer": 0,
     "explanation": "공통 기본 보호 수준을 적용하는 것은 기준선 접근이다. 상세 분석, 비정형 전문가 접근, 두 방식을 결합한 복합 접근과 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 60 (PDF 쪽은 +2)"
     }
   },
@@ -1154,7 +1154,7 @@
     "answer": 1,
     "explanation": "중요 자산의 상세 분석과 나머지 자산의 기준선을 결합한 복합 접근이다. 어느 한 방식만 적용하는 경우와 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 60 (PDF 쪽은 +2)"
     }
   },
@@ -1173,7 +1173,7 @@
     "answer": 2,
     "explanation": "정보보호 관리체계는 정책 수립뿐 아니라 운영과 사후 관리가 필요하다. 일회성 문서나 인증 보유가 지속 관리를 대체하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 58~61 (PDF 쪽은 +2)"
     }
   },
@@ -1192,7 +1192,7 @@
     "answer": 3,
     "explanation": "ISMS-P는 정보보호와 개인정보보호 관리체계를 통합한 체계다. 암호나 통신 프로토콜과 구분한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 60~61 (PDF 쪽은 +2)"
     }
   },
@@ -1211,7 +1211,7 @@
     "answer": 0,
     "explanation": "CVE는 개별 공개 취약점의 식별체계다. CWE는 약점 유형 분류이고 CVSS·CWSS는 각각 취약점·약점의 중요도를 평가하는 점수체계다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 64 (PDF 쪽은 +2)"
     }
   },
@@ -1230,7 +1230,7 @@
     "answer": 1,
     "explanation": "CWE는 약점 유형을 분류한다. CVE는 개별 취약점 식별, CVSS는 심각도 점수, CRL은 인증서 폐기 목록이므로 분류 목적이 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 64 (PDF 쪽은 +2)"
     }
   },
@@ -1249,7 +1249,7 @@
     "answer": 2,
     "explanation": "CVSS는 취약점의 심각도를 점수화한다. CVE는 식별자, CWE는 약점 유형, CRL은 인증서 폐기 목록이다. 실제 우선순위에는 자산 중요도도 함께 고려한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 64 (PDF 쪽은 +2)"
     }
   },
@@ -1268,7 +1268,7 @@
     "answer": 3,
     "explanation": "시큐어 개발은 요구사항부터 유지보수까지 보안을 반영한다. 마지막 단계에만 점검하면 설계상 문제를 늦게 발견한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 68~69 (PDF 쪽은 +2)"
     }
   },
@@ -1287,7 +1287,7 @@
     "answer": 0,
     "explanation": "변경은 새로운 취약점을 만들 수 있으므로 영향 분석과 검증이 필요하다. 과거 테스트만으로 새 변경을 보장할 수 없다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 69 (PDF 쪽은 +2)"
     }
   },
@@ -1306,7 +1306,7 @@
     "answer": 1,
     "explanation": "바인딩은 데이터가 SQL 구조를 바꾸지 못하게 한다. 공백 제거는 모든 구문 삽입을 막지 못하고 오류 숨김·실행 위치 변경도 코드와 데이터의 혼합을 해결하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 69~70 (PDF 쪽은 +2)"
     }
   },
@@ -1325,7 +1325,7 @@
     "answer": 2,
     "explanation": "SQL 삽입은 입력 데이터가 실행 명령의 구조에 개입하는 문제다. 인증·암호화·프로토콜 계층만 구분한다고 쿼리 구성의 결함이 해결되지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 69~70 (PDF 쪽은 +2)"
     }
   },
@@ -1344,7 +1344,7 @@
     "answer": 3,
     "explanation": "XSS의 실행 위치는 피해자의 브라우저다. DB의 SQL 실행, 서버 셸 실행, 과부하로 인한 서비스 중단과 구별한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 70~71 (PDF 쪽은 +2)"
     }
   },
@@ -1363,7 +1363,7 @@
     "answer": 0,
     "explanation": "출력 위치에 맞는 인코딩은 입력을 코드가 아닌 데이터로 처리하게 한다. 비밀번호 보호만으로 XSS가 해결되지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 70~71 (PDF 쪽은 +2)"
     }
   },
@@ -1382,7 +1382,7 @@
     "answer": 1,
     "explanation": "외부 입력이 명령으로 해석되지 않게 구조를 바꾸고 허용 범위를 제한해야 한다. 로그나 오류 숨김은 실행 위험을 없애지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 71~72 (PDF 쪽은 +2)"
     }
   },
@@ -1401,7 +1401,7 @@
     "answer": 2,
     "explanation": "파일 형식을 제한하고 저장 영역에서 실행을 막아야 한다. 파일명·개수 제한만으로 서버 코드 실행을 막지 못한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 72~73 (PDF 쪽은 +2)"
     }
   },
@@ -1420,7 +1420,7 @@
     "answer": 3,
     "explanation": "경계 검사 없는 복사는 인접 메모리를 덮어쓸 수 있다. 런타임이 자동으로 잘라 주거나 별도 버퍼에 보관한다고 가정해서는 안 된다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 73~74 (PDF 쪽은 +2)"
     }
   },
@@ -1439,7 +1439,7 @@
     "answer": 0,
     "explanation": "데이터와 종료 문자가 모두 버퍼 안에 들어가야 한다. 문자 수와 바이트 수는 다를 수 있고 포인터 크기는 대상 버퍼 용량이 아니며 버퍼 밖 종료 문자 쓰기도 잘못이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 74 (PDF 쪽은 +2)"
     }
   },
@@ -1458,7 +1458,7 @@
     "answer": 1,
     "explanation": "포맷 문자열과 외부 데이터를 분리해야 형식 지정자가 의도치 않게 해석되는 것을 막을 수 있다. 권한 제한만으로 결함이 사라지지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 74~75 (PDF 쪽은 +2)"
     }
   },
@@ -1477,7 +1477,7 @@
     "answer": 2,
     "explanation": "뷰는 필요한 행·열로 접근 범위를 제한하는 데 쓰며 원본 권한도 함께 통제해야 한다. 전체 공개는 목적과 반대다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 80~81 (PDF 쪽은 +2)"
     }
   },
@@ -1496,7 +1496,7 @@
     "answer": 3,
     "explanation": "저장 암호화와 논리적 접근권한은 서로 다른 통제다. 정상 조회 경로에서 복호화된 정보를 누가 볼 수 있는지도 제한해야 한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 80~81 (PDF 쪽은 +2)"
     }
   },
@@ -1515,7 +1515,7 @@
     "answer": 0,
     "explanation": "에이전트 방식은 서버에 통제·기록 모듈을 설치한다. 패킷 복사만 분석하는 스니핑 방식과 구조가 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 81 (PDF 쪽은 +2)"
     }
   },
@@ -1534,7 +1534,7 @@
     "answer": 1,
     "explanation": "게이트웨이는 모든 요청이 경유하는 별도 통제 경로다. 서버 내 에이전트나 복사 패킷·화면만 관찰하는 방식과 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 82 (PDF 쪽은 +2)"
     }
   },
@@ -1553,7 +1553,7 @@
     "answer": 2,
     "explanation": "스니핑 방식은 탐지·기록에 유용하지만 원래 요청을 사전에 차단하는 기능을 동일시하면 안 된다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 82 (PDF 쪽은 +2)"
     }
   },
@@ -1572,7 +1572,7 @@
     "answer": 3,
     "explanation": "API 방식은 응용 프로그램에서 암호화 호출을 수행한다. DB 내부 또는 디스크 계층에서 수행하는 방식과 위치가 다르다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 83~84 (PDF 쪽은 +2)"
     }
   },
@@ -1591,7 +1591,7 @@
     "answer": 0,
     "explanation": "TDE는 DBMS가 제공하는 투명한 암호화 기능이다. API 방식은 응용 수정이 필요할 수 있으며 스니핑·RBAC는 저장 암호화 자체가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 84 (PDF 쪽은 +2)"
     }
   },
@@ -1610,7 +1610,7 @@
     "answer": 1,
     "explanation": "암호화는 검색·인덱스·쿼리·응용 처리와 성능에 영향을 줄 수 있다. 알고리즘 이름·저장 성공·백업 크기만으로 정상 운영을 확인할 수 없다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 83~88 (PDF 쪽은 +2)"
     }
   },
@@ -1629,7 +1629,7 @@
     "answer": 2,
     "explanation": "암호화 데이터 복구에는 필요한 키를 안전하게 관리하는 절차가 포함된다. 데이터 파일만 백업해서는 충분하지 않을 수 있다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 89~90 (PDF 쪽은 +2)"
     }
   },
@@ -1648,7 +1648,7 @@
     "answer": 3,
     "explanation": "교체 시 기존 데이터 재암호화나 필요한 키의 안전한 유지 등 이행 계획이 필요하다. 키 삭제가 데이터 변환을 자동 수행하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 89~90 (PDF 쪽은 +2)"
     }
   },
@@ -1667,7 +1667,7 @@
     "answer": 0,
     "explanation": "불필요한 계정은 악용 가능한 진입점이므로 정리한다. 약한 비밀번호나 추가 권한은 오히려 위험을 키운다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 93,96 (PDF 쪽은 +2)"
     }
   },
@@ -1686,7 +1686,7 @@
     "answer": 1,
     "explanation": "시도 제한·잠금은 반복 추측을 어렵게 한다. 운영 환경의 정상 사용자 차단 위험도 함께 고려한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 93 (PDF 쪽은 +2)"
     }
   },
@@ -1705,7 +1705,7 @@
     "answer": 2,
     "explanation": "불필요한 공유는 제거하고 필요한 공유는 권한을 제한해야 한다. 이름이나 용량 변경은 접근권한을 바꾸지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 94 (PDF 쪽은 +2)"
     }
   },
@@ -1724,7 +1724,7 @@
     "answer": 3,
     "explanation": "불필요한 서비스 제거는 공격 표면을 줄인다. 업무 의존성을 먼저 확인해 정상 기능 장애도 피해야 한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 95,97 (PDF 쪽은 +2)"
     }
   },
@@ -1743,7 +1743,7 @@
     "answer": 0,
     "explanation": "미사용 세션 제한은 방치된 인증 상태 악용을 줄인다. 자동 로그인이나 무제한 세션은 위험을 늘린다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 97 (PDF 쪽은 +2)"
     }
   },
@@ -1762,7 +1762,7 @@
     "answer": 1,
     "explanation": "공통 실행 환경 파일을 임의 수정하면 다른 사용자의 실행에 영향을 줄 수 있으므로 쓰기권한을 통제해야 한다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 97 (PDF 쪽은 +2)"
     }
   },
@@ -1781,7 +1781,7 @@
     "answer": 2,
     "explanation": "자원을 소진시켜 이용을 방해하므로 서비스 거부다. 도청·파일 감염·신원 사칭은 각각 다른 공격 특성이다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 107~108 (PDF 쪽은 +2)"
     }
   },
@@ -1800,7 +1800,7 @@
     "answer": 3,
     "explanation": "거짓 IP·MAC 대응을 알리므로 ARP 스푸핑이다. DNS 응답은 도메인·IP 대응, SYN 폭주는 연결 자원 소진이며 단순 수동 도청에는 대응 정보 위조가 없다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 108~109 (PDF 쪽은 +2)"
     }
   },
@@ -1819,7 +1819,7 @@
     "answer": 0,
     "explanation": "TLS는 응용 통신에 암호학적 보호를 제공한다. HTTP만이나 주소 해석·제어 메시지 프로토콜은 같은 보호를 제공하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 106~113 (PDF 쪽은 +2)"
     }
   },
@@ -1838,7 +1838,7 @@
     "answer": 1,
     "explanation": "터널 모드는 원래 IP 패킷 전체를 새 패킷 안에 넣는다. 원래 헤더를 유지하는 전송 모드와 다르고 헤더 제거·평문 전달을 뜻하지 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 110~112 (PDF 쪽은 +2)"
     }
   },
@@ -1857,7 +1857,7 @@
     "answer": 2,
     "explanation": "AH는 인증·무결성 계열 보호이고 ESP는 설정에 따라 암호화 기밀성을 제공한다. AH를 암호화로 오해하면 안 된다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 110~112 (PDF 쪽은 +2)"
     }
   },
@@ -1876,7 +1876,7 @@
     "answer": 3,
     "explanation": "무선랜 이름은 사칭될 수 있어 연결 대상과 통신 보호를 확인해야 한다. 신호 세기·무료 여부는 신뢰 근거가 아니다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 115~117 (PDF 쪽은 +2)"
     }
   },
@@ -1895,7 +1895,7 @@
     "answer": 0,
     "explanation": "방화벽은 네트워크 접근 정책을 적용한다. 애플리케이션 결함 수정·데이터 무결성 검증 등 별도 통제를 모두 대신하지는 않는다.",
     "source": {
-      "url": "https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf",
+      "url": "https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1",
       "section": "04 정보보안 이해와 활용, 인쇄 쪽 15~16 (PDF 쪽은 +2)"
     }
   }

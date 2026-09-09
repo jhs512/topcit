@@ -6,10 +6,10 @@
 
 | 로컬 파일 | PDF 쪽수 | 원본 PDF | 현재 활성 전자책 |
 | --- | ---: | --- | --- |
-| 03_시스템아키텍처_이해와활용.pdf | 221 | [공식 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/03_%EC%8B%9C%EC%8A%A4%ED%85%9C_%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%EC%9D%B4%ED%95%B4%EC%99%80%20%ED%99%9C%EC%9A%A9.pdf) | [03 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_03/index.html) |
-| 04_정보보안_이해와활용.pdf | 124 | [공식 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/04_%EC%A0%95%EB%B3%B4%EB%B3%B4%EC%95%88_%EC%9D%B4%ED%95%B4%EC%99%80%ED%99%9C%EC%9A%A9.pdf) | [04 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_04/index.html) |
-| 05_IT비즈니스와윤리.pdf | 213 | [공식 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/05_IT_%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%EC%99%80%EC%9C%A4%EB%A6%AC.pdf) | [05 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_05/index.html) |
-| 06_프로젝트관리_및_테크니컬커뮤니케이션.pdf | 139 | [공식 PDF](https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/06_%ED%85%8C%ED%81%AC%EB%8B%88%EC%BB%AC_%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B4%80%EB%A6%AC.pdf) | [06 전자책](https://www.topcit.or.kr/upload/edubox/essence/ess_ko_06/index.html) |
+| 03_시스템아키텍처_이해와활용.pdf | 221 | [공식 PDF](https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1) | [03 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=03&page=1) |
+| 04_정보보안_이해와활용.pdf | 124 | [공식 PDF](https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1) | [04 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=04&page=1) |
+| 05_IT비즈니스와윤리.pdf | 213 | [공식 PDF](https://jhs512.github.io/topcit/viewer/index.html?book=05&page=1) | [05 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=05&page=1) |
+| 06_프로젝트관리_및_테크니컬커뮤니케이션.pdf | 139 | [공식 PDF](https://jhs512.github.io/topcit/viewer/index.html?book=06&page=1) | [06 전자책](https://jhs512.github.io/topcit/viewer/index.html?book=06&page=1) |
 
 ## 판권과 본문 대조 범위
 

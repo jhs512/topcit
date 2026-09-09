@@ -15,7 +15,7 @@ const meta=books[book];let current=Math.max(1,parseInt(params.get('page')||'1',1
 const initial=current;
 $('title').textContent=`교재 ${book} · ${meta[0]}`;
 $('reference').textContent=book==='05'&&initial===25?'참고 위치: IT와 비즈니스의 연계 · 인쇄 23쪽 / PDF 25쪽':'PDF 페이지 번호는 책에 인쇄된 쪽수와 다를 수 있습니다.';
-$('download').href=localFiles[book]?'../sources/'+encodeURIComponent(localFiles[book]):'https://www.topcit.or.kr/upload/edubox/essence/pdf/ko/'+encodeURIComponent(meta[1]);
+$('download').href='../sources/'+encodeURIComponent(localFiles[book]);
 function db(){return new Promise((resolve,reject)=>{const r=indexedDB.open('topcit-textbook-pdfs',1);r.onupgradeneeded=()=>r.result.createObjectStore('books');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
 async function stored(action,value){const d=await db();return new Promise((resolve,reject)=>{const tx=d.transaction('books',action==='get'?'readonly':'readwrite'),s=tx.objectStore('books');const r=action==='get'?s.get(book):action==='put'?s.put(value,book):s.delete(book);let result;r.onsuccess=()=>result=r.result;tx.oncomplete=()=>{d.close();resolve(result)};tx.onerror=()=>{d.close();reject(tx.error)};tx.onabort=()=>{d.close();reject(tx.error||Error('보관 실패'))};});}
 function message(s){$('status').textContent=s;}

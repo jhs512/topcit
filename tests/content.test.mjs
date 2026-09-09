@@ -18,7 +18,7 @@ test('all four banks have 100 unique, valid sourced questions',async()=>{
       assert.ok(q.options.every(o=>typeof o==='string'&&o.trim().length>0),q.id);
       assert.ok(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<4,q.id);
       assert.ok(q.explanation.length>=25,q.id);assert.ok(q.topic.length>0,q.id);
-      assert.match(q.source.url,/^https:\/\/(www\.)?topcit\.or\.kr\//);assert.ok(q.source.section.length>0,q.id);
+      const source=new URL(q.source.url);assert.equal(source.origin,'https://jhs512.github.io');assert.equal(source.pathname,'/topcit/viewer/index.html');assert.match(source.searchParams.get('book'),/^0[1-6]$/);assert.ok(Number(source.searchParams.get('page'))>=1);assert.ok(q.source.section.length>0,q.id);
     }
   }
   assert.equal(ids.size,400);
