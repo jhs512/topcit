@@ -17,33 +17,128 @@
 
 ## 수업 바로가기
 
-수업 중에는 아래 표에서 해당 교시의 자료를 여세요. **날짜는 예정이며, 교시별 시간과 활동 배분은 강의 운영안**입니다. 1교시 18:00–18:50, 휴식 18:50–19:00, 2교시 19:00–19:50, 마무리 19:50–20:00으로 구성했습니다.
+**[시험 안내 발표 슬라이드 열기](https://jhs512.github.io/topcit/slides/exam-guide.html)** · [시험 안내 본문](#1-오리엔테이션-topcit-시험-이해하기)
 
-| 회차·날짜 | 교시 | 수업 진행 | 발표 자료 | 문제 연습 |
+여섯 과목마다 핵심 개념 발표 자료 **10개씩, 총 60개**가 있습니다. 각 제목을 누르면 해당 개념의 HTML 슬라이드가 바로 열립니다. 한 자료는 3–4장으로 구성되어 있으며, 시험 안내 7장은 60개와 별도입니다.
+
+아래 날짜는 예정이며 교시별 배분은 **강의 운영안**입니다. 1교시 18:00–18:50, 휴식 18:50–19:00, 2교시 19:00–19:50, 마무리 19:50–20:00으로 구성했습니다.
+
+| 회차·날짜 | 교시 | 수업 진행 | 과목별 발표 자료 | 문제 연습 |
 | --- | --- | --- | --- | --- |
-| 1회차 · 9/16(수) | 1교시 | 오리엔테이션 15분 → IT비즈니스와 윤리 핵심 개념 35분 | [시험 안내 슬라이드](https://jhs512.github.io/topcit/slides/exam-guide.html) · [비즈니스 목표와 IT](https://jhs512.github.io/topcit/slides/business-alignment.html) · [환경분석과 전략](https://jhs512.github.io/topcit/slides/business-strategy.html) | [IT비즈니스와 윤리 100문항](https://jhs512.github.io/topcit/?area=business) |
-| 1회차 · 9/16(수) | 2교시 | 프로젝트 관리·소통 설명 35분 → 개별 문제 연습 15분 | [주공정 HTML 슬라이드 견본](https://jhs512.github.io/topcit/slides/critical-path.html) · 나머지 준비 중 | [프로젝트 관리와 소통 100문항](https://jhs512.github.io/topcit/?area=management) |
-| 2회차 · 9/17(목) | 1교시 | 시스템 구성·운영체제 핵심 원리 설명 | 시스템아키텍처 슬라이드 준비 중 | [시스템아키텍처 100문항](https://jhs512.github.io/topcit/?area=architecture) |
-| 2회차 · 9/17(목) | 2교시 | 네트워크·가용성 설명 35분 → 개별 문제 연습 15분 | 시스템아키텍처 슬라이드 준비 중 | [시스템아키텍처 100문항](https://jhs512.github.io/topcit/?area=architecture) |
-| 3회차 · 9/23(수) | 1교시 | 보안 목표·접근통제·암호 핵심 원리 설명 | 정보보안 슬라이드 준비 중 | [정보보안 100문항](https://jhs512.github.io/topcit/?area=security) |
-| 3회차 · 9/23(수) | 2교시 | 시스템·웹 보안 설명 35분 → 개별 문제 연습 15분 | 정보보안 슬라이드 준비 중 | [정보보안 100문항](https://jhs512.github.io/topcit/?area=security) |
+| 1회차 · 9/16(수) | 1교시 | 시험 안내 후 비즈니스의 목표·전략·업무·윤리 | [IT비즈니스와 윤리 10개](#slides-business) | [100문항](https://jhs512.github.io/topcit/?area=business) |
+| 1회차 · 9/16(수) | 2교시 | 프로젝트 범위·일정·위험·의사소통 | [프로젝트 관리와 소통 10개](#slides-management) | [100문항](https://jhs512.github.io/topcit/?area=management) |
+| 2회차 · 9/17(목) | 1교시 | 시스템아키텍처 01–05: 계층·운영체제 | [시스템아키텍처 10개](#slides-architecture) | [100문항](https://jhs512.github.io/topcit/?area=architecture) |
+| 2회차 · 9/17(목) | 2교시 | 시스템아키텍처 06–10: 저장·네트워크·가용성 | [시스템아키텍처 10개](#slides-architecture) | [100문항](https://jhs512.github.io/topcit/?area=architecture) |
+| 3회차 · 9/23(수) | 1교시 | 정보보안 01–05: 목표·위험·접근·암호 | [정보보안 10개](#slides-security) | [100문항](https://jhs512.github.io/topcit/?area=security) |
+| 3회차 · 9/23(수) | 2교시 | 정보보안 06–10: 서명·통신·개발·정보·대응 | [정보보안 10개](#slides-security) | [100문항](https://jhs512.github.io/topcit/?area=security) |
 
-매회 마지막 10분은 질문과 핵심 개념 정리에 사용합니다. 문제 링크는 해당 영역 전체를 엽니다. 교시별 문제 묶음으로 선별된 상태는 아닙니다. 슬라이드에는 연습문제를 붙이지 않으며, 문제은행은 별도 활동으로 이용합니다.
+교시는 진행 순서이며 **과목당 발표 자료는 10개**입니다. 수업 시간에 맞춰 설명 깊이와 예시 시연 시간을 조절합니다. 슬라이드에 연습문제를 붙이지 않았으며, 개별 연습은 아래 문제은행을 별도로 이용합니다. 문제 링크는 교시별 선별 문항이 아닌 해당 영역 전체입니다.
 
-현재 발표 자료는 **시험 안내 HTML 슬라이드 7장**과 **주공정 개념 HTML 견본 3장**, **비즈니스 목표와 IT 3장**, **환경분석과 전략 4장**입니다. PowerPoint 파일과 나머지 개념 슬라이드는 아직 준비되지 않았습니다.
+소프트웨어와 데이터 발표 자료는 다른 강의 및 자율학습에 사용할 공통 자료이며 이번 목원대 특강의 별도 수업 범위는 아닙니다. 해당 두 과목의 문제은행은 아직 추가되지 않았습니다.
 
-### 영역별 핵심 개념 슬라이드 목록
+### 과목별 발표 자료 — 각 10개
 
-각 영역 10개씩 구성할 **제작 목차 초안**입니다. 개념의 기초 원리를 중심으로 구성하며, 링크가 있는 자료는 열어볼 수 있으며, 나머지는 **준비 중**입니다. 완성하지 않은 자료에 빈 링크를 걸지는 않습니다.
+<a id="slides-software"></a>
 
-| 영역 | 핵심 개념 10개 — 왼쪽부터 학습 순서 |
-| --- | --- |
-| 소프트웨어 개발 | 요구사항 분석 / 개발 생명주기 / 자료구조 / 알고리즘과 복잡도 / 객체지향 / 응집도와 결합도 / UML / 디자인 패턴 / 테스트 / 형상관리 |
-| 데이터 이해와 활용 | 관계형 모델 / 키와 무결성 / ER 모델링 / 정규화 / SQL 조회·집계 / 조인 / 트랜잭션 / 동시성 제어 / 인덱스 / 데이터 품질 |
-| 시스템아키텍처 | 계층 구조 / 프로세스와 스레드 / 스케줄링 / 동기화와 교착상태 / 가상메모리 / 저장장치와 RAID / TCP/IP / 가상화 / 고가용성 / 재해복구 |
-| 정보보안 | 보안의 세 목표 / 위협·취약점·위험 / 인증과 인가 / 최소권한 / 암호 / 해시와 전자서명 / 통신 보안 / 안전한 개발 / 개인정보 보호 / 사고 대응 |
-| IT비즈니스와 윤리 | [비즈니스 목표와 IT](https://jhs512.github.io/topcit/slides/business-alignment.html) / [환경분석과 전략](https://jhs512.github.io/topcit/slides/business-strategy.html) / 가치사슬 / IT 거버넌스 / 정보화 전략 / 기업 정보시스템 / 아웃소싱 / 성과관리 / 지식재산권 / 직업윤리 |
-| 프로젝트 관리와 소통 | 프로젝트 생명주기 / 이해관계자 / 범위와 WBS / [주공정과 완료 기간 — 견본 열기](https://jhs512.github.io/topcit/slides/critical-path.html) / 추정 / 진척관리 / 품질관리 / 위험관리 / 변경관리 / 기술문서 |
+#### 01. 소프트웨어 개발
+
+| 순서 | 발표 자료 바로 열기 | 마크다운 원본 |
+| --- | --- | --- |
+| 01 | [요구사항 분석](https://jhs512.github.io/topcit/slides/software-requirements.html) | [원본](slides/software-requirements.md) |
+| 02 | [개발 생명주기와 반복](https://jhs512.github.io/topcit/slides/software-lifecycle.html) | [원본](slides/software-lifecycle.md) |
+| 03 | [자료구조와 접근 방식](https://jhs512.github.io/topcit/slides/software-structures.html) | [원본](slides/software-structures.md) |
+| 04 | [알고리즘과 시간복잡도](https://jhs512.github.io/topcit/slides/software-complexity.html) | [원본](slides/software-complexity.md) |
+| 05 | [객체지향과 캡슐화](https://jhs512.github.io/topcit/slides/software-objects.html) | [원본](slides/software-objects.md) |
+| 06 | [응집도와 결합도](https://jhs512.github.io/topcit/slides/software-modules.html) | [원본](slides/software-modules.md) |
+| 07 | [UML과 모델의 관점](https://jhs512.github.io/topcit/slides/software-uml.html) | [원본](slides/software-uml.md) |
+| 08 | [디자인 패턴과 변경 지점](https://jhs512.github.io/topcit/slides/software-patterns.html) | [원본](slides/software-patterns.md) |
+| 09 | [테스트와 검증 기준](https://jhs512.github.io/topcit/slides/software-testing.html) | [원본](slides/software-testing.md) |
+| 10 | [형상관리와 변경 추적](https://jhs512.github.io/topcit/slides/software-configuration.html) | [원본](slides/software-configuration.md) |
+
+<a id="slides-data"></a>
+
+#### 02. 데이터 이해와 활용
+
+| 순서 | 발표 자료 바로 열기 | 마크다운 원본 |
+| --- | --- | --- |
+| 01 | [관계형 데이터 모델](https://jhs512.github.io/topcit/slides/data-relational.html) | [원본](slides/data-relational.md) |
+| 02 | [키와 무결성](https://jhs512.github.io/topcit/slides/data-keys.html) | [원본](slides/data-keys.md) |
+| 03 | [ER 모델링과 관계](https://jhs512.github.io/topcit/slides/data-er.html) | [원본](slides/data-er.md) |
+| 04 | [정규화와 갱신 이상](https://jhs512.github.io/topcit/slides/data-normalization.html) | [원본](slides/data-normalization.md) |
+| 05 | [SQL 조회와 집계](https://jhs512.github.io/topcit/slides/data-sql.html) | [원본](slides/data-sql.md) |
+| 06 | [조인과 행의 결합](https://jhs512.github.io/topcit/slides/data-joins.html) | [원본](slides/data-joins.md) |
+| 07 | [트랜잭션과 ACID](https://jhs512.github.io/topcit/slides/data-transactions.html) | [원본](slides/data-transactions.md) |
+| 08 | [동시성 제어와 격리](https://jhs512.github.io/topcit/slides/data-concurrency.html) | [원본](slides/data-concurrency.md) |
+| 09 | [인덱스와 조회 비용](https://jhs512.github.io/topcit/slides/data-indexes.html) | [원본](slides/data-indexes.md) |
+| 10 | [데이터 품질과 분석](https://jhs512.github.io/topcit/slides/data-quality.html) | [원본](slides/data-quality.md) |
+
+<a id="slides-architecture"></a>
+
+#### 03. 시스템아키텍처
+
+| 순서 | 발표 자료 바로 열기 | 마크다운 원본 |
+| --- | --- | --- |
+| 01 | [시스템 계층과 책임](https://jhs512.github.io/topcit/slides/architecture-layers.html) | [원본](slides/architecture-layers.md) |
+| 02 | [프로세스와 스레드](https://jhs512.github.io/topcit/slides/architecture-process.html) | [원본](slides/architecture-process.md) |
+| 03 | [CPU 스케줄링](https://jhs512.github.io/topcit/slides/architecture-scheduling.html) | [원본](slides/architecture-scheduling.md) |
+| 04 | [동기화와 교착상태](https://jhs512.github.io/topcit/slides/architecture-synchronization.html) | [원본](slides/architecture-synchronization.md) |
+| 05 | [가상메모리와 페이지](https://jhs512.github.io/topcit/slides/architecture-virtual-memory.html) | [원본](slides/architecture-virtual-memory.md) |
+| 06 | [저장장치와 RAID](https://jhs512.github.io/topcit/slides/architecture-raid.html) | [원본](slides/architecture-raid.md) |
+| 07 | [TCP/IP와 계층별 통신](https://jhs512.github.io/topcit/slides/architecture-tcp-ip.html) | [원본](slides/architecture-tcp-ip.md) |
+| 08 | [가상화와 자원 추상화](https://jhs512.github.io/topcit/slides/architecture-virtualization.html) | [원본](slides/architecture-virtualization.md) |
+| 09 | [부하분산과 고가용성](https://jhs512.github.io/topcit/slides/architecture-availability.html) | [원본](slides/architecture-availability.md) |
+| 10 | [백업과 재해복구](https://jhs512.github.io/topcit/slides/architecture-recovery.html) | [원본](slides/architecture-recovery.md) |
+
+<a id="slides-security"></a>
+
+#### 04. 정보보안
+
+| 순서 | 발표 자료 바로 열기 | 마크다운 원본 |
+| --- | --- | --- |
+| 01 | [보안의 세 목표](https://jhs512.github.io/topcit/slides/security-cia.html) | [원본](slides/security-cia.md) |
+| 02 | [위협·취약점·위험](https://jhs512.github.io/topcit/slides/security-risk.html) | [원본](slides/security-risk.md) |
+| 03 | [인증과 인가](https://jhs512.github.io/topcit/slides/security-identity.html) | [원본](slides/security-identity.md) |
+| 04 | [접근통제와 최소권한](https://jhs512.github.io/topcit/slides/security-least-privilege.html) | [원본](slides/security-least-privilege.md) |
+| 05 | [대칭키와 공개키 암호](https://jhs512.github.io/topcit/slides/security-encryption.html) | [원본](slides/security-encryption.md) |
+| 06 | [해시와 전자서명](https://jhs512.github.io/topcit/slides/security-hash-signature.html) | [원본](slides/security-hash-signature.md) |
+| 07 | [통신 보안과 TLS](https://jhs512.github.io/topcit/slides/security-transport.html) | [원본](slides/security-transport.md) |
+| 08 | [안전한 소프트웨어 개발](https://jhs512.github.io/topcit/slides/security-secure-development.html) | [원본](slides/security-secure-development.md) |
+| 09 | [개인정보 보호 원칙](https://jhs512.github.io/topcit/slides/security-privacy.html) | [원본](slides/security-privacy.md) |
+| 10 | [보안 사고 대응](https://jhs512.github.io/topcit/slides/security-incident.html) | [원본](slides/security-incident.md) |
+
+<a id="slides-business"></a>
+
+#### 05. IT비즈니스와 윤리
+
+| 순서 | 발표 자료 바로 열기 | 마크다운 원본 |
+| --- | --- | --- |
+| 01 | [비즈니스 목표와 IT](https://jhs512.github.io/topcit/slides/business-alignment.html) | [원본](slides/business-alignment.md) |
+| 02 | [환경분석과 전략](https://jhs512.github.io/topcit/slides/business-strategy.html) | [원본](slides/business-strategy.md) |
+| 03 | [가치사슬과 업무 프로세스](https://jhs512.github.io/topcit/slides/business-value-chain.html) | [원본](slides/business-value-chain.md) |
+| 04 | [IT 거버넌스](https://jhs512.github.io/topcit/slides/business-governance.html) | [원본](slides/business-governance.md) |
+| 05 | [정보화 전략계획](https://jhs512.github.io/topcit/slides/business-isp.html) | [원본](slides/business-isp.md) |
+| 06 | [ERP·CRM·SCM](https://jhs512.github.io/topcit/slides/business-enterprise-systems.html) | [원본](slides/business-enterprise-systems.md) |
+| 07 | [IT 아웃소싱과 서비스 수준](https://jhs512.github.io/topcit/slides/business-outsourcing.html) | [원본](slides/business-outsourcing.md) |
+| 08 | [IT 성과관리](https://jhs512.github.io/topcit/slides/business-performance.html) | [원본](slides/business-performance.md) |
+| 09 | [지식재산권과 라이선스](https://jhs512.github.io/topcit/slides/business-ip.html) | [원본](slides/business-ip.md) |
+| 10 | [IT 직업윤리](https://jhs512.github.io/topcit/slides/business-ethics.html) | [원본](slides/business-ethics.md) |
+
+<a id="slides-management"></a>
+
+#### 06. 프로젝트 관리와 소통
+
+| 순서 | 발표 자료 바로 열기 | 마크다운 원본 |
+| --- | --- | --- |
+| 01 | [프로젝트 생명주기](https://jhs512.github.io/topcit/slides/management-lifecycle.html) | [원본](slides/management-lifecycle.md) |
+| 02 | [이해관계자와 의사소통](https://jhs512.github.io/topcit/slides/management-stakeholders.html) | [원본](slides/management-stakeholders.md) |
+| 03 | [범위와 WBS](https://jhs512.github.io/topcit/slides/management-wbs.html) | [원본](slides/management-wbs.md) |
+| 04 | [주공정과 완료 기간](https://jhs512.github.io/topcit/slides/critical-path.html) | [원본](slides/critical-path.md) |
+| 05 | [노력·기간·원가 추정](https://jhs512.github.io/topcit/slides/management-estimation.html) | [원본](slides/management-estimation.md) |
+| 06 | [진척과 획득가치](https://jhs512.github.io/topcit/slides/management-earned-value.html) | [원본](slides/management-earned-value.md) |
+| 07 | [프로젝트 품질관리](https://jhs512.github.io/topcit/slides/management-quality.html) | [원본](slides/management-quality.md) |
+| 08 | [위험과 대응](https://jhs512.github.io/topcit/slides/management-risk.html) | [원본](slides/management-risk.md) |
+| 09 | [변경과 기준선](https://jhs512.github.io/topcit/slides/management-change.html) | [원본](slides/management-change.md) |
+| 10 | [기술문서와 설명](https://jhs512.github.io/topcit/slides/management-communication.html) | [원본](slides/management-communication.md) |
 
 ## 1. 오리엔테이션: TOPCIT 시험 이해하기
 
@@ -191,25 +286,6 @@ TOPCIT 공식 안내에 따르면, TOPCIT을 활용하는 협약 기업·기관 
 
 ### 문서 발전 방향과 남은 확인 사항
 
-이 프로젝트는 하나의 공개 GitHub 저장소를 강의 교안으로 활용합니다. README에 전체 교안을 담거나 Mermaid를 활용하는 방안을 탐색 중입니다. README에는 개요·오리엔테이션·회차 링크를 두고 상세 교안을 회차별 파일로 나누는 방식, 회차별 개념·예제·해설 구성은 assistant의 제안이며 **아직 확정하지 않았습니다.** 학생용 안내는 문서 앞부분에, 강사용 메모와 문서 발전 방향은 맨 아래에 배치합니다. 전체 교안 작성은 후속 범위입니다.
+학교별 README를 수업 안내와 자료 링크의 허브로 사용합니다. 여섯 과목의 핵심 개념 자료는 각각 10개이며, 마크다운 원본을 공통 템플릿으로 HTML 슬라이드로 생성합니다. 선정 기준은 출제 빈도 예측보다 다른 개념의 바탕이 되는 원리입니다. 시험 안내는 별도 자료이며, 개념 슬라이드에 연습문제를 붙이지 않습니다. 학생용 안내는 앞부분에, 강사용 메모는 맨 아래에 배치합니다.
 
-- 학교 측 일정 확정, 상세 강의실, 단체접수·응시료 지원, 학교의 목표 점수와 활용 기준
-- 학생의 전공·선수지식 등 학습자 수준, 교안 형태, 학생 대상 배포·활용 방식, 상세 목차
-- 교재 전체의 최신 출제기준 대응, 개별 공식 공개 예제 검토, 실제 공식 모의응시 도구 동작
-- 시험 직전 추가 공지와 최종 수험표 정보
-
-### 공식 자료 검토 메모
-
-공식 영문 평가체계 페이지에는 과거 **65문항·단답형 포함** 설명과 새 **75문항** 표가 함께 남아 있습니다. 시행계획 공고 일부 표에도 예전 영역 명칭이 남아 있습니다. 이 README의 영역 명칭·문항 유형·배점은 적용 시점을 명시한 **2026년 변경 안내 첨부 1–2쪽**을 기준으로 정리했고 표를 시각적으로 대조했습니다. 날짜와 응시 규정은 2026 시행계획 공고 및 후속 모바일 신분증 공지를 기준으로 합니다. [시험 변경 안내](https://www.topcit.or.kr/board/notice/detail.do?seq=842), [평가체계](https://www.topcit.or.kr/introduction/question.do), [시행계획](https://www.topcit.or.kr/board/notice/detail.do?seq=841)
-
-### 문제은행 관리
-
-문항 데이터는 `data/`의 순수 JSON이고 문제풀이·전체보기·개념모드는 동일한 데이터를 사용합니다. [문항 편집 안내](AUTHORING.md)에 고유ID, 개정 번호, 추가·삭제와 진도 처리 정책을 정리했습니다. 문제·보기·정답의 의미가 바뀌면 해당 문제만 개정 번호를 올려 진도를 초기화합니다. 단순 오탈자·해설 표현 수정은 개정 번호를 유지할 수 있습니다.
-
-기록 저장은 localStorage, 기기 간 이동은 URL fragment에 담은 압축 진도 스냅샷을 사용합니다. 계정·서버 DB·교사 집계는 없습니다. 링크는 ID·개정 번호·연속 정답만 포함하고 전체 응답 로그는 옮기지 않습니다. 전체 응답 로그는 앱에서 내려받을 수 있습니다. 학습기록은 자기주도 학습용이며 평가 성적 증빙으로 사용하지 않습니다.
-
-로컬 실행은 `npm run serve`, 로직·데이터 검사는 `npm test`, 실제 브라우저 검사는 `npm run test:browser`입니다. 브라우저 검사는 `npm install` 후 `npx playwright install chromium`이 필요합니다. 공개 배포는 GitHub Pages의 `main` 루트를 사용합니다.
-
-### 강의 자료 작성과 갱신
-
-슬라이드는 [마크다운 원본](slides/critical-path.md)을 수정한 뒤 공통 템플릿으로 HTML을 생성합니다. [작성 방법](slides/README.md)을 따릅니다. 학교별 일정과 교시별 자료 링크는 이 README에서 관리합니다. 개별 교안 사이의 링크 구조는 이번 정리에서 변경하지 않았습니다.
+핵심 개념 자료의 작성·검토 범위는 [슬라이드 검토 메모](notes/slides-review.md)에 기록합니다.

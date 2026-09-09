@@ -1,0 +1,344 @@
+[
+  {
+    "id": "software",
+    "title": "소프트웨어 개발",
+    "book": "01",
+    "items": [
+      {
+        "title": "요구사항 분석",
+        "file": "software-requirements.html",
+        "source": "software-requirements.md"
+      },
+      {
+        "title": "개발 생명주기와 반복",
+        "file": "software-lifecycle.html",
+        "source": "software-lifecycle.md"
+      },
+      {
+        "title": "자료구조와 접근 방식",
+        "file": "software-structures.html",
+        "source": "software-structures.md"
+      },
+      {
+        "title": "알고리즘과 시간복잡도",
+        "file": "software-complexity.html",
+        "source": "software-complexity.md"
+      },
+      {
+        "title": "객체지향과 캡슐화",
+        "file": "software-objects.html",
+        "source": "software-objects.md"
+      },
+      {
+        "title": "응집도와 결합도",
+        "file": "software-modules.html",
+        "source": "software-modules.md"
+      },
+      {
+        "title": "UML과 모델의 관점",
+        "file": "software-uml.html",
+        "source": "software-uml.md"
+      },
+      {
+        "title": "디자인 패턴과 변경 지점",
+        "file": "software-patterns.html",
+        "source": "software-patterns.md"
+      },
+      {
+        "title": "테스트와 검증 기준",
+        "file": "software-testing.html",
+        "source": "software-testing.md"
+      },
+      {
+        "title": "형상관리와 변경 추적",
+        "file": "software-configuration.html",
+        "source": "software-configuration.md"
+      }
+    ]
+  },
+  {
+    "id": "data",
+    "title": "데이터 이해와 활용",
+    "book": "02",
+    "items": [
+      {
+        "title": "관계형 데이터 모델",
+        "file": "data-relational.html",
+        "source": "data-relational.md"
+      },
+      {
+        "title": "키와 무결성",
+        "file": "data-keys.html",
+        "source": "data-keys.md"
+      },
+      {
+        "title": "ER 모델링과 관계",
+        "file": "data-er.html",
+        "source": "data-er.md"
+      },
+      {
+        "title": "정규화와 갱신 이상",
+        "file": "data-normalization.html",
+        "source": "data-normalization.md"
+      },
+      {
+        "title": "SQL 조회와 집계",
+        "file": "data-sql.html",
+        "source": "data-sql.md"
+      },
+      {
+        "title": "조인과 행의 결합",
+        "file": "data-joins.html",
+        "source": "data-joins.md"
+      },
+      {
+        "title": "트랜잭션과 ACID",
+        "file": "data-transactions.html",
+        "source": "data-transactions.md"
+      },
+      {
+        "title": "동시성 제어와 격리",
+        "file": "data-concurrency.html",
+        "source": "data-concurrency.md"
+      },
+      {
+        "title": "인덱스와 조회 비용",
+        "file": "data-indexes.html",
+        "source": "data-indexes.md"
+      },
+      {
+        "title": "데이터 품질과 분석",
+        "file": "data-quality.html",
+        "source": "data-quality.md"
+      }
+    ]
+  },
+  {
+    "id": "architecture",
+    "title": "시스템아키텍처",
+    "book": "03",
+    "items": [
+      {
+        "title": "시스템 계층과 책임",
+        "file": "architecture-layers.html",
+        "source": "architecture-layers.md"
+      },
+      {
+        "title": "프로세스와 스레드",
+        "file": "architecture-process.html",
+        "source": "architecture-process.md"
+      },
+      {
+        "title": "CPU 스케줄링",
+        "file": "architecture-scheduling.html",
+        "source": "architecture-scheduling.md"
+      },
+      {
+        "title": "동기화와 교착상태",
+        "file": "architecture-synchronization.html",
+        "source": "architecture-synchronization.md"
+      },
+      {
+        "title": "가상메모리와 페이지",
+        "file": "architecture-virtual-memory.html",
+        "source": "architecture-virtual-memory.md"
+      },
+      {
+        "title": "저장장치와 RAID",
+        "file": "architecture-raid.html",
+        "source": "architecture-raid.md"
+      },
+      {
+        "title": "TCP/IP와 계층별 통신",
+        "file": "architecture-tcp-ip.html",
+        "source": "architecture-tcp-ip.md"
+      },
+      {
+        "title": "가상화와 자원 추상화",
+        "file": "architecture-virtualization.html",
+        "source": "architecture-virtualization.md"
+      },
+      {
+        "title": "부하분산과 고가용성",
+        "file": "architecture-availability.html",
+        "source": "architecture-availability.md"
+      },
+      {
+        "title": "백업과 재해복구",
+        "file": "architecture-recovery.html",
+        "source": "architecture-recovery.md"
+      }
+    ]
+  },
+  {
+    "id": "security",
+    "title": "정보보안",
+    "book": "04",
+    "items": [
+      {
+        "title": "보안의 세 목표",
+        "file": "security-cia.html",
+        "source": "security-cia.md"
+      },
+      {
+        "title": "위협·취약점·위험",
+        "file": "security-risk.html",
+        "source": "security-risk.md"
+      },
+      {
+        "title": "인증과 인가",
+        "file": "security-identity.html",
+        "source": "security-identity.md"
+      },
+      {
+        "title": "접근통제와 최소권한",
+        "file": "security-least-privilege.html",
+        "source": "security-least-privilege.md"
+      },
+      {
+        "title": "대칭키와 공개키 암호",
+        "file": "security-encryption.html",
+        "source": "security-encryption.md"
+      },
+      {
+        "title": "해시와 전자서명",
+        "file": "security-hash-signature.html",
+        "source": "security-hash-signature.md"
+      },
+      {
+        "title": "통신 보안과 TLS",
+        "file": "security-transport.html",
+        "source": "security-transport.md"
+      },
+      {
+        "title": "안전한 소프트웨어 개발",
+        "file": "security-secure-development.html",
+        "source": "security-secure-development.md"
+      },
+      {
+        "title": "개인정보 보호 원칙",
+        "file": "security-privacy.html",
+        "source": "security-privacy.md"
+      },
+      {
+        "title": "보안 사고 대응",
+        "file": "security-incident.html",
+        "source": "security-incident.md"
+      }
+    ]
+  },
+  {
+    "id": "business",
+    "title": "IT비즈니스와 윤리",
+    "book": "05",
+    "items": [
+      {
+        "title": "비즈니스 목표와 IT",
+        "file": "business-alignment.html",
+        "source": "business-alignment.md"
+      },
+      {
+        "title": "환경분석과 전략",
+        "file": "business-strategy.html",
+        "source": "business-strategy.md"
+      },
+      {
+        "title": "가치사슬과 업무 프로세스",
+        "file": "business-value-chain.html",
+        "source": "business-value-chain.md"
+      },
+      {
+        "title": "IT 거버넌스",
+        "file": "business-governance.html",
+        "source": "business-governance.md"
+      },
+      {
+        "title": "정보화 전략계획",
+        "file": "business-isp.html",
+        "source": "business-isp.md"
+      },
+      {
+        "title": "ERP·CRM·SCM",
+        "file": "business-enterprise-systems.html",
+        "source": "business-enterprise-systems.md"
+      },
+      {
+        "title": "IT 아웃소싱과 서비스 수준",
+        "file": "business-outsourcing.html",
+        "source": "business-outsourcing.md"
+      },
+      {
+        "title": "IT 성과관리",
+        "file": "business-performance.html",
+        "source": "business-performance.md"
+      },
+      {
+        "title": "지식재산권과 라이선스",
+        "file": "business-ip.html",
+        "source": "business-ip.md"
+      },
+      {
+        "title": "IT 직업윤리",
+        "file": "business-ethics.html",
+        "source": "business-ethics.md"
+      }
+    ]
+  },
+  {
+    "id": "management",
+    "title": "프로젝트 관리와 소통",
+    "book": "06",
+    "items": [
+      {
+        "title": "프로젝트 생명주기",
+        "file": "management-lifecycle.html",
+        "source": "management-lifecycle.md"
+      },
+      {
+        "title": "이해관계자와 의사소통",
+        "file": "management-stakeholders.html",
+        "source": "management-stakeholders.md"
+      },
+      {
+        "title": "범위와 WBS",
+        "file": "management-wbs.html",
+        "source": "management-wbs.md"
+      },
+      {
+        "title": "주공정과 완료 기간",
+        "file": "critical-path.html",
+        "source": "critical-path.md"
+      },
+      {
+        "title": "노력·기간·원가 추정",
+        "file": "management-estimation.html",
+        "source": "management-estimation.md"
+      },
+      {
+        "title": "진척과 획득가치",
+        "file": "management-earned-value.html",
+        "source": "management-earned-value.md"
+      },
+      {
+        "title": "프로젝트 품질관리",
+        "file": "management-quality.html",
+        "source": "management-quality.md"
+      },
+      {
+        "title": "위험과 대응",
+        "file": "management-risk.html",
+        "source": "management-risk.md"
+      },
+      {
+        "title": "변경과 기준선",
+        "file": "management-change.html",
+        "source": "management-change.md"
+      },
+      {
+        "title": "기술문서와 설명",
+        "file": "management-communication.html",
+        "source": "management-communication.md"
+      }
+    ]
+  }
+]
