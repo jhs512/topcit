@@ -11,6 +11,7 @@ try{
   await mkdir('test-results',{recursive:true});
   const ctx=await browser.newContext({viewport:{width:390,height:844}}),page=await ctx.newPage(),errors=[];
   page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(base+"?area=management");await page.locator("#prompt").waitFor();assert.match(await page.locator(".quiz-heading").innerText(),/프로젝트/);
   await page.goto(base);await page.locator('[data-area="architecture"]').waitFor();
   assert.equal(await page.locator('.area-card').count(),4);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);

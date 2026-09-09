@@ -41,6 +41,8 @@ window.addEventListener('storage',e=>{if(e.key===KEY){try{area?renderQuestion():
 try{
   const results=await Promise.all(AREAS.map(async a=>{const r=await fetch(`./data/${a.id}.json`,{cache:"no-cache"});if(r.status===404)return [a.id,[]];if(!r.ok)throw Error('문제를 불러오지 못했습니다. 새로고침해 주세요.');return [a.id,await r.json()];}));
   bank=Object.fromEntries(results);store=localStore(bank);read();home();
+  const requestedArea=new URL(location.href).searchParams.get("area");
+  if(AREAS.some(a=>a.id===requestedArea)&&bank[requestedArea]?.length)await openArea(requestedArea);
   await consumeImportHash();
 }catch(e){root.innerHTML='<h1>학습을 시작할 수 없습니다</h1><p>연결 상태를 확인한 뒤 새로고침해 주세요. 기존 저장 기록은 지우지 않았습니다.</p>';error(e);}
 
