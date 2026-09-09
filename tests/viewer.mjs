@@ -9,7 +9,16 @@ await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const browser=await chromium.launch();const page=await browser.newPage({viewport:{width:1440,height:900}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
 const rendered=async(first,count)=>{await page.waitForFunction(({first,count})=>{const c=[...document.querySelectorAll('#pages canvas')];return c.length===count&&c[0].getAttribute('aria-label')===`PDF ${first}쪽`},{first,count},{timeout:60000});};
 try{
- await page.goto(`http://127.0.0.1:${server.address().port}/viewer/index.html?book=05&page=25`);await rendered(25,2);
+ let delayed=false;await page.route('**/*.pdf',async route=>{if(!delayed){delayed=true;await new Promise(r=>setTimeout(r,500));}await route.continue()});
+ await page.goto(`http://127.0.0.1:${server.address().port}/viewer/index.html?book=05&page=25`);assert.equal(await page.locator('#loading').isVisible(),true);assert.match(await page.locator('#percent').innerText(),/^\d+%$/);await rendered(25,2);
+ assert.equal(await page.locator('header,footer').count(),0);
+ assert.equal(await page.locator('#loading').isHidden(),true);
+ await page.mouse.move(720,600);await page.waitForTimeout(3900);assert.ok(await page.locator('#menu').isHidden(),'Idle menu hides');
+ await page.mouse.move(721,600);await page.locator('#menu').waitFor({state:'visible'});
+ await page.mouse.click(1300,600);await rendered(27,2);await page.mouse.click(100,600);await rendered(25,2);
+ await page.locator('#zoom').selectOption('3');await page.waitForFunction(()=>parseFloat(document.querySelector('#pages canvas').style.width)>2000);
+ await page.locator('#zoom').selectOption('fit');await page.waitForFunction(()=>parseFloat(document.querySelector('#pages canvas').style.width)<1000);
+
  await mkdir(new URL('test-results/',root),{recursive:true});await page.screenshot({path:new URL('test-results/viewer-landscape.png',root).pathname.replace(/^\/([A-Za-z]:)/,'$1')});
  await page.locator('#next').click();await rendered(27,2);assert.match(page.url(),/page=27/);
  await page.setViewportSize({width:390,height:844});await rendered(27,1);await page.screenshot({path:new URL('test-results/viewer-portrait.png',root).pathname.replace(/^\/([A-Za-z]:)/,'$1')});
@@ -20,5 +29,5 @@ try{
  await page.locator('#page').fill('1');await page.locator('#go').click();await rendered(1,2);assert.equal(await page.locator('#prev').isDisabled(),true);
  await page.setViewportSize({width:844,height:390});await page.locator('#layout').selectOption('auto');await rendered(1,2);
  await page.waitForTimeout(500);const fit=await page.evaluate(()=>{const w=document.querySelector('#canvas-wrap');return w.scrollWidth<=w.clientWidth+1&&w.scrollHeight<=w.clientHeight+1});assert.ok(fit,'Landscape phone fit stays within reading area');
- assert.deepEqual(errors,[]);console.log('Viewer passed: landscape spread, portrait single, manual mode, exact links, navigation, final page, mobile fit, no JS errors');
+ assert.deepEqual(errors,[]);console.log('Viewer passed: overlay idle/reveal, left/right taps, loading percent, 300% zoom, responsive pages, exact links and no JS errors');
 }finally{await browser.close();await new Promise(r=>server.close(r));}

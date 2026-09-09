@@ -15,7 +15,7 @@ $('title').textContent=meta[0];document.title=`${meta[0]} · TOPCIT 교재`;
 const pdfUrl='../sources/'+encodeURIComponent(meta[1]);$('download').href=pdfUrl;
 function spread(){return $('layout').value==='spread'||($('layout').value==='auto'&&matchMedia('(orientation: landscape)').matches)}
 function message(value,temporary=false){clearTimeout(statusTimer);$('status').textContent=value;if(temporary)statusTimer=setTimeout(()=>{$('status').textContent=''},1800)}
-function controls(){if(!pdf)return;$('prev').disabled=current<=1;$('next').disabled=current+(spread()?1:0)>=pdf.numPages;$('page').value=current;$('count').textContent=`/ ${pdf.numPages}`;$('mode').textContent=spread()?'두 쪽 보기':'한 쪽 보기'}
+function controls(){if(!pdf)return;$('prev').disabled=current<=1;$('next').disabled=current+(spread()?1:0)>=pdf.numPages;$('page').value=current;$('count').textContent=`/ ${pdf.numPages}`}
 async function render(){if(!pdf)return;const version=++revision;for(const task of activeTasks)task.cancel();activeTasks=[];controls();message('페이지를 불러오는 중입니다.');try{
  const numbers=[current];if(spread()&&current<pdf.numPages)numbers.push(current+1);
  const pages=await Promise.all(numbers.map(n=>pdf.getPage(n)));if(version!==revision)return;
@@ -31,14 +31,25 @@ async function render(){if(!pdf)return;const version=++revision;for(const task o
  activeTasks=tasks;await Promise.all(tasks.map(t=>t.promise));if(version!==revision)return;
  $('pages').replaceChildren(fragment);wrap.scrollTop=0;wrap.scrollLeft=0;
  const u=new URL(location.href);u.searchParams.set('book',book);u.searchParams.set('page',current);history.replaceState(null,'',u);
- message(`PDF ${numbers.join('–')}쪽`,true);
+ $('loading').hidden=true;message(`PDF ${numbers.join('–')}쪽`,true);
  }catch(e){if(version===revision&&e.name!=='RenderingCancelledException')message('페이지를 표시하지 못했습니다. 다른 페이지로 이동하거나 새로고침해 주세요.');}}
 function move(n){if(!pdf)return;current=Math.max(1,Math.min(pdf.numPages,n));render()}
-async function load(source){message('교재를 불러오는 중입니다.');try{pdf=await pdfjs.getDocument({...(typeof source==='string'?{url:source,disableAutoFetch:true,disableStream:true}:{data:new Uint8Array(await source.arrayBuffer())}),cMapUrl:new URL('./vendor/cmaps/',import.meta.url).href,cMapPacked:true,standardFontDataUrl:new URL('./vendor/standard_fonts/',import.meta.url).href,wasmUrl:new URL('./vendor/wasm/',import.meta.url).href,isEvalSupported:false}).promise;$('setup').hidden=true;$('reader').hidden=false;$('page').max=pdf.numPages;current=Math.min(current,pdf.numPages);await render()}catch{message('교재를 불러오지 못했습니다. 네트워크를 확인하거나 PDF 파일을 선택하세요.');$('setup').hidden=false}}
+async function load(source){message('교재를 불러오는 중입니다.');try{$('loading').hidden=false;$('loading-label').textContent='교재 다운로드';$('percent').textContent='0%';$('progress').value=0;const loadingTask=pdfjs.getDocument({...(typeof source==='string'?{url:source,disableAutoFetch:true,disableStream:true}:{data:new Uint8Array(await source.arrayBuffer())}),cMapUrl:new URL('./vendor/cmaps/',import.meta.url).href,cMapPacked:true,standardFontDataUrl:new URL('./vendor/standard_fonts/',import.meta.url).href,wasmUrl:new URL('./vendor/wasm/',import.meta.url).href,isEvalSupported:false});loadingTask.onProgress=({loaded,total})=>{if(total>0){const percent=Math.min(100,Math.floor(loaded/total*100));$('percent').textContent=percent+'%';$('progress').value=percent;}};pdf=await loadingTask.promise;$('loading-label').textContent='페이지 준비 중';$('setup').hidden=true;$('reader').hidden=false;$('page').max=pdf.numPages;current=Math.min(current,pdf.numPages);await render()}catch{$('loading').hidden=true;message('교재를 불러오지 못했습니다. 네트워크를 확인하거나 PDF 파일을 선택하세요.');$('setup').hidden=false}}
 $('prev').onclick=()=>move(current-(spread()?2:1));$('next').onclick=()=>move(current+(spread()?2:1));$('go').onclick=()=>move(parseInt($('page').value,10)||1);$('page').onkeydown=e=>{if(e.key==='Enter')$('go').click()};$('layout').onchange=render;$('zoom').onchange=render;
 $('file').onchange=()=>{if($('file').files[0])load($('file').files[0])};
 $('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch{message('이 브라우저에서는 전체 화면을 지원하지 않습니다.',true)}};
 document.addEventListener('fullscreenchange',()=>{$('fullscreen').textContent=document.fullscreenElement?'전체 화면 닫기':'전체 화면';render()});
 document.addEventListener('keydown',e=>{if(e.target.closest('input,select,button,a'))return;if(e.key==='ArrowRight'){e.preventDefault();$('next').click()}if(e.key==='ArrowLeft'){e.preventDefault();$('prev').click()}});
 let timer;window.addEventListener('resize',()=>{clearTimeout(timer);timer=setTimeout(render,160)});
+let menuTimer;
+function revealMenu(){document.body.classList.remove('menu-hidden');clearTimeout(menuTimer);menuTimer=setTimeout(()=>{document.body.classList.add('menu-hidden');},3500)}
+document.addEventListener('pointermove',revealMenu);
+document.addEventListener('keydown',revealMenu);
+$('menu').addEventListener('focusin',revealMenu);
+$('menu').addEventListener('focusout',revealMenu);
+let press;
+$('canvas-wrap').addEventListener('pointerdown',e=>{press={x:e.clientX,y:e.clientY}});
+$('canvas-wrap').addEventListener('pointerup',e=>{if(!press)return;const moved=Math.hypot(e.clientX-press.x,e.clientY-press.y);press=null;if(moved>12)return;if(e.clientX<innerWidth*.35)$('prev').click();else if(e.clientX>innerWidth*.65)$('next').click();else revealMenu()});
+$('canvas-wrap').addEventListener('pointercancel',()=>{press=null});
+revealMenu();
 await load(pdfUrl);
