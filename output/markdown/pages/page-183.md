@@ -13,9 +13,10 @@ GDPR에서는 개인정보를 처리하는 과정에 관여하는 3개의 주체
 
 - 프로세서(Processor): 컨트롤러를 대신하여 개인정보의 처리를 위임 받은 개인 또는 법인, 공공기관 등을 의미하며 컨트롤러가 지시한 대로 개인정보를 처리
 
-| 전문 (Recital) 173개 | |
-|---|---|
-| 본문 11장(Chapter) 99개 조항(Article) | 제1장 일반규정 (General Provisions)<br>제2장 원칙 (Principles)<br>제3장 정보주체의 권리 (Rights of the Data Subject)<br>제4장 컨트롤러와 프로세서 (Controller and Processor)<br>제5장 제3국 및 국제기구로의 개인정보 이전 (Transfer of Personal Data to Third Countries or International Organizations)<br>제6장 독립적인 감독기구 (Independent Supervisory Authorities)<br>제7장 협력 및 일관성 (Co-operation and Consistency)<br>제8장 구제책, 책임, 처벌 (Remedies, Liability and Sanctions)<br>제9장 특정 정보처리 상황에 관한 규정 (Provisions Relating to Specific Data Processing Situations)<br>제10장 위임법률 및 시행법률 (Delegated Acts and Implementing Acts)<br>제11장 최종규정 (Final Provisions) |
+<table>
+<tr><th colspan="2">전문 (Recital) 173개</th></tr>
+<tr><th>본문 11장(Chapter) 99개 조항(Article)</th><td>제1장 일반규정 (General Provisions)<br>제2장 원칙 (Principles)<br>제3장 정보주체의 권리 (Rights of the Data Subject)<br>제4장 컨트롤러와 프로세서 (Controller and Processor)<br>제5장 제3국 및 국제기구로의 개인정보 이전 (Transfer of Personal Data to Third Countries or International Organizations)<br>제6장 독립적인 감독기구 (Independent Supervisory Authorities)<br>제7장 협력 및 일관성 (Co-operation and Consistency)<br>제8장 구제책, 책임, 처벌 (Remedies, Liability and Sanctions)<br>제9장 특정 정보처리 상황에 관한 규정 (Provisions Relating to Specific Data Processing Situations)<br>제10장 위임법률 및 시행법률 (Delegated Acts and Implementing Acts)<br>제11장 최종규정 (Final Provisions)</td></tr>
+</table>
 
 [그림 82] GDPR 체계도⁴⁵
 

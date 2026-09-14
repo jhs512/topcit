@@ -1,8 +1,6 @@
 <!-- PDF page: 001 -->
 
-
 # IT 비즈니스와 윤리
-
 
 TOPCIT
 

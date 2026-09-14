@@ -24,14 +24,20 @@ flowchart LR
         D --- M[Marketing Data Mart]
         D --- S[Sales Data Mart]
         D --- V[Service Data Mart]
-        M --> X[Vertical Apps]
-        S --> Y[OLAP]
-        V --> Z[Data Mining Tool]
+        M --- J(( ))
+        S --- J
+        V --- J
+        J --> X[Vertical Apps]
+        J --> Y[OLAP]
+        J --> Z[Data Mining Tool]
     end
     subgraph B[운영 CRM]
-        E[ERP] <--> MA[Marketing Automation]
-        SC[SCM] <--> SA[Sales Automation]
-        R[거래선] <--> SV[Service Automation]
+        E[ERP] <--> J2(( ))
+        SC[SCM] <--> J2
+        R[거래선] <--> J2
+        J2 <--> MA[Marketing Automation]
+        J2 <--> SA[Sales Automation]
+        J2 <--> SV[Service Automation]
     end
     subgraph C[협업 CRM]
         C1[콜 센터]

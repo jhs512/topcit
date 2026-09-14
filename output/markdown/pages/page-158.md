@@ -11,7 +11,7 @@
 
 ##### ⑥ 링크드 데이터(Linked data)
 
-링크드 데이터는 웹상에 존재하는 데이터를 개별 URI(Uniform Resource Identifier)로 식별하고, 각 URI에 링크 정보를 부여 함으로써 상호 연결된 웹을 지향하는 모형이다.
+링크드 데이터는 웹상에 존재하는 데이터를 개별 URI(Uniform Resource Identifier)로 식별하고, 각 URI에 링크 정보를 부여함으로써 상호 연결된 웹을 지향하는 모형이다.
 
 〈표 90〉 링크드 데이터의 4가지 원칙
 

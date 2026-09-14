@@ -1,9 +1,8 @@
 <!-- PDF page: 059 -->
 
-• 자사의 중요한 기업정보가 유출되지 않도록 보안체계를 마련함과 동시에 서비스 품질이 확보될 수 있도록 서비스 수준
-에 대한 관리와 변경사항에 대한 지속적 모니터링이 필요하다.
-• 기업의 특정 업무영역이 아니라 비즈니스 프로세스를 전체 또는 일부를 아웃소싱하여 협업하고자 할 경우에는
-BPO(Business Process Outsourcing)8를 도입 운영할 필요가 있다.
+- 자사의 중요한 기업정보가 유출되지 않도록 보안체계를 마련함과 동시에 서비스 품질이 확보될 수 있도록 서비스 수준에 대한 관리와 변경사항에 대한 지속적 모니터링이 필요하다.
+- 기업의 특정 업무영역이 아니라 비즈니스 프로세스를 전체 또는 일부를 아웃소싱하여 협업하고자 할 경우에는 BPO(Business Process Outsourcing)8를 도입 운영할 필요가 있다.
+
 〈표 19〉 아웃소싱 도입 시 문제점 및 고려사항
 
 | 구분 | 관리부문 | 계약부문 | 운영부문 |
@@ -12,7 +11,6 @@ BPO(Business Process Outsourcing)8를 도입 운영할 필요가 있다.
 | 고려사항 | • IT 거버넌스를 이용하여 통제체계 마련<br>• BSC 관점의 평가<br>• 표준을 이용한 업체 평가체계 마련(eSCM, ISO20000 등) | • SLA를 이용한 수준 협약과 관리<br>• 변경관리 방안 마련<br>• 체계적 비용산정기법의 도입 | • 보안교육 및 보안통제체계 마련<br>• 기술이전 등의 프로세스 마련<br>• 서비스 품질 점검체계 마련 |
 
 **[참고 및 추천 자료]**
-
 
 [1] 이경희, 한국기업의 R&D 아웃소싱과 성과, KEIT. 2011.
 
@@ -25,6 +23,7 @@ BPO(Business Process Outsourcing)8를 도입 운영할 필요가 있다.
 [5] "https://en.wikipedia.org/wiki/ESCM_(eSourcing_Capability_Model)”. wikipedia 2018.
 
 [6] "https://en.wikipedia.org/wiki/ISO/IEC_20000”, wikipedia 2018.
-8 BPO(Business Process Outsourcing): BPO 모델에 대해서는 가트너의 BPO 모델을 참고하기 바란다.
+
+<sup>8</sup> BPO(Business Process Outsourcing): BPO 모델에 대해서는 가트너의 BPO 모델을 참고하기 바란다.
 
 ---

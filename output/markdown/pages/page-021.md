@@ -2,9 +2,7 @@
 
 ### 02 IT 비즈니스 생태계
 
-
 #### 가) IT 비즈니스와 하이프 사이클
-
 
 최근 IT 비즈니스의 혁신을 가져온 IT 기술환경의 변화를 살펴보자. IT 분야의 신기술이 갖는 산업 경제적 가치와 영향에
 대한 기대수준의 변화를 시간에 따라 보여주는 것이 가트너에서 매년 발표하는 하이프 사이클(Hype Cycle)이다.
@@ -13,7 +11,6 @@
 Expectations)에 이르게 된다. 거품제거기(Trough of Disillusionment)는 이러한 거품이 꺼지는 시기이며, 이 시기를 지나면
 기대수준이 다시 완만한 증가 추세를 보이는 재조명기(Slope of Enlightenment)를 거쳐 최종적으로 안정적으로 가치를 창
 출하는 안정적인 생산기(Plateau of Productivity)로 이행한다.
-
 
 [그림 5] 2018년 Gartner Hype Cycle
 

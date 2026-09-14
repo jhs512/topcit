@@ -26,8 +26,10 @@ flowchart TB
     C --- E
     D --- E
     subgraph PI 영역
+        A
         B
         C
+        E
     end
     subgraph 시스템 구축 영역
         D

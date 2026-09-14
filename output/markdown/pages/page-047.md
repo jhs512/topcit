@@ -8,12 +8,9 @@
 
 #### 다) EA 프레임워크
 
-
 대표적인 EA 프레임워크로는 자크만 프레임워크(Zachman Framework), TOGAF(The Open Group Architecture),
-FEAF(Federal Enterprise Architecture Framework) 등이 있다. 자크만 프레임워크는 EA 수립 시 가장 많이 참조하는 프
-레임워크이고, The Open Group에서 만든 TOGAF는 기업 간 상호운용성에 초점을 맞추어 개발한 개방형 프레임워크이
-다. 또한 FEAF는 미국의 정보 CIO Council에 의해 자크만 프레임워크, Spewak 등의 도움으로 1998년 개발된 프레임워
-크이다.
+FEAF(Federal Enterprise Architecture Framework) 등이 있다. 자크만 프레임워크는 EA 수립 시 가장 많이 참조하는 프레임워크이고, The Open Group에서 만든 TOGAF는 기업 간 상호운용성에 초점을 맞추어 개발한 개방형 프레임워크이
+다. 또한 FEAF는 미국의 정보 CIO Council에 의해 자크만 프레임워크, Spewak 등의 도움으로 1998년 개발된 프레임워크이다.
 〈표 8〉 EA 프레임워크의 종류
 
 | EA 프레임워크 | 설명 |
@@ -24,9 +21,7 @@ FEAF(Federal Enterprise Architecture Framework) 등이 있다. 자크만 프레�
 
 ### 04 ISP의 개념
 
-
 #### 가) ISP(Information Strategic Planning)의 개요
-
 
 ISP는 의미 그대로 해석하자면 정보화 전략 계획이다. 일반적으로 통칭하여 ISP수립이라고 표현한다.
 ISP는 기업, 조직의 중장기 비전 및 목표, 경영계획을 지원하기 위한 정보시스템 및 정보관리 체계에 대한 비전을 제시한
