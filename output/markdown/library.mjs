@@ -1,6 +1,10 @@
 import { books } from './books.mjs';
 // Preserve links shared before the library was introduced.
-if (/^#(?:page-|p\d{3}-h)/.test(location.hash)) location.replace(`./reader.html?book=05${location.hash}`);
+function redirectLegacyLink() {
+  if (/^#(?:page-|p\d{3}-h)/.test(location.hash)) location.replace(`./reader.html?book=05${location.hash}`);
+}
+redirectLegacyLink();
+addEventListener('hashchange', redirectLegacyLink);
 const grid = document.querySelector('#library');
 for (const book of books) {
   const card = document.createElement('article'); card.className = `book-card ${book.status}`;
