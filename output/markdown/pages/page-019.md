@@ -17,14 +17,14 @@ IT 비즈니스는 기업의 궁극적인 비즈니스 목표를 달성하기 �
 flowchart LR
  subgraph a["(a) IT 활용: 비즈니스가 IT를 도구로 사용"]
   subgraph proc["비즈니스 프로세스"]
-   A[A] & B[B] & C[C] & D[D] & E[E]
+   A["프로세스 A"] & B["프로세스 B"] & C["프로세스 C"] & D["프로세스 D"] & E["프로세스 E"]
   end
   IT[IT] -.-> A & B & C & D & E
   proc --> goal((비즈니스 목표))
  end
  subgraph b["(b) IT 접목: 비즈니스와 IT가 밀접하게 결합"]
   subgraph proc2["비즈니스 프로세스"]
-   A2["A+IT"] & B2["B+IT"] & C2["C+IT"] & D2["D+IT"] & E2["E+IT"]
+   A2["프로세스 A + IT"] & B2["프로세스 B + IT"] & C2["프로세스 C + IT"] & D2["프로세스 D + IT"] & E2["프로세스 E + IT"]
   end
   proc2 --> goal2((비즈니스 목표))
  end
