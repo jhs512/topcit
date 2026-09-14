@@ -1,8 +1,13 @@
+import { books } from './books.mjs';
+const bookId = new URLSearchParams(location.search).get('book') || '05';
+const book = books.find(item => item.id === bookId && item.status === 'ready');
+if (!book) location.replace('./index.html');
+const totalPages = book?.pages || 0;
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const storage = {
-  get(key) { try { return localStorage.getItem(`topcit-reader-${key}`); } catch { return null; } },
-  set(key, value) { try { localStorage.setItem(`topcit-reader-${key}`, value); } catch {} },
+  get(key) { try { return localStorage.getItem(`topcit-reader-${bookId}-${key}`) || (bookId === '05' ? localStorage.getItem(`topcit-reader-${key}`) : null); } catch { return null; } },
+  set(key, value) { try { localStorage.setItem(`topcit-reader-${bookId}-${key}`, value); } catch {} },
 };
 let fontSize = Math.max(14, Math.min(23, Number(storage.get('font')) || 17));
 document.documentElement.style.setProperty('--font-size', `${fontSize}px`);
@@ -46,9 +51,9 @@ themeLabel();
 $('#page-form').onsubmit = event => {
   event.preventDefault();
   const n = Number($('#page-number').value);
-  if (Number.isInteger(n) && n >= 1 && n <= 213) go(`page-${String(n).padStart(3, '0')}`);
+  if (Number.isInteger(n) && n >= 1 && n <= totalPages) go(`page-${String(n).padStart(3, '0')}`);
 };
-if (savedPage >= 1 && savedPage <= 213) {
+if (savedPage >= 1 && savedPage <= totalPages) {
   $('#resume').hidden = false;
   $('#resume').textContent = `${savedPage}쪽 이어서 읽기 →`;
   $('#resume').onclick = () => go(`page-${String(savedPage).padStart(3, '0')}`);
@@ -242,13 +247,13 @@ async function load() {
     const [{ marked }, { default: DOMPurify }, response] = await Promise.all([
       import('https://cdn.jsdelivr.net/npm/marked@18.0.13/lib/marked.esm.js'),
       import('https://cdn.jsdelivr.net/npm/dompurify@3.4.15/dist/purify.es.mjs'),
-      fetch(new URL('./IT비즈니스와윤리.md', import.meta.url), { cache: 'no-cache', signal: AbortSignal.timeout(30000) }),
+      fetch(new URL(book.source, import.meta.url), { cache: 'no-cache', signal: AbortSignal.timeout(30000) }),
     ]);
     if (!response.ok) throw new Error(`Book HTTP ${response.status}`);
     renderer = marked; purifier = DOMPurify;
     const source = await response.text();
     const segments = [...source.matchAll(/<!-- PDF page: (\d{3}) -->([\s\S]*?)(?=<!-- PDF page: \d{3} -->|$)/g)];
-    if (segments.length !== 213 || segments.some((s, i) => Number(s[1]) !== i + 1)) throw new Error('Incomplete page sequence');
+    if (segments.length !== totalPages || segments.some((s, i) => Number(s[1]) !== i + 1)) throw new Error('Incomplete page sequence');
     $('#book').replaceChildren(); pages = []; headings = [];
     diagramObserver = new IntersectionObserver(entries => {
       entries.filter(e => e.isIntersecting).forEach(e => { queueDiagram(e.target); diagramObserver.unobserve(e.target); });
@@ -258,7 +263,7 @@ async function load() {
       const section = document.createElement('section'); section.className = 'book-page'; section.id = `page-${pageId}`;
       section.innerHTML = purifier.sanitize(renderer.parse(markdown, { gfm: true, breaks: false }), { USE_PROFILES: { html: true }, FORBID_TAGS: ['img', 'style'], FORBID_ATTR: ['style'] });
       const label = document.createElement('div'); label.className = 'page-label';
-      const a = document.createElement('a'); a.href = `#${section.id}`; a.textContent = `PDF ${Number(pageId)} / 213`; label.append(a); section.prepend(label);
+      const a = document.createElement('a'); a.href = `#${section.id}`; a.textContent = `PDF ${Number(pageId)} / ${totalPages}`; label.append(a); section.prepend(label);
       let index = 0;
       for (const node of $$('h1,h2,h3,h4,h5,h6', section)) {
         node.id = `p${pageId}-h${++index}`;
@@ -279,4 +284,19 @@ async function load() {
   }
 }
 $('#retry').onclick = load;
-load();
+if (book) load();
+
+if (book) {
+ document.title = `${book.title} · TOPCIT 읽기`;
+ $('.reading-title').textContent = book.title;
+ $('.intro h1').textContent = book.title;
+ $('.intro > p').textContent = book.description;
+ $('.brand span').textContent = `ESSENCE / ${book.id}`;
+ $('.book-meta').children[0].textContent = book.area;
+ $('.book-meta').children[1].textContent = `${totalPages}쪽`;
+ $('.sidebar-footer > span').textContent = book.title;
+ $('#current-chapter').textContent = book.title;
+ $('#page-number').max = totalPages;
+ $('#page-form > span').textContent = `/ ${totalPages}`;
+ for (const a of $$('.intro .primary, .endnote a')) a.href = `#page-${String(book.startPage).padStart(3, '0')}`;
+}
