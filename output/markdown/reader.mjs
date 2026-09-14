@@ -9,7 +9,7 @@ document.documentElement.style.setProperty('--font-size', `${fontSize}px`);
 document.documentElement.dataset.theme = storage.get('theme') === 'dark' ? 'dark' : 'light';
 const savedPage = Number(storage.get('page'));
 let pages = [], headings = [], tocLinks = new Map(), ready = false, scrolling = false;
-let renderer, purifier, mermaidPromise, observer, diagramObserver;
+let renderer, purifier, mermaidPromise, diagramObserver;
 let renderQueue = Promise.resolve(), diagramId = 0, generation = 0;
 
 function toggleMenu(open) {
@@ -154,7 +154,7 @@ function updateLocation() {
   let current = pages[0];
   for (const page of pages) { if (page.node.getBoundingClientRect().top <= point) current = page; else break; }
   let heading;
-  for (const h of headings) { if (h.node.getBoundingClientRect().top <= point) heading = h; else break; }
+  for (const h of headings) { if (h.node.getBoundingClientRect().top > point) break; if (h.level <= 4) heading = h; }
   for (const a of tocLinks.values()) a.removeAttribute('aria-current');
   if (heading) {
     const link = tocLinks.get(heading.node.id);
@@ -236,7 +236,7 @@ $('#zoom-dialog').addEventListener('close', () => {
 
 async function load() {
   ready = false; generation++;
-  observer?.disconnect(); diagramObserver?.disconnect();
+  diagramObserver?.disconnect();
   $('#status').hidden = false; $('#status').textContent = '책을 펼치는 중입니다…'; $('#retry').hidden = true;
   try {
     const [{ marked }, { default: DOMPurify }, response] = await Promise.all([
